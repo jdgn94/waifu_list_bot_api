@@ -1,0 +1,27 @@
+INSERT INTO
+    image_types (id, name, icon)
+VALUES
+    (1,'Normal', NULL),
+    (2, 'Special', '🌟'),
+    (3, 'Winter', '❄️'),
+    (4, 'Winter Special', '❄️ 🌟'),
+    (5, 'Spring', '🌻'),
+    (6, 'Spring Special', '🌻 🌟'),
+    (7, 'Summer', '🏖️'),
+    (8, 'Summer Special', '🏖️ 🌟'),
+    (9, 'Fall', '🍁'),
+    (10, 'Fall Special', '🍁 🌟'),
+    (11, 'Halloween', '🎃'),
+    (12, 'Halloween Special', '🎃 🌟'),
+    (13, 'New Year', '🎆'),
+    (14, 'New Year Special', '🎇 🌟'),
+    (15, 'Christmas', '🎄'),
+    (16, 'Christmas Special', '🎄 🌟'),
+    (17, 'San Valentin', '💘'),
+    (18, 'San Valentin Special', '💘 🌟'),
+    (19, 'Maid', '🧹'),
+    (20, 'Maid Special', '🧹 🌟'),
+    (21, 'Easter', '🐰'),
+    (22, 'Easter Special', '🐰 🌟'),
+    (23, 'Bot Birthday', '🎂'),
+    (24, 'Bot Birthday Special', '🎂 🌟');

@@ -1,0 +1,39 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "bot",
+      // "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": [ "run", "dev_ts" ],
+      "stopOnEntry": true,
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    // {
+    //   "type": "node",
+    //   "request": "launch",
+    //   "name": "app",
+    //   "cwd": "${workspaceFolder}/app/",
+    //   "runtimeExecutable": "npm",
+    //   "runtimeArgs": [ "start" ],
+    //   "stopOnEntry": true,
+    //   "skipFiles": [
+    //     "<node_internals>/**"
+    //   ]
+    // }
+  ],
+  "compounds": [
+    // {
+    //   "name": "Run api & app",
+    //   "configurations": ["app", "api"],
+    //   "stopAll": true
+    // }
+  ]
+}
