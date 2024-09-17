@@ -14,7 +14,7 @@
   "languageChanged": "Language Changed.",
   "changeLanguageError": "Error to change language.",
   "back": "Back",
-  "waifuSender": "Add them to your harem by sending /protecc character name",
+  "waifuSended": "Add them to your harem by sending /incorporate `name`",
   "errorSendWaifu": "Error to send waifu.",
   "noWaifuMatch": "Sorry 😢, not his name",
   "waifuScape": "Oh no, *{{waifuName}}* from *{{franchiseName}}* has runner crying\\.",

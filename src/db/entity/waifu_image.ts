@@ -72,14 +72,6 @@ export class WaifuImage {
   })
   waifuRarity: WaifuRarity;
 
-  @ManyToOne(() => Waifu, (waifu) => waifu.id)
-  @JoinColumn({
-    name: "rarity_id",
-    referencedColumnName: "id",
-    foreignKeyConstraintName: "fk_waifu_images_waifu",
-  })
-  rarity: Waifu;
-
   @ManyToOne(() => ImageType, (imageType) => imageType.id)
   @JoinColumn({
     name: "image_type_id",

@@ -14,7 +14,7 @@
   "languageChanged": "Idioma Cambiado.",
   "changeLanguageError": "Error al cambiar idioma.",
   "back": "Atrás",
-  "waifuSender": "Agréguelos a su harén enviando /proteger nombre de personaje",
+  "waifuSended": "Añádela a tu harén enviando /incorporar `nombre`",
   "errorSendWaifu": "Error al enviar personaje.",
   "noWaifuMatch": "Ups 😢, ese no es su nombre.",
   "waifuScape": "Oh no, *{{waifuName}}* de *{{franchiseName}}* ha corrido llorando\\.",

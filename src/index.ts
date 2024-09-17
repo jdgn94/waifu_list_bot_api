@@ -4,6 +4,7 @@ if (process.env.NODE_ENV !== "production") dotenv.config();
 import api from "./api/";
 import bot from "./bot";
 import db from "./db";
+// import { format } from "@formkit/tempo";
 
 const main = async () => {
   try {
@@ -14,9 +15,6 @@ const main = async () => {
     global.logger.info("Telegram bot init");
     await db.initialize();
     global.logger.info("Database init");
-
-    // const res = await db.query("SELECT * FROM waifus LIMIT 10;");
-    // console.log(res);
     return;
   } catch (err) {
     console.error(err);

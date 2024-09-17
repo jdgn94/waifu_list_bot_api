@@ -14,6 +14,12 @@ export class ImageType {
   @Column({ type: "varchar", name: "icon", nullable: true, default: true })
   icon: String;
 
+  @Column({ type: "date", name: "initial_date", nullable: true })
+  initialDate: Date | null;
+
+  @Column({ type: "date", name: "final_date", nullable: true })
+  finalDate: Date | null;
+
   @Column({
     type: "datetime",
     name: "created_at",

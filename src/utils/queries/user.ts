@@ -20,7 +20,7 @@ const create = async (
   { roleId = 3 }
 ) => {
   const queryRunner = db.createQueryRunner();
-  queryRunner.startTransaction();
+  await queryRunner.startTransaction();
   try {
     const totalUsers = await queryRunner.manager
       .createQueryBuilder(User, "user")

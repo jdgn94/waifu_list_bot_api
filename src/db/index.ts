@@ -12,6 +12,7 @@ import { WaifuImage } from "./entity/waifu_image";
 import { WaifuSpecialImage } from "./entity/waifu_special_image";
 import { WaifuSpecialFranchise } from "./entity/waifus_special_franchise";
 import { WaifuSpecialWaifu } from "./entity/waifu_special_waifu";
+import { Active } from "./entity/active";
 
 export {
   Role,
@@ -27,6 +28,7 @@ export {
   WaifuSpecialImage,
   WaifuSpecialFranchise,
   WaifuSpecialWaifu,
+  Active,
 };
 
 export default new DataSource({
@@ -51,6 +53,7 @@ export default new DataSource({
     WaifuSpecialImage,
     WaifuSpecialFranchise,
     WaifuSpecialWaifu,
+    Active,
   ],
   synchronize: true,
   // migrations: [],

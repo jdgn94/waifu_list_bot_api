@@ -2,7 +2,7 @@ import { Context, Telegraf } from "telegraf";
 import { chatIsGroup, getLanguage } from "./utils";
 
 import { info } from "./commands";
-import { start as startGroup } from "./commands/group";
+import { start as startGroup, sendWaifu, incorporate } from "./commands/group";
 import { start as startPrivate } from "./commands/private";
 import i18n from "../config/i18n";
 
@@ -36,6 +36,16 @@ bot.command(["start", "inicio", "iniciar"], async (ctx: Context) => {
 });
 
 bot.command(["info", "information", "informacion", "información"], info);
+
+bot.command(["send", "enviar"], (ctx: Context) => {
+  if (!chatIsGroup(ctx)) return;
+  sendWaifu(ctx);
+});
+
+bot.command(["incorporate", "incorporar"], (ctx: Context) => {
+  if (!chatIsGroup(ctx)) return;
+  incorporate(ctx);
+});
 
 // on
 bot.on("message", async (ctx) => {
