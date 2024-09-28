@@ -8,7 +8,6 @@ import {
   OneToMany,
   VirtualColumn,
 } from "typeorm";
-import { format } from "@formkit/tempo";
 import { Role } from "./role";
 import { UserInfo } from "./user_info";
 import { Franchise } from "./franchise";
@@ -45,10 +44,6 @@ export class User {
     type: "datetime",
     name: "created_at",
     default: () => "CURRENT_TIMESTAMP",
-    transformer: {
-      from: (value: Date) => value,
-      to: (value: Date) => format(value, "DD/MM/YYYY HH:mm:ss, Z"),
-    },
   })
   createdAt: Date;
 
@@ -57,10 +52,6 @@ export class User {
     name: "updated_at",
     default: () => "CURRENT_TIMESTAMP",
     onUpdate: "CURRENT_TIMESTAMP",
-    transformer: {
-      from: (value: Date) => value,
-      to: (value: Date) => format(value, "DD/MM/YYYY HH:mm:ss, Z"),
-    },
   })
   updatedAt: Date;
 

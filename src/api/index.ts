@@ -14,7 +14,7 @@ const app = express();
 global.logger = logger;
 
 // settings
-app.set("port", process.env.PORT || 3000);
+app.set("port", process.env.PORT || 5000);
 
 // functions
 const fileFilter = async (

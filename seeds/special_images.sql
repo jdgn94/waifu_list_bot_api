@@ -1,5 +1,5 @@
 INSERT INTO
-    waifu_special_images (id, image_type_id, public_id, public_url, created_at, updated_at)
+    special_images (id, image_type_id, public_id, public_url, created_at, updated_at)
 VALUES
     (1, 1, 'Waifu List Bot Special Telegram/dpomhi58fynohpgo1438', 'https://res.cloudinary.com/jdgn94/image/upload/v1608733615/Waifu%20List%20Bot%20Special%20Telegram/dpomhi58fynohpgo1438.jpg', '2020-12-23 14:26:56', '2020-12-23 14:26:56'),
     (2, 1, 'Waifu List Bot Special Telegram/cv9rzzikt3ahqpmopk34', 'https://res.cloudinary.com/jdgn94/image/upload/v1608741793/Waifu%20List%20Bot%20Special%20Telegram/cv9rzzikt3ahqpmopk34.jpg', '2020-12-23 16:43:14', '2020-12-23 16:43:14'),

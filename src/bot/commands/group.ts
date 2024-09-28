@@ -3,6 +3,8 @@ import { Context } from "telegraf";
 import i18n from "../../config/i18n";
 import queries from "../../utils/queries";
 import db, { Active } from "../../db";
+import { expRandom } from "../utils";
+import uUser from "../../utils/functions/user.util";
 
 const start = async (ctx: Context) => {
   try {
@@ -60,11 +62,11 @@ const incorporate = async (ctx: Context) => {
       },
       relations: [
         "waifuImage",
-        // "waifuImage",
-        // "waifuImage.waifu",
-        // "waifuImage.waifu.waifuType",
-        // "waifuImage.waifu.franchise",
-        // "waifuImage.waifuRarity",
+        "waifuImage",
+        "waifuImage.waifu",
+        "waifuImage.waifu.waifuType",
+        "waifuImage.waifu.franchise",
+        "waifuImage.waifuRarity",
       ],
     });
 
@@ -72,26 +74,83 @@ const incorporate = async (ctx: Context) => {
     console.log(active);
     console.log(textMessage);
 
-    // let nameCorrect = false;
-    // const waifuNameAndNickname = (
-    //   active.waifuImage.waifu.name +
-    //   " " +
-    //   active.waifuImage.waifu.nickname
-    // ).split(" ");
-    // textMessage.map((txt) => {
-    //   if (nameCorrect === true) return;
-    //   waifuNameAndNickname.map((name) => {
-    //     if (RegExp(txt).test(name)) nameCorrect = true;
-    //     if (nameCorrect === true) return;
-    //   });
-    // });
+    let nameCorrect = false;
+    const waifuNameAndNickname = (
+      active.waifuImage.waifu.name +
+      " " +
+      active.waifuImage.waifu.nickname
+    ).split(" ");
+    textMessage.map((txt) => {
+      if (nameCorrect === true) return;
+      waifuNameAndNickname.map((name) => {
+        if (RegExp(name.toLowerCase()).test(txt.toLowerCase()))
+          nameCorrect = true;
+        if (nameCorrect === true) return;
+      });
+    });
 
-    // if (!nameCorrect) {
-    //   ctx.reply(i18n.__("noWaifuMatch"));
-    //   return;
-    // }
+    if (!nameCorrect) {
+      ctx.reply(i18n.__("noWaifuMatch"), {
+        reply_parameters: {
+          message_id: ctx.message!.message_id,
+        },
+      });
+      return;
+    }
 
-    // ctx.reply("nombre correcto");
+    const waifuName =
+      active.waifuImage.waifu.name +
+      (active.waifuImage.waifu.nickname
+        ? " - " + active.waifuImage.waifu.nickname
+        : "");
+    const franchiseName =
+      active.waifuImage.waifu.franchise.name +
+      (active.waifuImage.waifu.franchise.nickname
+        ? " - " + active.waifuImage.waifu.franchise.nickname
+        : "");
+    const exp = expRandom(active.waifuImage.waifuRarity.id).toString();
+
+    const result = await uUser.addWaifuOnList(
+      ctx.from!.id as Number,
+      active.waifuImage.id,
+      Number(exp)
+    );
+
+    ctx.reply(
+      i18n.__("waifuIncorporate", {
+        username: ctx.from!.first_name.replace("(", "\\(").replace(")", "\\)"),
+        waifuName,
+        franchiseName,
+        exp,
+      }),
+      {
+        parse_mode: "MarkdownV2",
+        reply_parameters: {
+          message_id: ctx.message!.message_id,
+        },
+      }
+    );
+
+    if (result.levelUp || result.addFavoritePage) {
+      let message = i18n.__("tada", {
+        username: ctx.from!.first_name.replace("(", "\\(").replace(")", "\\)"),
+      });
+      if (result.levelUp)
+        message += i18n.__("levelUp", {
+          level: String(result.level),
+        });
+      if (result.addFavoritePage)
+        message += i18n.__("wonFavoritePage", {
+          favPages: String(result.favoritePages),
+        });
+
+      ctx.reply(message, {
+        parse_mode: "MarkdownV2",
+        reply_parameters: {
+          message_id: ctx.message!.message_id,
+        },
+      });
+    }
   } catch (error) {
     global.logger.error(error);
     console.error(error);

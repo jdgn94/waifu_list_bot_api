@@ -9,9 +9,12 @@ import { Waifu } from "./entity/waifu";
 import { WaifuRarity } from "./entity/waifu_rarity";
 import { ImageType } from "./entity/image_type";
 import { WaifuImage } from "./entity/waifu_image";
-import { WaifuSpecialImage } from "./entity/waifu_special_image";
-import { WaifuSpecialFranchise } from "./entity/waifus_special_franchise";
-import { WaifuSpecialWaifu } from "./entity/waifu_special_waifu";
+import { SpecialImage } from "./entity/special_image";
+import { SpecialImageFranchise } from "./entity/special_image_franchise";
+import { SpecialImageWaifu } from "./entity/special_image_waifu";
+// import { WaifuSpecialImage } from "./entity/waifu_special_image";
+// import { WaifuSpecialFranchise } from "./entity/waifus_special_franchise";
+// import { WaifuSpecialWaifu } from "./entity/waifu_special_waifu";
 import { Active } from "./entity/active";
 
 export {
@@ -25,9 +28,12 @@ export {
   WaifuRarity,
   ImageType,
   WaifuImage,
-  WaifuSpecialImage,
-  WaifuSpecialFranchise,
-  WaifuSpecialWaifu,
+  SpecialImage,
+  SpecialImageFranchise,
+  SpecialImageWaifu,
+  // WaifuSpecialImage,
+  // WaifuSpecialFranchise,
+  // WaifuSpecialWaifu,
   Active,
 };
 
@@ -37,7 +43,7 @@ export default new DataSource({
   port: process.env.DATABASE_PORT ? parseInt(process.env.DATABASE_PORT) : 3306,
   username: process.env.DATABASE_USER ?? "root",
   password: process.env.DATABASE_PASS ?? "",
-  database: process.env.DATABASE_NAME_DEV ?? "test",
+  database: process.env.DATABASE_NAME ?? "test",
   // debug: process.env.NODE_ENV !== "production" ? true : false,
   entities: [
     Role,
@@ -50,9 +56,12 @@ export default new DataSource({
     WaifuRarity,
     ImageType,
     WaifuImage,
-    WaifuSpecialImage,
-    WaifuSpecialFranchise,
-    WaifuSpecialWaifu,
+    SpecialImage,
+    SpecialImageFranchise,
+    SpecialImageWaifu,
+    // WaifuSpecialImage,
+    // WaifuSpecialFranchise,
+    // WaifuSpecialWaifu,
     Active,
   ],
   synchronize: true,

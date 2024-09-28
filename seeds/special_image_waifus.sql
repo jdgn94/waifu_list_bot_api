@@ -1,5 +1,5 @@
 INSERT INTO
-    waifu_special_waifus (id, waifu_special_image_id, waifu_image_id, created_at, updated_at)
+    special_image_waifus (id, special_image_id, waifu_image_id, created_at, updated_at)
 VALUES
     (1, 1, 1, '2020-12-23 14:26:56', '2020-12-23 14:26:56'),
     (2, 1, 98, '2020-12-23 14:26:56', '2020-12-23 14:26:56'),

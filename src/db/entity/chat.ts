@@ -25,7 +25,7 @@ export class Chat {
   @Column({ type: "boolean", name: "character_active", default: false })
   characterActive: Boolean;
 
-  @Column({ type: "int", name: "limit_message_to_delete", default: 20 })
+  @Column({ type: "int", name: "limit_message_to_delete", default: 10 })
   limitMessageToDelete: Number;
 
   @Column({ type: "int", name: "message_count", default: 0 })

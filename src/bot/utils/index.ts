@@ -1,5 +1,6 @@
 import { Context } from "telegraf";
 import queries from "../../utils/queries";
+import uNumber from "../../utils/functions/number.utils";
 
 const chatIsGroup = (ctx: Context) => {
   return ctx.chat!.type === "group" || ctx.chat!.type === "supergroup";
@@ -46,4 +47,21 @@ const getOrCreateUser = async (ctx: Context) => {
   }
 };
 
-export { chatIsGroup, getLanguage, getOrCreateUser };
+const expRandom = (rarityId: Number) => {
+  switch (rarityId) {
+    case 2:
+      return uNumber.getRandom(7, 15);
+    case 3:
+      return uNumber.getRandom(16, 24);
+    case 4:
+      return uNumber.getRandom(25, 34);
+    case 5:
+      return uNumber.getRandom(35, 44);
+    case 6:
+      return uNumber.getRandom(45, 54);
+    default:
+      return uNumber.getRandom(3, 7);
+  }
+};
+
+export { chatIsGroup, getLanguage, getOrCreateUser, expRandom };

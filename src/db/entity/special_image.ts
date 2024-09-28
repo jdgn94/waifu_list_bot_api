@@ -17,8 +17,14 @@ export class SpecialImage {
   })
   id: Number;
 
-  @Column({ type: "int", name: "image", nullable: false })
-  image: String;
+  @Column({ type: "int", name: "image_type_id", nullable: false })
+  imageTypeId: Number;
+
+  @Column({ type: "varchar", length: 255, name: "public_id", nullable: false })
+  publicId: String;
+
+  @Column({ type: "varchar", length: 255, name: "public_url", nullable: false })
+  publicUrñ: String;
 
   @Column({ type: "int", name: "user_id", nullable: true, default: null })
   userId: Number | null;

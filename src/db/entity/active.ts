@@ -4,7 +4,7 @@ import {
   Column,
   OneToOne,
   JoinColumn,
-  OneToMany,
+  ManyToOne,
 } from "typeorm";
 import { Chat } from "./chat";
 import { WaifuImage } from "./waifu_image";
@@ -48,7 +48,7 @@ export class Active {
   @JoinColumn({ name: "chat_id", referencedColumnName: "id" })
   chat: Chat;
 
-  @OneToMany(() => WaifuImage, (waifuImage) => waifuImage.id)
+  @ManyToOne(() => WaifuImage, (waifuImage) => waifuImage.id)
   @JoinColumn({ name: "waifu_image_id", referencedColumnName: "id" })
   waifuImage: WaifuImage;
 }

@@ -18,7 +18,7 @@
   "errorSendWaifu": "Error al enviar personaje.",
   "noWaifuMatch": "Ups 😢, ese no es su nombre.",
   "waifuScape": "Oh no, *{{waifuName}}* de *{{franchiseName}}* ha corrido llorando\\.",
-  "waifuProtect": "Bien, *{{userName}}* has protegido a *{{waifuName}}* de *{{franchiseName}}*\\.\nHaz ganado {{exp}} puntos\\.",
+  "waifuIncorporate": "Bien, *{{username}}* has incorporado a *{{waifuName}}* de *{{franchiseName}}*\\.\nHaz ganado {{exp}} puntos\\.",
   "newLevel": "Felicidades! 🥳, subiste al nivel *{{newLevel}}*",
   "newPage": "y obtuviste una nueva pagina de favoritos para un total de *{{totalPages}}*",
   "waifuProtectAge": {
@@ -36,8 +36,9 @@
     "other": ""
   },
   "waifuExpWon": "Has ganado %s puntos de experiencia.",
-  "levelUp": "🎊🎉 Has subido de nivel %s",
-  "wonFavoritePage": "y has ganado una pagina de favoritos para un total de %s",
+  "tada": "¡Felicidades\\! {{username}}\\.\n",
+  "levelUp": "🆙 Has subido de nivel {{level}}\\.\n",
+  "wonFavoritePage": "🎊🎉 Has ganado una pagina de favoritos para un total de {{favPages}}\\.\n",
   "commandOnlyOnGroup": "Ups, este comando solo es valido en grupos.",
   "reportToPolice": "📞 Reporta con la Policía 🚨.",
   "infoFrom": "Información de",
