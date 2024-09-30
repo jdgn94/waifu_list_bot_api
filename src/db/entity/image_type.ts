@@ -12,7 +12,7 @@ export class ImageType {
   name: String;
 
   @Column({ type: "varchar", name: "icon", nullable: true, default: true })
-  icon: String;
+  icon: String | null;
 
   @Column({ type: "date", name: "initial_date", nullable: true })
   initialDate: Date | null;

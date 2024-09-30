@@ -1,4 +1,4 @@
-import { Entity, PrimaryGeneratedColumn, Column, ManyToOne } from "typeorm";
+import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from "typeorm";
 import { WaifuImage } from "./waifu_image";
 
 @Entity({ name: "waifu_rarities", comment: "Waifu rarities from waifus" })
@@ -33,6 +33,6 @@ export class WaifuRarity {
   })
   updatedAt: Date;
 
-  @ManyToOne(() => WaifuImage, (waifuImage) => waifuImage.waifuRarity)
-  parent: WaifuImage[];
+  @OneToMany(() => WaifuImage, (waifuImage) => waifuImage.waifuRarity)
+  waifuImages: WaifuImage[];
 }

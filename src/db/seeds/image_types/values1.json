@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name": "Normal",
+    "icon": null,
+    "initial_date": null,
+    "final_date": null
+  },
+  {
+    "id": 2,
+    "name": "Special",
+    "icon": "🌟",
+    "initial_date": null,
+    "final_date": null
+  },
+  {
+    "id": 3,
+    "name": "Winter",
+    "icon": "❄️",
+    "initial_date": "2023-12-21",
+    "final_date": "2024-03-21"
+  },
+  {
+    "id": 4,
+    "name": "Winter Special",
+    "icon": "❄️ 🌟",
+    "initial_date": "2023-12-21",
+    "final_date": "2024-03-21"
+  },
+  {
+    "id": 5,
+    "name": "Spring",
+    "icon": "🌻",
+    "initial_date": "2024-03-21",
+    "final_date": "2024-06-20"
+  },
+  {
+    "id": 6,
+    "name": "Spring Special",
+    "icon": "🌻 🌟",
+    "initial_date": "2024-03-21",
+    "final_date": "2024-06-20"
+  },
+  {
+    "id": 7,
+    "name": "Summer",
+    "icon": "🏖️",
+    "initial_date": "2024-06-20",
+    "final_date": "2024-09-22"
+  },
+  {
+    "id": 8,
+    "name": "Summer Special",
+    "icon": "🏖️ 🌟",
+    "initial_date": "2024-06-20",
+    "final_date": "2024-09-22"
+  },
+  {
+    "id": 9,
+    "name": "Fall",
+    "icon": "🍁",
+    "initial_date": "2024-09-22",
+    "final_date": "2024-12-21"
+  },
+  {
+    "id": 10,
+    "name": "Fall Special",
+    "icon": "🍁 🌟",
+    "initial_date": "2024-09-22",
+    "final_date": "2024-12-21"
+  },
+  {
+    "id": 11,
+    "name": "Halloween",
+    "icon": "🎃",
+    "initial_date": "2024-10-24",
+    "final_date": "2024-11-07"
+  },
+  {
+    "id": 12,
+    "name": "Halloween Special",
+    "icon": "🎃 🌟",
+    "initial_date": "2024-10-24",
+    "final_date": "2024-11-07"
+  },
+  {
+    "id": 13,
+    "name": "New Year",
+    "icon": "🎆",
+    "initial_date": "2024-12-24",
+    "final_date": "2025-01-08"
+  },
+  {
+    "id": 14,
+    "name": "New Year Special",
+    "icon": "🎇 🌟",
+    "initial_date": "2024-12-24",
+    "final_date": "2025-01-08"
+  },
+  {
+    "id": 15,
+    "name": "Christmas",
+    "icon": "🎄",
+    "initial_date": "2024-12-17",
+    "final_date": "2024-12-31"
+  },
+  {
+    "id": 16,
+    "name": "Christmas Special",
+    "icon": "🎄 🌟",
+    "initial_date": "2024-12-17",
+    "final_date": "2024-12-31"
+  },
+  {
+    "id": 17,
+    "name": "San Valentin",
+    "icon": "💘",
+    "initial_date": "2024-02-07",
+    "final_date": "2024-02-21"
+  },
+  {
+    "id": 18,
+    "name": "San Valentin Special",
+    "icon": "💘 🌟",
+    "initial_date": "2024-02-07",
+    "final_date": "2024-02-21"
+  },
+  {
+    "id": 19,
+    "name": "Maid",
+    "icon": "🧹",
+    "initial_date": "2024-05-03",
+    "final_date": "2024-05-17"
+  },
+  {
+    "id": 20,
+    "name": "Maid Special",
+    "icon": "🧹 🌟",
+    "initial_date": "2024-05-03",
+    "final_date": "2024-05-17"
+  },
+  {
+    "id": 21,
+    "name": "Easter",
+    "icon": "🐰",
+    "initial_date": "2024-08-02",
+    "final_date": "2024-08-22"
+  },
+  {
+    "id": 22,
+    "name": "Easter Special",
+    "icon": "🐰 🌟",
+    "initial_date": "2024-08-02",
+    "final_date": "2024-08-22"
+  },
+  {
+    "id": 23,
+    "name": "Bot Birthday",
+    "icon": "🎂",
+    "initial_date": "2024-09-01",
+    "final_date": "2024-09-30"
+  },
+  {
+    "id": 24,
+    "name": "Bot Birthday Special",
+    "icon": "🎂 🌟",
+    "initial_date": "2024-09-01",
+    "final_date": "2024-09-30"
+  }
+]

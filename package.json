@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cross-env NODE_ENV=development tsnd --respawn src/index.ts"
+    "start": "cross-env NODE_ENV=production dist/index.js",
+    "dev": "cross-env NODE_ENV=development tsnd --respawn src/index.ts",
+    "production": "tsc",
+    "start:seed": "dist/db/seed.js",
+    "dev:seed": "cross-env NODE_ENV=development ts-node-dev src/db/seed.ts"
   },
   "keywords": [],
   "author": "",

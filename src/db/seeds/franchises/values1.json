@@ -1,0 +1,5002 @@
+[
+  {
+    "id": 1,
+    "name": "Fate Series",
+    "nickname": null,
+    "updated_at": "2020-10-06 15:03:07",
+    "created_at": "2020-10-06 15:03:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 2,
+    "name": "Dungeon ni Deai wo Motomeru no wa Machigatte Iru Darou ka",
+    "nickname": "Danmachi",
+    "created_at": "2020-10-06 15:03:07",
+    "updated_at": "2020-10-06 15:03:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 3,
+    "name": "Re:Zero Kara Hajimeru Isekai Seikatsu",
+    "nickname": "Re:Zero",
+    "created_at": "2020-10-06 15:03:07",
+    "updated_at": "2020-10-06 15:03:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 4,
+    "name": "Konosubarashi Sekaini Shukufuku wo",
+    "nickname": "KonoSuba",
+    "created_at": "2020-10-06 15:03:07",
+    "updated_at": "2020-10-06 15:03:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 5,
+    "name": "Kanojo Okarishimasu",
+    "nickname": null,
+    "created_at": "2020-10-06 15:03:07",
+    "updated_at": "2020-10-06 15:03:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 6,
+    "name": "Nekopara",
+    "nickname": null,
+    "created_at": "2020-10-06 15:03:07",
+    "updated_at": "2020-10-06 15:03:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 7,
+    "name": "Domestic na Kanojo",
+    "nickname": "Dome x Kano",
+    "created_at": "2020-10-06 15:03:07",
+    "updated_at": "2020-10-06 15:03:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 8,
+    "name": "Sora no Otoshimono",
+    "nickname": null,
+    "created_at": "2020-10-06 15:03:07",
+    "updated_at": "2020-10-06 15:03:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 9,
+    "name": "5-toubun no Hanayome",
+    "nickname": null,
+    "created_at": "2020-10-06 15:03:07",
+    "updated_at": "2020-10-06 15:03:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 10,
+    "name": "Code Geass",
+    "nickname": null,
+    "created_at": "2020-10-06 15:03:07",
+    "updated_at": "2020-10-06 15:03:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 11,
+    "name": "Darling in the FranXX",
+    "nickname": null,
+    "created_at": "2020-10-06 15:03:07",
+    "updated_at": "2020-10-06 15:03:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 12,
+    "name": "No Game No Life",
+    "nickname": null,
+    "created_at": "2020-10-06 15:03:07",
+    "updated_at": "2020-10-06 15:03:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 13,
+    "name": "Nisekoi",
+    "nickname": null,
+    "created_at": "2020-10-06 15:03:07",
+    "updated_at": "2020-10-06 15:03:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 14,
+    "name": "Ore no Imouto ga Konna ni Kawaii Wake ga Nai",
+    "nickname": "Oreimo",
+    "created_at": "2020-10-06 15:03:07",
+    "updated_at": "2020-10-06 15:03:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 15,
+    "name": "Yahari Ore no Seishun Love Come wa Machigatteiru",
+    "nickname": "Oregairu",
+    "created_at": "2020-10-06 15:03:07",
+    "updated_at": "2020-10-06 15:03:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 16,
+    "name": "Monogatari Series",
+    "nickname": null,
+    "created_at": "2020-10-06 15:16:01",
+    "updated_at": "2020-10-06 15:16:01",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 17,
+    "name": "One Piece",
+    "nickname": null,
+    "created_at": "2020-10-07 16:22:04",
+    "updated_at": "2020-10-07 16:22:04",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 18,
+    "name": "Shokugeki no Souma",
+    "nickname": null,
+    "created_at": "2020-10-07 18:28:02",
+    "updated_at": "2020-10-07 18:28:02",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 19,
+    "name": "Kishuku Gakkou no Juliet",
+    "nickname": null,
+    "created_at": "2020-10-09 01:32:49",
+    "updated_at": "2020-10-09 01:32:49",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 20,
+    "name": "Arifureta Shokugyou de Sekaisaikyou",
+    "nickname": null,
+    "created_at": "2020-10-10 21:03:52",
+    "updated_at": "2020-10-10 21:03:52",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 21,
+    "name": "Overlord",
+    "nickname": null,
+    "created_at": "2020-10-11 20:56:13",
+    "updated_at": "2020-10-11 20:56:13",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 22,
+    "name": "Death Note",
+    "nickname": null,
+    "created_at": "2020-10-11 22:09:59",
+    "updated_at": "2020-10-11 22:09:59",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 23,
+    "name": "Sword Art Online",
+    "nickname": "SAO",
+    "created_at": "2020-10-12 00:59:08",
+    "updated_at": "2020-10-12 00:59:20",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 24,
+    "name": "Boku no Hero Academia",
+    "nickname": null,
+    "created_at": "2020-10-12 03:45:47",
+    "updated_at": "2020-10-12 03:45:47",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 25,
+    "name": "Date a Live",
+    "nickname": null,
+    "created_at": "2020-10-13 01:00:44",
+    "updated_at": "2020-10-13 01:00:44",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 26,
+    "name": "Kimetsu no Yaiba",
+    "nickname": null,
+    "created_at": "2020-10-13 02:25:12",
+    "updated_at": "2020-10-13 02:25:12",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 27,
+    "name": "Digimon Series",
+    "nickname": null,
+    "created_at": "2020-10-14 13:59:53",
+    "updated_at": "2020-10-14 13:59:53",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 28,
+    "name": "Accel World",
+    "nickname": null,
+    "created_at": "2020-10-14 14:07:46",
+    "updated_at": "2020-10-14 14:07:46",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 29,
+    "name": "11eyes",
+    "nickname": null,
+    "created_at": "2020-10-14 14:08:01",
+    "updated_at": "2020-10-14 14:08:01",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 30,
+    "name": "Absolute Duo",
+    "nickname": null,
+    "created_at": "2020-10-14 14:08:10",
+    "updated_at": "2020-10-14 14:08:10",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 31,
+    "name": "Hoshizora e Kakaru Hashi",
+    "nickname": null,
+    "created_at": "2020-10-14 14:08:23",
+    "updated_at": "2020-10-14 14:08:23",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 32,
+    "name": "Itsuka Tenma no Kuro Usagi",
+    "nickname": null,
+    "created_at": "2020-10-14 14:09:12",
+    "updated_at": "2020-10-14 14:09:12",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 33,
+    "name": "Hagure Yuusha no Estetica",
+    "nickname": null,
+    "created_at": "2020-10-14 14:09:30",
+    "updated_at": "2020-10-14 14:09:30",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 34,
+    "name": "Daitoshokan no Hitsujikai",
+    "nickname": null,
+    "created_at": "2020-10-14 14:09:44",
+    "updated_at": "2020-10-14 14:09:44",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 35,
+    "name": "Aho-Girl",
+    "nickname": null,
+    "created_at": "2020-10-14 14:10:16",
+    "updated_at": "2020-10-14 14:10:16",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 36,
+    "name": "Air Gear",
+    "nickname": null,
+    "created_at": "2020-10-14 14:10:29",
+    "updated_at": "2020-10-14 14:10:29",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 37,
+    "name": "Akame ga Kill!",
+    "nickname": null,
+    "created_at": "2020-10-14 14:10:38",
+    "updated_at": "2020-10-14 14:10:38",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 38,
+    "name": "Akane-Iro ni Somaru Saka",
+    "nickname": null,
+    "created_at": "2020-10-14 14:10:51",
+    "updated_at": "2020-10-14 14:10:51",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 39,
+    "name": "Roku de Nashi Majutsu Koushi to Akashic Records",
+    "nickname": null,
+    "created_at": "2020-10-14 14:11:06",
+    "updated_at": "2020-10-14 14:11:06",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 40,
+    "name": "Akikan!",
+    "nickname": null,
+    "created_at": "2020-10-14 14:11:42",
+    "updated_at": "2020-10-14 14:11:42",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 41,
+    "name": "Nejimaki Seirei Senki: Tenkyou no Alderamin",
+    "nickname": null,
+    "created_at": "2020-10-14 14:11:55",
+    "updated_at": "2020-10-14 14:11:55",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 42,
+    "name": "Alice or Alice: Siscon Nii-san to Futago no Imouto",
+    "nickname": null,
+    "created_at": "2020-10-14 14:12:15",
+    "updated_at": "2020-10-14 14:12:15",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 43,
+    "name": "Shoukoku no Altair",
+    "nickname": null,
+    "created_at": "2020-10-14 14:12:37",
+    "updated_at": "2020-10-14 14:12:37",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 44,
+    "name": "Amagi Brilliant Park",
+    "nickname": null,
+    "created_at": "2020-10-14 14:12:53",
+    "updated_at": "2020-10-14 14:12:53",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 45,
+    "name": "Angel Beats!",
+    "nickname": null,
+    "created_at": "2020-10-14 14:13:03",
+    "updated_at": "2020-10-14 14:13:03",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 46,
+    "name": "Satsuriku no Tenshi",
+    "nickname": null,
+    "created_at": "2020-10-14 14:13:50",
+    "updated_at": "2020-10-14 14:13:50",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 47,
+    "name": "Angolmois: Genkou Kassenki",
+    "nickname": null,
+    "created_at": "2020-10-14 14:14:02",
+    "updated_at": "2020-10-14 14:14:02",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 48,
+    "name": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.",
+    "nickname": "Anohana",
+    "created_at": "2020-10-14 14:14:30",
+    "updated_at": "2020-10-14 14:14:30",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 49,
+    "name": "Another",
+    "nickname": null,
+    "created_at": "2020-10-14 14:14:43",
+    "updated_at": "2020-10-14 14:14:43",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 50,
+    "name": "Aoi Sekai no Chuushin de",
+    "nickname": null,
+    "created_at": "2020-10-14 14:14:59",
+    "updated_at": "2020-10-14 14:14:59",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 51,
+    "name": "Aquarion Series",
+    "nickname": null,
+    "created_at": "2020-10-14 14:15:38",
+    "updated_at": "2020-10-14 14:15:38",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 52,
+    "name": "Arata Kangatari",
+    "nickname": null,
+    "created_at": "2020-10-14 14:16:11",
+    "updated_at": "2020-10-14 14:16:11",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 53,
+    "name": "Hidan no Aria",
+    "nickname": null,
+    "created_at": "2020-10-14 14:16:24",
+    "updated_at": "2020-10-14 14:16:24",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 54,
+    "name": "Busou Shoujo Machiavellianism",
+    "nickname": null,
+    "created_at": "2020-10-14 14:16:51",
+    "updated_at": "2020-10-14 14:16:51",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 55,
+    "name": "Koe no Katachi",
+    "nickname": null,
+    "created_at": "2020-10-14 14:17:10",
+    "updated_at": "2020-10-14 14:17:10",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 56,
+    "name": "Imouto sae Ireba Ii.",
+    "nickname": null,
+    "created_at": "2020-10-14 14:17:25",
+    "updated_at": "2020-10-14 14:17:25",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 57,
+    "name": "Astarotte no Omocha!",
+    "nickname": null,
+    "created_at": "2020-10-14 14:17:45",
+    "updated_at": "2020-10-14 14:17:45",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 58,
+    "name": "Shingeki no Kyojin",
+    "nickname": null,
+    "created_at": "2020-10-14 14:18:16",
+    "updated_at": "2020-10-14 14:18:16",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 59,
+    "name": "Baby Princess",
+    "nickname": null,
+    "created_at": "2020-10-14 14:18:54",
+    "updated_at": "2020-10-14 14:18:54",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 60,
+    "name": "Baka to Test to Shoukanjuu",
+    "nickname": null,
+    "created_at": "2020-10-14 14:19:34",
+    "updated_at": "2020-10-14 14:19:34",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 61,
+    "name": "Bakugan Series",
+    "nickname": null,
+    "created_at": "2020-10-14 14:20:11",
+    "updated_at": "2020-10-14 14:20:11",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 62,
+    "name": "Ben-To",
+    "nickname": null,
+    "created_at": "2020-10-14 14:20:22",
+    "updated_at": "2020-10-14 14:20:22",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 63,
+    "name": "Kyoukai no Kanata",
+    "nickname": null,
+    "created_at": "2020-10-14 14:21:09",
+    "updated_at": "2020-10-14 14:21:09",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 64,
+    "name": "Black Bullet",
+    "nickname": null,
+    "created_at": "2020-10-14 14:21:20",
+    "updated_at": "2020-10-14 14:21:20",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 65,
+    "name": "Kuroshitsuji",
+    "nickname": null,
+    "created_at": "2020-10-14 14:21:31",
+    "updated_at": "2020-10-14 14:21:31",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 66,
+    "name": "Black Clover",
+    "nickname": null,
+    "created_at": "2020-10-14 14:21:51",
+    "updated_at": "2020-10-14 14:21:51",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 67,
+    "name": "Seirei Tsukai no Blade Dance",
+    "nickname": null,
+    "created_at": "2020-10-14 14:22:19",
+    "updated_at": "2020-10-14 14:22:19",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 68,
+    "name": "Zetsuen no Tempest",
+    "nickname": null,
+    "created_at": "2020-10-14 14:22:49",
+    "updated_at": "2020-10-14 14:22:49",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 69,
+    "name": "BlazBlue",
+    "nickname": null,
+    "created_at": "2020-10-14 14:23:18",
+    "updated_at": "2020-10-14 14:23:18",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 70,
+    "name": "Kekkai Sensen",
+    "nickname": null,
+    "created_at": "2020-10-14 14:23:47",
+    "updated_at": "2020-10-14 14:23:47",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 71,
+    "name": "Blood Lad",
+    "nickname": null,
+    "created_at": "2020-10-14 14:24:17",
+    "updated_at": "2020-10-14 14:24:17",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 72,
+    "name": "Ao no Exorcist",
+    "nickname": null,
+    "created_at": "2020-10-14 14:24:29",
+    "updated_at": "2020-10-14 14:24:29",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 73,
+    "name": "Mouretsu Pirates",
+    "nickname": null,
+    "created_at": "2020-10-14 14:24:56",
+    "updated_at": "2020-10-14 14:24:56",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 74,
+    "name": "Brave10",
+    "nickname": null,
+    "created_at": "2020-10-14 14:25:08",
+    "updated_at": "2020-10-14 14:25:08",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 75,
+    "name": "Gokukoku no Brynhildr",
+    "nickname": null,
+    "created_at": "2020-10-14 14:25:20",
+    "updated_at": "2020-10-14 14:25:20",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 76,
+    "name": "B: The Beginning",
+    "nickname": null,
+    "created_at": "2020-10-14 14:25:37",
+    "updated_at": "2020-10-14 14:25:37",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 77,
+    "name": "Btooom!",
+    "nickname": null,
+    "created_at": "2020-10-14 14:25:53",
+    "updated_at": "2020-10-14 14:25:53",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 78,
+    "name": "Bungou Stray Dogs",
+    "nickname": null,
+    "created_at": "2020-10-14 14:26:02",
+    "updated_at": "2020-10-14 14:26:02",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 79,
+    "name": "C³",
+    "nickname": null,
+    "created_at": "2020-10-14 14:26:37",
+    "updated_at": "2020-10-14 14:26:37",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 80,
+    "name": "The Caligula Effect",
+    "nickname": null,
+    "created_at": "2020-10-14 14:27:11",
+    "updated_at": "2020-10-14 14:27:11",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 81,
+    "name": "Campione! Matsurowanu Kamigami to Kamigoroshi no Maou",
+    "nickname": null,
+    "created_at": "2020-10-14 14:27:22",
+    "updated_at": "2020-10-14 14:27:22",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 82,
+    "name": "Cardcaptor Sakura",
+    "nickname": null,
+    "created_at": "2020-10-14 14:27:38",
+    "updated_at": "2020-10-14 14:27:38",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 83,
+    "name": "Castlevania",
+    "nickname": null,
+    "created_at": "2020-10-14 14:28:14",
+    "updated_at": "2020-10-14 14:28:14",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 84,
+    "name": "Hitsugi no Chaika",
+    "nickname": null,
+    "created_at": "2020-10-14 14:28:25",
+    "updated_at": "2020-10-14 14:28:25",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 85,
+    "name": "Charlotte",
+    "nickname": null,
+    "created_at": "2020-10-14 14:28:47",
+    "updated_at": "2020-10-14 14:28:47",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 86,
+    "name": "Chaos;HEAd",
+    "nickname": null,
+    "created_at": "2020-10-14 14:29:07",
+    "updated_at": "2020-10-14 14:29:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 87,
+    "name": "Rakudai Kishi no Cavalry",
+    "nickname": null,
+    "created_at": "2020-10-14 14:29:29",
+    "updated_at": "2020-10-14 14:29:29",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 88,
+    "name": "Jikan no Shihaisha",
+    "nickname": null,
+    "created_at": "2020-10-14 14:29:39",
+    "updated_at": "2020-10-14 14:29:39",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 89,
+    "name": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
+    "nickname": null,
+    "created_at": "2020-10-14 14:29:51",
+    "updated_at": "2020-10-14 14:29:51",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 90,
+    "name": "Clockwork Planet",
+    "nickname": null,
+    "created_at": "2020-10-14 14:30:03",
+    "updated_at": "2020-10-14 14:30:03",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 91,
+    "name": "Blood+",
+    "nickname": null,
+    "created_at": "2020-10-14 14:30:22",
+    "updated_at": "2020-10-14 14:30:22",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 92,
+    "name": "Code:Breaker",
+    "nickname": null,
+    "created_at": "2020-10-14 14:30:30",
+    "updated_at": "2020-10-14 14:30:30",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 93,
+    "name": "Cowboy Bebop",
+    "nickname": null,
+    "created_at": "2020-10-14 14:30:44",
+    "updated_at": "2020-10-14 14:30:44",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 94,
+    "name": "Dance in the Vampire Bund",
+    "nickname": null,
+    "created_at": "2020-10-14 14:30:52",
+    "updated_at": "2020-10-14 14:30:52",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 95,
+    "name": "Danganronpa",
+    "nickname": null,
+    "created_at": "2020-10-14 14:31:28",
+    "updated_at": "2020-10-14 14:31:28",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 96,
+    "name": "Dantalian no Shoka",
+    "nickname": null,
+    "created_at": "2020-10-14 14:31:46",
+    "updated_at": "2020-10-14 14:31:46",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 97,
+    "name": "Darwin's Game",
+    "nickname": null,
+    "created_at": "2020-10-14 14:32:33",
+    "updated_at": "2020-10-14 14:32:33",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 98,
+    "name": "Deadman Wonderland",
+    "nickname": null,
+    "created_at": "2020-10-14 14:33:07",
+    "updated_at": "2020-10-14 14:33:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 99,
+    "name": "Death March kara Hajimaru Isekai Kyousoukyoku",
+    "nickname": null,
+    "created_at": "2020-10-14 14:33:30",
+    "updated_at": "2020-10-14 14:33:30",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 100,
+    "name": "Death Parade",
+    "nickname": null,
+    "created_at": "2020-10-14 14:33:38",
+    "updated_at": "2020-10-14 14:33:38",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 101,
+    "name": "Ichiban Ushiro no Daimao",
+    "nickname": null,
+    "created_at": "2020-10-14 14:33:48",
+    "updated_at": "2020-10-14 14:33:48",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 102,
+    "name": "D-Frag!",
+    "nickname": null,
+    "created_at": "2020-10-14 14:34:35",
+    "updated_at": "2020-10-14 14:34:35",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 103,
+    "name": "Dies irae",
+    "nickname": null,
+    "created_at": "2020-10-14 14:34:57",
+    "updated_at": "2020-10-14 14:34:57",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 104,
+    "name": "Dimension W",
+    "nickname": null,
+    "created_at": "2020-10-14 14:35:22",
+    "updated_at": "2020-10-14 14:35:22",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 105,
+    "name": "Seikoku no Dragonar",
+    "nickname": null,
+    "created_at": "2020-10-14 14:35:41",
+    "updated_at": "2020-10-14 14:35:41",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 106,
+    "name": "Dragon Ball",
+    "nickname": null,
+    "created_at": "2020-10-14 14:35:59",
+    "updated_at": "2020-10-14 14:35:59",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 107,
+    "name": "Dragon Crisis!",
+    "nickname": null,
+    "created_at": "2020-10-14 14:36:25",
+    "updated_at": "2020-10-14 14:36:25",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 108,
+    "name": "Yumekui Merry",
+    "nickname": null,
+    "created_at": "2020-10-14 14:36:50",
+    "updated_at": "2020-10-14 14:36:50",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 109,
+    "name": "Dr. Stone",
+    "nickname": null,
+    "created_at": "2020-10-14 14:37:03",
+    "updated_at": "2020-10-14 14:37:03",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 110,
+    "name": "Durarara!!",
+    "nickname": null,
+    "created_at": "2020-10-14 14:37:12",
+    "updated_at": "2020-10-14 14:37:12",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 111,
+    "name": "Tasogare Otome x Amnesia",
+    "nickname": null,
+    "created_at": "2020-10-14 14:37:25",
+    "updated_at": "2020-10-14 14:37:25",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 112,
+    "name": "Ebiten: Kouritsu Ebi Sugawa Koukou Tenmonbu",
+    "nickname": null,
+    "created_at": "2020-10-14 14:37:54",
+    "updated_at": "2020-10-14 14:37:54",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 113,
+    "name": "Boku dake ga Inai Machi",
+    "nickname": null,
+    "created_at": "2020-10-14 14:38:06",
+    "updated_at": "2020-10-14 14:38:06",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 114,
+    "name": "Eromanga Sensei",
+    "nickname": null,
+    "created_at": "2020-10-14 14:38:16",
+    "updated_at": "2020-10-14 14:38:16",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 115,
+    "name": "Nana Maru San Batsu",
+    "nickname": null,
+    "created_at": "2020-10-14 14:38:30",
+    "updated_at": "2020-10-14 14:38:30",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 116,
+    "name": "Final Fantasy Series",
+    "nickname": null,
+    "created_at": "2020-10-14 14:39:10",
+    "updated_at": "2020-10-14 14:39:10",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 117,
+    "name": "Fortune Arterial: Akai Yakusoku",
+    "nickname": null,
+    "created_at": "2020-10-14 14:40:10",
+    "updated_at": "2020-10-14 14:40:10",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 118,
+    "name": "Shin Sekai Yori",
+    "nickname": null,
+    "created_at": "2020-10-14 14:40:20",
+    "updated_at": "2020-10-14 14:40:20",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 119,
+    "name": "Mirai Nikki",
+    "nickname": null,
+    "created_at": "2020-10-14 14:40:30",
+    "updated_at": "2020-10-14 14:40:30",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 120,
+    "name": "Gamers!",
+    "nickname": null,
+    "created_at": "2020-10-14 14:40:40",
+    "updated_at": "2020-10-14 14:40:40",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 121,
+    "name": "Suisei no Gargantia",
+    "nickname": null,
+    "created_at": "2020-10-14 14:40:52",
+    "updated_at": "2020-10-14 14:40:52",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 122,
+    "name": "Garo Series",
+    "nickname": null,
+    "created_at": "2020-10-14 14:41:29",
+    "updated_at": "2020-10-14 14:41:29",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 123,
+    "name": "Gatchaman Series",
+    "nickname": null,
+    "created_at": "2020-10-14 14:41:56",
+    "updated_at": "2020-10-14 14:41:56",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 124,
+    "name": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
+    "nickname": null,
+    "created_at": "2020-10-14 14:42:07",
+    "updated_at": "2020-10-14 14:42:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 125,
+    "name": "Gakkou no Kaidan",
+    "nickname": null,
+    "created_at": "2020-10-14 14:42:22",
+    "updated_at": "2020-10-14 14:42:22",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 126,
+    "name": "Glasslip",
+    "nickname": null,
+    "created_at": "2020-10-14 14:42:30",
+    "updated_at": "2020-10-14 14:42:30",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 127,
+    "name": "Goblin Slayer",
+    "nickname": null,
+    "created_at": "2020-10-14 14:42:54",
+    "updated_at": "2020-10-14 14:42:54",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 128,
+    "name": "Godzilla Series",
+    "nickname": null,
+    "created_at": "2020-10-14 14:43:10",
+    "updated_at": "2020-10-14 14:43:10",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 129,
+    "name": "Golden Kamuy",
+    "nickname": null,
+    "created_at": "2020-10-14 14:43:20",
+    "updated_at": "2020-10-14 14:43:20",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 130,
+    "name": "Binbougami ga!",
+    "nickname": null,
+    "created_at": "2020-10-14 14:43:30",
+    "updated_at": "2020-10-14 14:43:30",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 131,
+    "name": "Granblue Fantasy",
+    "nickname": null,
+    "created_at": "2020-10-14 14:44:06",
+    "updated_at": "2020-10-14 14:44:06",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 132,
+    "name": "Grand Blue Dreaming",
+    "nickname": null,
+    "created_at": "2020-10-14 14:44:17",
+    "updated_at": "2020-10-14 14:44:17",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 133,
+    "name": "Hai to Gensou no Grimgar",
+    "nickname": null,
+    "created_at": "2020-10-14 14:44:31",
+    "updated_at": "2020-10-14 14:44:31",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 134,
+    "name": "Zero kara Hajimeru Mahou no Sho",
+    "nickname": null,
+    "created_at": "2020-10-14 14:44:43",
+    "updated_at": "2020-10-14 14:44:43",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 135,
+    "name": "Denpa Onna to Seishun Otoko",
+    "nickname": null,
+    "created_at": "2020-10-14 14:44:54",
+    "updated_at": "2020-10-14 14:44:54",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 136,
+    "name": "Guilty Crown",
+    "nickname": null,
+    "created_at": "2020-10-14 14:45:03",
+    "updated_at": "2020-10-14 14:45:03",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 137,
+    "name": "Toaru Majutsu no Index",
+    "nickname": null,
+    "created_at": "2020-10-14 14:45:42",
+    "updated_at": "2020-10-14 14:45:42",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 138,
+    "name": "Boku wa Tomodachi ga Sukunai",
+    "nickname": null,
+    "created_at": "2020-10-14 14:46:22",
+    "updated_at": "2020-10-14 14:46:22",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 139,
+    "name": "Haiyore! Nyaruko-san",
+    "nickname": null,
+    "created_at": "2020-10-14 14:46:38",
+    "updated_at": "2020-10-14 14:46:38",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 140,
+    "name": "Hakata Tonkotsu Ramens",
+    "nickname": null,
+    "created_at": "2020-10-14 14:46:56",
+    "updated_at": "2020-10-14 14:46:56",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 141,
+    "name": "Hamatora",
+    "nickname": null,
+    "created_at": "2020-10-14 14:47:19",
+    "updated_at": "2020-10-14 14:47:19",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 142,
+    "name": "Hentai Ouji to Warawanai Neko.",
+    "nickname": "Henneko",
+    "created_at": "2020-10-14 14:47:37",
+    "updated_at": "2020-10-14 15:29:14",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 143,
+    "name": "High School DxD",
+    "nickname": null,
+    "created_at": "2020-10-14 14:48:04",
+    "updated_at": "2020-10-14 14:48:04",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 144,
+    "name": "Highschool of the Dead",
+    "nickname": null,
+    "created_at": "2020-10-14 14:48:36",
+    "updated_at": "2020-10-14 14:48:36",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 145,
+    "name": "Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ikinuku You desu!",
+    "nickname": null,
+    "created_at": "2020-10-14 14:48:48",
+    "updated_at": "2020-10-14 14:48:48",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 146,
+    "name": "Kyoto Teramachi Sanjou no Holmes",
+    "nickname": null,
+    "created_at": "2020-10-14 14:48:59",
+    "updated_at": "2020-10-14 14:48:59",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 147,
+    "name": "Honkai Impact 3rd",
+    "nickname": null,
+    "created_at": "2020-10-14 14:50:15",
+    "updated_at": "2020-10-14 14:50:15",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 148,
+    "name": "Kyoukai Senjou no Horizon",
+    "nickname": null,
+    "created_at": "2020-10-14 14:50:25",
+    "updated_at": "2020-10-14 14:50:25",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 149,
+    "name": "Ueno-san wa Bukiyou",
+    "nickname": null,
+    "created_at": "2020-10-14 14:50:54",
+    "updated_at": "2020-10-14 14:50:54",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 150,
+    "name": "Isekai Maou to Shoukan Shoujo no Dorei Majutsu",
+    "nickname": null,
+    "created_at": "2020-10-14 14:51:06",
+    "updated_at": "2020-10-14 14:51:06",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 151,
+    "name": "Hundred",
+    "nickname": null,
+    "created_at": "2020-10-14 14:51:18",
+    "updated_at": "2020-10-14 14:51:18",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 152,
+    "name": "Masou Gakuen HxH",
+    "nickname": null,
+    "created_at": "2020-10-14 14:51:28",
+    "updated_at": "2020-10-14 14:51:28",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 153,
+    "name": "Hyouka",
+    "nickname": null,
+    "created_at": "2020-10-14 14:51:37",
+    "updated_at": "2020-10-14 14:51:37",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 154,
+    "name": "Yuusha ni Nare Nakatta Ore wa Shibushibu Shuushoku wo Ketsui Shimashita.",
+    "nickname": null,
+    "created_at": "2020-10-14 14:51:48",
+    "updated_at": "2020-10-14 14:51:48",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 155,
+    "name": "Ikkitousen",
+    "nickname": null,
+    "created_at": "2020-10-14 14:52:17",
+    "updated_at": "2020-10-14 14:52:17",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 156,
+    "name": "Isekai wa Smartphone to Tomo ni",
+    "nickname": null,
+    "created_at": "2020-10-14 14:52:27",
+    "updated_at": "2020-10-14 14:52:27",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 157,
+    "name": "Infinite Stratos",
+    "nickname": null,
+    "created_at": "2020-10-14 14:52:34",
+    "updated_at": "2020-10-14 14:52:34",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 158,
+    "name": "Ushinawareta Mirai wo Motomete",
+    "nickname": null,
+    "created_at": "2020-10-14 14:53:03",
+    "updated_at": "2020-10-14 14:53:03",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 159,
+    "name": "Demi-chan wa Kataritai",
+    "nickname": null,
+    "created_at": "2020-10-14 14:53:20",
+    "updated_at": "2020-10-14 14:53:20",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 160,
+    "name": "Inu x Boku SS",
+    "nickname": null,
+    "created_at": "2020-10-14 14:53:52",
+    "updated_at": "2020-10-14 14:53:52",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 161,
+    "name": "Rokujyoma no Shinryakusha!?",
+    "nickname": null,
+    "created_at": "2020-10-14 14:54:05",
+    "updated_at": "2020-10-14 14:54:05",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 162,
+    "name": "Isekai Cheat Magician",
+    "nickname": null,
+    "created_at": "2020-10-14 14:54:27",
+    "updated_at": "2020-10-14 14:54:27",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 163,
+    "name": "Island",
+    "nickname": null,
+    "created_at": "2020-10-14 14:54:45",
+    "updated_at": "2020-10-14 14:54:45",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 164,
+    "name": "Kore wa Zombie desu ka?",
+    "nickname": null,
+    "created_at": "2020-10-14 14:54:56",
+    "updated_at": "2020-10-14 14:54:56",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 165,
+    "name": "Isuca",
+    "nickname": null,
+    "created_at": "2020-10-14 14:55:32",
+    "updated_at": "2020-10-14 14:55:32",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 166,
+    "name": "Ixion Saga: Dimension Transfer",
+    "nickname": null,
+    "created_at": "2020-10-14 14:56:06",
+    "updated_at": "2020-10-14 14:56:06",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 167,
+    "name": "Jinsei",
+    "nickname": null,
+    "created_at": "2020-10-14 14:56:20",
+    "updated_at": "2020-10-14 14:56:20",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 168,
+    "name": "Jormungand",
+    "nickname": null,
+    "created_at": "2020-10-14 14:56:29",
+    "updated_at": "2020-10-14 14:56:29",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 169,
+    "name": "Just Because!",
+    "nickname": null,
+    "created_at": "2020-10-14 14:56:51",
+    "updated_at": "2020-10-14 14:56:51",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 170,
+    "name": "K Project",
+    "nickname": null,
+    "created_at": "2020-10-14 14:57:02",
+    "updated_at": "2020-10-14 14:57:02",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 171,
+    "name": "Koutetsujou no Kabaneri",
+    "nickname": null,
+    "created_at": "2020-10-14 14:57:12",
+    "updated_at": "2020-10-14 14:57:12",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 172,
+    "name": "Seikaisuru Kado",
+    "nickname": null,
+    "created_at": "2020-10-14 14:57:23",
+    "updated_at": "2020-10-14 14:57:23",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 173,
+    "name": "Kakegurui",
+    "nickname": null,
+    "created_at": "2020-10-14 14:57:32",
+    "updated_at": "2020-10-14 14:57:32",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 174,
+    "name": "Kampfer",
+    "nickname": null,
+    "created_at": "2020-10-14 14:58:01",
+    "updated_at": "2020-10-14 14:58:01",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 175,
+    "name": "Kanokon",
+    "nickname": null,
+    "created_at": "2020-10-14 14:58:09",
+    "updated_at": "2020-10-14 14:58:09",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 176,
+    "name": "Toji no Miko",
+    "nickname": null,
+    "created_at": "2020-10-14 14:58:25",
+    "updated_at": "2020-10-14 14:58:25",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 177,
+    "name": "Kaze no Stigma",
+    "nickname": null,
+    "created_at": "2020-10-14 14:59:05",
+    "updated_at": "2020-10-14 14:59:29",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 178,
+    "name": "Kiss x Sis",
+    "nickname": null,
+    "created_at": "2020-10-14 14:59:41",
+    "updated_at": "2020-10-14 14:59:41",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 179,
+    "name": "Knight's & Magic",
+    "nickname": null,
+    "created_at": "2020-10-14 14:59:54",
+    "updated_at": "2020-10-14 14:59:54",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 180,
+    "name": "Kokoro Connect",
+    "nickname": null,
+    "created_at": "2020-10-14 15:01:04",
+    "updated_at": "2020-10-14 15:01:04",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 181,
+    "name": "Kono Naka ni Hitori, Imouto ga Iru!",
+    "nickname": "Nakaimo",
+    "created_at": "2020-10-14 15:01:24",
+    "updated_at": "2020-10-14 15:29:34",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 182,
+    "name": "Ladies Versus Butlers!",
+    "nickname": null,
+    "created_at": "2020-10-14 15:01:33",
+    "updated_at": "2020-10-14 15:01:33",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 183,
+    "name": "Rinne no Lagrange",
+    "nickname": null,
+    "created_at": "2020-10-14 15:02:31",
+    "updated_at": "2020-10-14 15:02:31",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 184,
+    "name": "Papa no Iu Koto wo Kikinasai!",
+    "nickname": null,
+    "created_at": "2020-10-14 15:02:43",
+    "updated_at": "2020-10-14 15:02:43",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 185,
+    "name": "Little Busters!",
+    "nickname": null,
+    "created_at": "2020-10-14 15:03:02",
+    "updated_at": "2020-10-14 15:03:02",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 186,
+    "name": "Little Witch Academia",
+    "nickname": null,
+    "created_at": "2020-10-14 15:03:36",
+    "updated_at": "2020-10-14 15:03:36",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 187,
+    "name": "Log Horizon",
+    "nickname": null,
+    "created_at": "2020-10-14 15:03:46",
+    "updated_at": "2020-10-14 15:03:46",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 188,
+    "name": "Madan no Ou to Vanadis",
+    "nickname": null,
+    "created_at": "2020-10-14 15:03:56",
+    "updated_at": "2020-10-14 15:03:56",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 189,
+    "name": "Lord of Vermilion",
+    "nickname": null,
+    "created_at": "2020-10-14 15:04:41",
+    "updated_at": "2020-10-14 15:04:41",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 190,
+    "name": "Koi to Uso",
+    "nickname": null,
+    "created_at": "2020-10-14 15:05:08",
+    "updated_at": "2020-10-14 15:05:08",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 191,
+    "name": "Chuunibyou Demo Koi ga Shitai!",
+    "nickname": null,
+    "created_at": "2020-10-14 15:05:45",
+    "updated_at": "2020-10-14 15:05:45",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 192,
+    "name": "Koi to Senkyo to Chocolate",
+    "nickname": null,
+    "created_at": "2020-10-14 15:05:57",
+    "updated_at": "2020-10-14 15:05:57",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 193,
+    "name": "Renai Boukun",
+    "nickname": null,
+    "created_at": "2020-10-14 15:06:08",
+    "updated_at": "2020-10-14 15:06:08",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 194,
+    "name": "Maerchen Maedchen",
+    "nickname": null,
+    "created_at": "2020-10-14 15:06:16",
+    "updated_at": "2020-10-14 15:06:16",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 195,
+    "name": "Magi",
+    "nickname": null,
+    "created_at": "2020-10-14 15:16:16",
+    "updated_at": "2020-10-14 15:16:16",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 196,
+    "name": "Mahou Shoujo Tokushusen Asuka",
+    "nickname": null,
+    "created_at": "2020-10-14 15:16:28",
+    "updated_at": "2020-10-14 15:16:28",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 197,
+    "name": "Mahou Sensou",
+    "nickname": null,
+    "created_at": "2020-10-14 15:16:38",
+    "updated_at": "2020-10-14 15:16:38",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 198,
+    "name": "Maji de Watashi ni Koi Shinasai!!",
+    "nickname": null,
+    "created_at": "2020-10-14 15:17:31",
+    "updated_at": "2020-10-14 15:17:31",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 199,
+    "name": "Maken-ki!",
+    "nickname": null,
+    "created_at": "2020-10-14 15:18:04",
+    "updated_at": "2020-10-14 15:18:04",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 200,
+    "name": "Maoyuu Maou Yuusha",
+    "nickname": null,
+    "created_at": "2020-10-14 15:18:22",
+    "updated_at": "2020-10-14 15:18:22",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 201,
+    "name": "Masamune-kun no Revenge",
+    "nickname": null,
+    "created_at": "2020-10-14 15:18:36",
+    "updated_at": "2020-10-14 15:18:36",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 202,
+    "name": "Mashiroiro Symphony",
+    "nickname": null,
+    "created_at": "2020-10-14 15:19:13",
+    "updated_at": "2020-10-14 15:19:13",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 203,
+    "name": "Mayo Chiki!",
+    "nickname": null,
+    "created_at": "2020-10-14 15:19:22",
+    "updated_at": "2020-10-14 15:19:22",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 204,
+    "name": "Mayoi Neko Overrun!",
+    "nickname": null,
+    "created_at": "2020-10-14 15:19:48",
+    "updated_at": "2020-10-14 15:19:48",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 205,
+    "name": "Medaka Box",
+    "nickname": null,
+    "created_at": "2020-10-14 15:20:06",
+    "updated_at": "2020-10-14 15:20:06",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 206,
+    "name": "Kagerou Daze",
+    "nickname": "Mekaku City Actors",
+    "created_at": "2020-10-14 15:20:50",
+    "updated_at": "2020-10-14 15:20:50",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 207,
+    "name": "MM!",
+    "nickname": null,
+    "created_at": "2020-10-14 15:22:11",
+    "updated_at": "2020-10-14 15:22:11",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 208,
+    "name": "To Love Ru",
+    "nickname": null,
+    "created_at": "2020-10-14 15:22:27",
+    "updated_at": "2020-10-14 15:22:27",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 209,
+    "name": "Muv-Luv Series",
+    "nickname": null,
+    "created_at": "2020-10-14 15:23:09",
+    "updated_at": "2020-10-14 15:23:09",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 210,
+    "name": "Boku no Kanojo ga Majime Sugiru Shojo Bitch na Ken",
+    "nickname": null,
+    "created_at": "2020-10-14 15:23:23",
+    "updated_at": "2020-10-14 15:23:23",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 211,
+    "name": "Ore no Nounai Sentakushi ga, Gakuen Rabukome wo Zenryoku de Jama Shite Iru",
+    "nickname": null,
+    "created_at": "2020-10-14 15:23:53",
+    "updated_at": "2020-10-14 15:23:53",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 212,
+    "name": "Musaigen no Phantom World",
+    "nickname": null,
+    "created_at": "2020-10-14 15:24:07",
+    "updated_at": "2020-10-14 15:24:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 213,
+    "name": "Ore ga Suki nano wa Imouto dakedo Imouto ja nai",
+    "nickname": null,
+    "created_at": "2020-10-14 15:24:17",
+    "updated_at": "2020-10-14 15:24:17",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 214,
+    "name": "Shingeki no Bahamut",
+    "nickname": null,
+    "created_at": "2020-10-14 15:24:46",
+    "updated_at": "2020-10-14 15:24:46",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 215,
+    "name": "Akkun to Kanojo",
+    "nickname": null,
+    "created_at": "2020-10-14 15:25:27",
+    "updated_at": "2020-10-14 15:25:27",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 216,
+    "name": "Ryuugajou Nanana no Maizoukin",
+    "nickname": null,
+    "created_at": "2020-10-14 15:25:41",
+    "updated_at": "2020-10-14 15:25:41",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 217,
+    "name": "Naruto",
+    "nickname": null,
+    "created_at": "2020-10-14 15:26:23",
+    "updated_at": "2020-10-14 15:26:23",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 218,
+    "name": "Noragami",
+    "nickname": null,
+    "created_at": "2020-10-14 15:27:07",
+    "updated_at": "2020-10-14 15:27:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 219,
+    "name": "Ookami-san to Shichinin no Nakama-tachi",
+    "nickname": null,
+    "created_at": "2020-10-14 15:27:34",
+    "updated_at": "2020-10-14 15:27:34",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 220,
+    "name": "Omamori Himari",
+    "nickname": null,
+    "created_at": "2020-10-14 15:27:43",
+    "updated_at": "2020-10-14 15:27:43",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 221,
+    "name": "One-Punch Man",
+    "nickname": null,
+    "created_at": "2020-10-14 15:27:51",
+    "updated_at": "2020-10-14 15:27:51",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 222,
+    "name": "Onii-chan Dakedo Ai Sae Areba Kankeinai yo ne!",
+    "nickname": "OniAi",
+    "created_at": "2020-10-14 15:30:02",
+    "updated_at": "2020-10-14 15:30:02",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 223,
+    "name": "Ore wo Suki na no wa Omae Dake ka yo",
+    "nickname": "Oresuki",
+    "created_at": "2020-10-14 15:30:29",
+    "updated_at": "2020-10-14 15:30:29",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 224,
+    "name": "Ore-tachi ni Tsubasa wa Nai",
+    "nickname": null,
+    "created_at": "2020-10-14 15:31:04",
+    "updated_at": "2020-10-14 15:31:04",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 225,
+    "name": "Outbreak Company",
+    "nickname": null,
+    "created_at": "2020-10-14 15:31:13",
+    "updated_at": "2020-10-14 15:31:13",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 226,
+    "name": "Pandora Hearts",
+    "nickname": null,
+    "created_at": "2020-10-14 15:31:39",
+    "updated_at": "2020-10-14 15:31:39",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 227,
+    "name": "Persona Series",
+    "nickname": null,
+    "created_at": "2020-10-14 15:31:58",
+    "updated_at": "2020-10-14 15:31:58",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 228,
+    "name": "Photo Kano",
+    "nickname": null,
+    "created_at": "2020-10-14 15:32:07",
+    "updated_at": "2020-10-14 15:32:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 229,
+    "name": "Acchi Kocchi",
+    "nickname": null,
+    "created_at": "2020-10-14 15:32:17",
+    "updated_at": "2020-10-14 15:32:17",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 230,
+    "name": "Pokemon Series",
+    "nickname": null,
+    "created_at": "2020-10-14 15:32:48",
+    "updated_at": "2020-10-14 15:32:48",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 231,
+    "name": "Princess Connect!",
+    "nickname": "Priconne",
+    "created_at": "2020-10-14 15:33:34",
+    "updated_at": "2020-10-16 14:05:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 232,
+    "name": "Princess Lover!",
+    "nickname": null,
+    "created_at": "2020-10-14 15:33:42",
+    "updated_at": "2020-10-14 15:33:42",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 233,
+    "name": "Mondai-Ji-tachi ga Isekai Kara Kuru Sou desu yo?",
+    "nickname": null,
+    "created_at": "2020-10-14 15:34:02",
+    "updated_at": "2020-10-14 15:34:02",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 234,
+    "name": "Psycho-Pass",
+    "nickname": null,
+    "created_at": "2020-10-14 15:34:11",
+    "updated_at": "2020-10-14 15:34:11",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 235,
+    "name": "R-15",
+    "nickname": null,
+    "created_at": "2020-10-14 15:34:29",
+    "updated_at": "2020-10-14 15:34:29",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 236,
+    "name": "Seishun Buta Yarou wa Bunny Girl-senpai no Yume wo Mina",
+    "nickname": null,
+    "created_at": "2020-10-14 15:34:41",
+    "updated_at": "2020-10-14 15:34:41",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 237,
+    "name": "Recorder to Randoseru",
+    "nickname": null,
+    "created_at": "2020-10-14 15:35:29",
+    "updated_at": "2020-10-14 15:35:29",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 238,
+    "name": "Grancrest Senki",
+    "nickname": null,
+    "created_at": "2020-10-14 15:36:03",
+    "updated_at": "2020-10-14 15:36:03",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 239,
+    "name": "Re:Creators",
+    "nickname": null,
+    "created_at": "2020-10-14 15:36:26",
+    "updated_at": "2020-10-14 15:36:26",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 240,
+    "name": "RErideD: Tokigoe no Derrida",
+    "nickname": null,
+    "created_at": "2020-10-14 15:36:41",
+    "updated_at": "2020-10-14 15:36:41",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 241,
+    "name": "Resident Evil Series",
+    "nickname": null,
+    "created_at": "2020-10-14 15:36:56",
+    "updated_at": "2020-10-14 15:36:56",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 242,
+    "name": "Isekai Shokudou",
+    "nickname": null,
+    "created_at": "2020-10-14 15:37:27",
+    "updated_at": "2020-10-14 15:37:27",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 243,
+    "name": "RoboMasters",
+    "nickname": null,
+    "created_at": "2020-10-14 15:37:53",
+    "updated_at": "2020-10-14 15:37:53",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 244,
+    "name": "Robotics;Notes",
+    "nickname": null,
+    "created_at": "2020-10-14 15:38:00",
+    "updated_at": "2020-10-14 15:38:00",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 245,
+    "name": "Rokka no Yuusha",
+    "nickname": null,
+    "created_at": "2020-10-14 15:38:12",
+    "updated_at": "2020-10-14 15:38:12",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 246,
+    "name": "Saenai Heroine no Sodate-kata: Ai to Seishun no Service Kai",
+    "nickname": "Saekano",
+    "created_at": "2020-10-14 15:38:31",
+    "updated_at": "2020-10-14 15:38:31",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 247,
+    "name": "Saint Seiya",
+    "nickname": null,
+    "created_at": "2020-10-14 15:39:00",
+    "updated_at": "2020-10-14 15:39:00",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 248,
+    "name": "Saki",
+    "nickname": null,
+    "created_at": "2020-10-14 15:39:13",
+    "updated_at": "2020-10-14 15:39:13",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 249,
+    "name": "Asu no Yoichi!",
+    "nickname": null,
+    "created_at": "2020-10-14 15:39:25",
+    "updated_at": "2020-10-14 15:39:25",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 250,
+    "name": "Sankarea",
+    "nickname": null,
+    "created_at": "2020-10-14 15:39:40",
+    "updated_at": "2020-10-14 15:39:40",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 251,
+    "name": "Seitokai Yakuindomo",
+    "nickname": null,
+    "created_at": "2020-10-14 15:40:02",
+    "updated_at": "2020-10-14 15:40:02",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 252,
+    "name": "Sekirei",
+    "nickname": null,
+    "created_at": "2020-10-14 15:40:11",
+    "updated_at": "2020-10-14 15:40:11",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 253,
+    "name": "Senryuu Shoujo",
+    "nickname": null,
+    "created_at": "2020-10-14 15:40:30",
+    "updated_at": "2020-10-14 15:40:30",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 254,
+    "name": "Owari no Seraph",
+    "nickname": null,
+    "created_at": "2020-10-14 15:40:44",
+    "updated_at": "2020-10-14 15:40:44",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 255,
+    "name": "Servant x Service",
+    "nickname": null,
+    "created_at": "2020-10-14 15:40:57",
+    "updated_at": "2020-10-14 15:40:57",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 256,
+    "name": "Shichisei no Subaru",
+    "nickname": null,
+    "created_at": "2020-10-14 15:41:07",
+    "updated_at": "2020-10-14 15:41:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 257,
+    "name": "Ore ga Ojou-sama Gakkou ni \"Shomin Sample\" Toshite Rachirareta Ken",
+    "nickname": "Shomin Sample",
+    "created_at": "2020-10-14 15:42:00",
+    "updated_at": "2020-10-14 15:42:00",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 258,
+    "name": "Yesterday wo Utatte",
+    "nickname": null,
+    "created_at": "2020-10-14 15:42:13",
+    "updated_at": "2020-10-14 15:42:13",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 259,
+    "name": "Sirius the Jaeger",
+    "nickname": null,
+    "created_at": "2020-10-14 15:42:23",
+    "updated_at": "2020-10-14 15:42:23",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 260,
+    "name": "Kuusen Madoushi Kouhosei no Kyoukan",
+    "nickname": null,
+    "created_at": "2020-10-14 15:42:36",
+    "updated_at": "2020-10-14 15:42:36",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 261,
+    "name": "Dakara Boku wa, H ga Dekinai.",
+    "nickname": null,
+    "created_at": "2020-10-14 15:43:05",
+    "updated_at": "2020-10-14 15:43:05",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 262,
+    "name": "Majutsushi Orphen Hagure Tabi",
+    "nickname": "Orphen",
+    "created_at": "2020-10-14 15:43:51",
+    "updated_at": "2020-10-14 15:43:51",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 263,
+    "name": "Spirited Away",
+    "nickname": null,
+    "created_at": "2020-10-14 15:44:01",
+    "updated_at": "2020-10-14 15:45:17",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 264,
+    "name": "Steins;Gate",
+    "nickname": null,
+    "created_at": "2020-10-14 15:44:39",
+    "updated_at": "2020-10-14 15:44:39",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 265,
+    "name": "Strike the Blood",
+    "nickname": null,
+    "created_at": "2020-10-14 15:44:47",
+    "updated_at": "2020-10-14 15:44:47",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 266,
+    "name": "Seitokai no Ichizon",
+    "nickname": null,
+    "created_at": "2020-10-14 15:44:56",
+    "updated_at": "2020-10-14 15:44:56",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 267,
+    "name": "Dokyuu Hentai HxEros",
+    "nickname": null,
+    "created_at": "2020-10-14 15:45:53",
+    "updated_at": "2020-10-14 15:45:53",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 268,
+    "name": "Senki Zesshou Symphogear",
+    "nickname": null,
+    "created_at": "2020-10-14 15:46:30",
+    "updated_at": "2020-10-14 15:46:30",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 269,
+    "name": "Taboo-Tattoo",
+    "nickname": null,
+    "created_at": "2020-10-14 15:46:41",
+    "updated_at": "2020-10-14 15:46:41",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 270,
+    "name": "Tada-kun wa Koi wo Shinai",
+    "nickname": null,
+    "created_at": "2020-10-14 15:46:54",
+    "updated_at": "2020-10-14 15:46:54",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 271,
+    "name": "Tales of Series",
+    "nickname": null,
+    "created_at": "2020-10-14 15:47:17",
+    "updated_at": "2020-10-14 15:47:17",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 272,
+    "name": "Karakai Jouzu no Takagi-san",
+    "nickname": null,
+    "created_at": "2020-10-14 15:47:41",
+    "updated_at": "2020-10-14 15:47:41",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 273,
+    "name": "Terra Formars",
+    "nickname": null,
+    "created_at": "2020-10-14 15:47:50",
+    "updated_at": "2020-10-14 15:47:50",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 274,
+    "name": "Zankyou no Terror",
+    "nickname": null,
+    "created_at": "2020-10-14 15:48:00",
+    "updated_at": "2020-10-14 15:48:00",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 275,
+    "name": "Tensei Shitara Slime Datta Ken",
+    "nickname": null,
+    "created_at": "2020-10-14 15:48:12",
+    "updated_at": "2020-10-14 15:48:12",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 276,
+    "name": "Hachinantte, Sore wa Nai Deshou!",
+    "nickname": null,
+    "created_at": "2020-10-14 15:48:42",
+    "updated_at": "2020-10-14 15:48:42",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 277,
+    "name": "Oda Nobuna no Yabou",
+    "nickname": null,
+    "created_at": "2020-10-14 15:48:55",
+    "updated_at": "2020-10-14 15:48:55",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 278,
+    "name": "Mahou Tsukai no Yome: Hoshi Matsu Hito",
+    "nickname": null,
+    "created_at": "2020-10-14 15:49:08",
+    "updated_at": "2020-10-14 15:49:08",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 279,
+    "name": "Gakusen Toshi Asterisk",
+    "nickname": null,
+    "created_at": "2020-10-14 15:49:18",
+    "updated_at": "2020-10-14 15:49:18",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 280,
+    "name": "Hataraku Maou-sama!",
+    "nickname": null,
+    "created_at": "2020-10-14 15:49:31",
+    "updated_at": "2020-10-14 15:49:31",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 281,
+    "name": "Grisaia",
+    "nickname": null,
+    "created_at": "2020-10-14 15:49:50",
+    "updated_at": "2020-10-14 15:49:50",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 282,
+    "name": "Zero no Tsukaima",
+    "nickname": null,
+    "created_at": "2020-10-14 15:50:21",
+    "updated_at": "2020-10-14 15:50:21",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 283,
+    "name": "The God of High School",
+    "nickname": null,
+    "created_at": "2020-10-14 15:50:28",
+    "updated_at": "2020-10-14 15:50:28",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 284,
+    "name": "Arslan Senki",
+    "nickname": null,
+    "created_at": "2020-10-14 15:50:57",
+    "updated_at": "2020-10-14 15:50:57",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 285,
+    "name": "The iDOLM@STER Series",
+    "nickname": null,
+    "created_at": "2020-10-14 15:52:15",
+    "updated_at": "2020-10-14 15:52:15",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 286,
+    "name": "Mahouka Koukou no Rettousei",
+    "nickname": null,
+    "created_at": "2020-10-14 15:53:00",
+    "updated_at": "2020-10-14 15:53:00",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 287,
+    "name": "Hyakuren no Haou to Seiyaku no Valkyria",
+    "nickname": null,
+    "created_at": "2020-10-14 15:53:10",
+    "updated_at": "2020-10-14 15:53:10",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 288,
+    "name": "Suzumiya Haruhi no Yuuutsu",
+    "nickname": null,
+    "created_at": "2020-10-14 15:53:20",
+    "updated_at": "2020-10-14 15:53:20",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 289,
+    "name": "Maou Gakuin no Futekigousha",
+    "nickname": null,
+    "created_at": "2020-10-14 15:53:44",
+    "updated_at": "2020-10-14 15:53:44",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 290,
+    "name": "Sakurasou no Pet na Kanojo",
+    "nickname": null,
+    "created_at": "2020-10-14 15:53:54",
+    "updated_at": "2020-10-14 15:53:54",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 291,
+    "name": "Yakusoku no Neverland",
+    "nickname": null,
+    "created_at": "2020-10-14 15:54:06",
+    "updated_at": "2020-10-14 15:54:06",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 292,
+    "name": "The Reflection",
+    "nickname": null,
+    "created_at": "2020-10-14 15:54:15",
+    "updated_at": "2020-10-14 15:54:15",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 293,
+    "name": "Tate no Yuusha no Nariagari",
+    "nickname": null,
+    "created_at": "2020-10-14 15:54:25",
+    "updated_at": "2020-10-14 15:54:25",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 294,
+    "name": "Ryuuou no Oshigoto!",
+    "nickname": null,
+    "created_at": "2020-10-14 15:54:44",
+    "updated_at": "2020-10-14 15:54:44",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 295,
+    "name": "Shinmai Maou no Testament",
+    "nickname": null,
+    "created_at": "2020-10-14 15:54:53",
+    "updated_at": "2020-10-14 15:54:53",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 296,
+    "name": "Tokyo ESP",
+    "nickname": null,
+    "created_at": "2020-10-14 15:55:13",
+    "updated_at": "2020-10-14 15:55:13",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 297,
+    "name": "Tokyo Ghoul",
+    "nickname": null,
+    "created_at": "2020-10-14 15:55:22",
+    "updated_at": "2020-10-14 15:55:22",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 298,
+    "name": "Tokyo Ravens",
+    "nickname": null,
+    "created_at": "2020-10-14 15:55:30",
+    "updated_at": "2020-10-14 15:55:30",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 299,
+    "name": "Toradora!",
+    "nickname": null,
+    "created_at": "2020-10-14 15:56:09",
+    "updated_at": "2020-10-14 15:56:09",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 300,
+    "name": "Tower of God",
+    "nickname": null,
+    "created_at": "2020-10-14 15:56:23",
+    "updated_at": "2020-10-14 15:56:23",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 301,
+    "name": "Triage X",
+    "nickname": null,
+    "created_at": "2020-10-14 15:56:32",
+    "updated_at": "2020-10-14 15:56:32",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 302,
+    "name": "Trinity Seven: 7-nin no Masho Tsukai",
+    "nickname": null,
+    "created_at": "2020-10-14 15:56:44",
+    "updated_at": "2020-10-14 15:56:44",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 303,
+    "name": "Tsukigakirei",
+    "nickname": null,
+    "created_at": "2020-10-14 15:57:06",
+    "updated_at": "2020-10-14 15:57:06",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 304,
+    "name": "Tsuredure Children",
+    "nickname": null,
+    "created_at": "2020-10-14 15:57:15",
+    "updated_at": "2020-10-14 15:57:15",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 305,
+    "name": "Tsurune: Kazemai Koukou Kyuudou-bu",
+    "nickname": null,
+    "created_at": "2020-10-14 15:57:44",
+    "updated_at": "2020-10-14 15:57:44",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 306,
+    "name": "Ulysses: Jeanne d'Arc to Renkin no Kishi",
+    "nickname": null,
+    "created_at": "2020-10-14 15:58:04",
+    "updated_at": "2020-10-14 15:58:04",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 307,
+    "name": "Machine-Doll wa Kizutsukanai",
+    "nickname": null,
+    "created_at": "2020-10-14 15:58:26",
+    "updated_at": "2020-10-14 15:58:26",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 308,
+    "name": "Saijaku Muhai no Bahamut",
+    "nickname": null,
+    "created_at": "2020-10-14 15:58:42",
+    "updated_at": "2020-10-14 15:58:42",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 309,
+    "name": "Juuou Mujin no Fafnir",
+    "nickname": null,
+    "created_at": "2020-10-14 15:58:51",
+    "updated_at": "2020-10-14 15:58:51",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 310,
+    "name": "Upotte!!",
+    "nickname": null,
+    "created_at": "2020-10-14 15:58:59",
+    "updated_at": "2020-10-14 15:58:59",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 311,
+    "name": "Kakumeiki Valvrave",
+    "nickname": null,
+    "created_at": "2020-10-14 15:59:13",
+    "updated_at": "2020-10-14 15:59:13",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 312,
+    "name": "Viewtiful Joe",
+    "nickname": null,
+    "created_at": "2020-10-14 15:59:31",
+    "updated_at": "2020-10-14 15:59:31",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 313,
+    "name": "Ano Natsu de Matteru",
+    "nickname": null,
+    "created_at": "2020-10-14 16:00:39",
+    "updated_at": "2020-10-14 16:00:39",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 314,
+    "name": "Walkure Romanze",
+    "nickname": null,
+    "created_at": "2020-10-14 16:01:01",
+    "updated_at": "2020-10-14 16:01:01",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 315,
+    "name": "Ballroom e Youkoso",
+    "nickname": null,
+    "created_at": "2020-10-14 16:01:14",
+    "updated_at": "2020-10-14 16:01:14",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 316,
+    "name": "Inou Battle wa Nichijou-kei no Naka de",
+    "nickname": null,
+    "created_at": "2020-10-14 16:01:28",
+    "updated_at": "2020-10-14 16:01:28",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 317,
+    "name": "Kenja no Mago",
+    "nickname": null,
+    "created_at": "2020-10-14 16:01:33",
+    "updated_at": "2020-10-14 16:01:33",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 318,
+    "name": "Witch Craft Works",
+    "nickname": null,
+    "created_at": "2020-10-14 16:01:44",
+    "updated_at": "2020-10-14 16:01:44",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 319,
+    "name": "Seiken Tsukai no World Break",
+    "nickname": null,
+    "created_at": "2020-10-14 16:02:20",
+    "updated_at": "2020-10-14 16:02:20",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 320,
+    "name": "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?",
+    "nickname": null,
+    "created_at": "2020-10-14 16:02:28",
+    "updated_at": "2020-10-14 16:02:28",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 321,
+    "name": "B Gata H Kei",
+    "nickname": null,
+    "created_at": "2020-10-14 16:02:43",
+    "updated_at": "2020-10-14 16:02:43",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 322,
+    "name": "Yu-Gi-Oh! Series",
+    "nickname": null,
+    "created_at": "2020-10-14 16:02:54",
+    "updated_at": "2020-10-14 16:02:54",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 323,
+    "name": "Kono Yo no Hate de Koi wo Utau Shoujo YU-NO",
+    "nickname": "YU-NO",
+    "created_at": "2020-10-14 16:03:13",
+    "updated_at": "2020-10-14 16:03:13",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 324,
+    "name": "Yuragi-sou no Yuuna-san",
+    "nickname": null,
+    "created_at": "2020-10-14 16:04:05",
+    "updated_at": "2020-10-14 16:04:05",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 325,
+    "name": "Zetman",
+    "nickname": null,
+    "created_at": "2020-10-14 16:04:21",
+    "updated_at": "2020-10-14 16:04:21",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 326,
+    "name": "Zombieland Saga",
+    "nickname": null,
+    "created_at": "2020-10-14 16:04:30",
+    "updated_at": "2020-10-14 16:04:30",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 327,
+    "name": "Jitsu wa Watashi wa, My Monster Secret",
+    "nickname": null,
+    "created_at": "2020-10-14 16:05:02",
+    "updated_at": "2020-10-14 16:05:02",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 328,
+    "name": "Shoumetsu Toshi",
+    "nickname": null,
+    "created_at": "2020-10-14 16:05:12",
+    "updated_at": "2020-10-14 16:05:12",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 329,
+    "name": "Akiba's Trip Series",
+    "nickname": null,
+    "created_at": "2020-10-14 16:05:29",
+    "updated_at": "2020-10-14 16:05:29",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 330,
+    "name": "Netoge no Yome wa Onnanoko ja Nai to Omotta?",
+    "nickname": null,
+    "created_at": "2020-10-14 16:05:41",
+    "updated_at": "2020-10-14 16:05:41",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 331,
+    "name": "Taimadou Gakuen 35 Shiken Shoutai",
+    "nickname": null,
+    "created_at": "2020-10-14 16:05:51",
+    "updated_at": "2020-10-14 16:05:51",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 332,
+    "name": "Ao no Kanata no Four Rhythm",
+    "nickname": "Aokana",
+    "created_at": "2020-10-14 16:06:17",
+    "updated_at": "2020-10-14 16:06:17",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 333,
+    "name": "Ansatsu Kyoushitsu",
+    "nickname": null,
+    "created_at": "2020-10-14 16:07:06",
+    "updated_at": "2020-10-14 16:07:06",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 334,
+    "name": "Kimi no Iru Machi",
+    "nickname": null,
+    "created_at": "2020-10-14 16:07:21",
+    "updated_at": "2020-10-14 16:07:21",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 335,
+    "name": "Basilisk",
+    "nickname": null,
+    "created_at": "2020-10-14 16:08:03",
+    "updated_at": "2020-10-14 16:08:03",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 336,
+    "name": "Beatless",
+    "nickname": null,
+    "created_at": "2020-10-14 16:08:20",
+    "updated_at": "2020-10-14 16:08:20",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 337,
+    "name": "Black Cat",
+    "nickname": null,
+    "created_at": "2020-10-14 16:08:45",
+    "updated_at": "2020-10-14 16:08:45",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 338,
+    "name": "Bleach",
+    "nickname": null,
+    "created_at": "2020-10-14 16:09:20",
+    "updated_at": "2020-10-14 16:09:20",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 339,
+    "name": "Hataraku Saibou",
+    "nickname": null,
+    "created_at": "2020-10-14 16:09:42",
+    "updated_at": "2020-10-14 16:09:42",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 340,
+    "name": "Seisen Cerberus: Ryuukoku no Fatalite",
+    "nickname": "Cerberus",
+    "created_at": "2020-10-14 16:10:02",
+    "updated_at": "2020-10-14 16:10:02",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 341,
+    "name": "Comet Lucifer",
+    "nickname": null,
+    "created_at": "2020-10-14 16:10:32",
+    "updated_at": "2020-10-14 16:10:32",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 342,
+    "name": "Conception",
+    "nickname": null,
+    "created_at": "2020-10-14 16:10:53",
+    "updated_at": "2020-10-14 16:10:53",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 343,
+    "name": "Dagashi Kashi",
+    "nickname": null,
+    "created_at": "2020-10-14 16:11:01",
+    "updated_at": "2020-10-14 16:11:01",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 344,
+    "name": "Kenzen Robo Daimidaler",
+    "nickname": null,
+    "created_at": "2020-10-14 16:11:22",
+    "updated_at": "2020-10-14 16:11:22",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 345,
+    "name": "Dororo",
+    "nickname": null,
+    "created_at": "2020-10-14 16:11:48",
+    "updated_at": "2020-10-14 16:11:48",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 346,
+    "name": "Youkai Apato no Yuuga na Nichijou",
+    "nickname": null,
+    "created_at": "2020-10-14 16:12:11",
+    "updated_at": "2020-10-14 16:12:11",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 347,
+    "name": "Fairy gone",
+    "nickname": null,
+    "created_at": "2020-10-14 16:12:28",
+    "updated_at": "2020-10-14 16:12:28",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 348,
+    "name": "Fairy Tail",
+    "nickname": null,
+    "created_at": "2020-10-14 16:13:16",
+    "updated_at": "2020-10-14 16:13:16",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 349,
+    "name": "Enn Enn no Shouboutai",
+    "nickname": "Fire Force",
+    "created_at": "2020-10-14 16:13:32",
+    "updated_at": "2020-10-14 16:13:59",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 350,
+    "name": "Fullmetal Alchemist",
+    "nickname": null,
+    "created_at": "2020-10-14 16:13:44",
+    "updated_at": "2020-10-14 16:13:44",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 351,
+    "name": "Galilei Donna",
+    "nickname": null,
+    "created_at": "2020-10-14 16:14:02",
+    "updated_at": "2020-10-14 16:14:02",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 352,
+    "name": "Get Backers",
+    "nickname": null,
+    "created_at": "2020-10-14 16:14:12",
+    "updated_at": "2020-10-14 16:14:12",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 353,
+    "name": "Girl Friend",
+    "nickname": null,
+    "created_at": "2020-10-14 16:14:40",
+    "updated_at": "2020-10-14 16:14:40",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 354,
+    "name": "Shoujo-tachi wa Kouya wo Mezasu",
+    "nickname": null,
+    "created_at": "2020-10-14 16:14:49",
+    "updated_at": "2020-10-14 16:14:49",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 355,
+    "name": "Girls und Panzer",
+    "nickname": null,
+    "created_at": "2020-10-14 16:15:16",
+    "updated_at": "2020-10-14 16:15:16",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 356,
+    "name": "Ore, Twintails ni Narimasu.",
+    "nickname": null,
+    "created_at": "2020-10-14 16:15:26",
+    "updated_at": "2020-10-14 16:15:26",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 357,
+    "name": "Heavy Object",
+    "nickname": null,
+    "created_at": "2020-10-14 16:15:35",
+    "updated_at": "2020-10-14 16:15:35",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 358,
+    "name": "Jigoku Shoujo",
+    "nickname": null,
+    "created_at": "2020-10-14 16:15:45",
+    "updated_at": "2020-10-14 16:15:45",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 359,
+    "name": "Hellsing",
+    "nickname": null,
+    "created_at": "2020-10-14 16:15:54",
+    "updated_at": "2020-10-14 16:15:54",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 360,
+    "name": "Kawaikereba Hentai demo Suki ni Natte Kuremasu ka?",
+    "nickname": "Hensuki",
+    "created_at": "2020-10-14 16:16:11",
+    "updated_at": "2020-10-14 16:16:11",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 361,
+    "name": "Hunter x Hunter",
+    "nickname": null,
+    "created_at": "2020-10-14 16:17:14",
+    "updated_at": "2020-10-14 16:17:14",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 362,
+    "name": "Kanojo ga Flag wo Oraretara",
+    "nickname": null,
+    "created_at": "2020-10-14 16:17:23",
+    "updated_at": "2020-10-14 16:17:23",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 363,
+    "name": "InuYasha",
+    "nickname": null,
+    "created_at": "2020-10-14 16:18:10",
+    "updated_at": "2020-10-14 16:18:10",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 364,
+    "name": "Shuumatsu no Izetta",
+    "nickname": null,
+    "created_at": "2020-10-14 16:18:20",
+    "updated_at": "2020-10-14 16:18:20",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 365,
+    "name": "Juuni Taisen",
+    "nickname": null,
+    "created_at": "2020-10-14 16:18:34",
+    "updated_at": "2020-10-14 16:18:34",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 366,
+    "name": "Kill La Kill",
+    "nickname": null,
+    "created_at": "2020-10-14 16:18:40",
+    "updated_at": "2020-10-14 16:18:40",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 367,
+    "name": "Ousama Game",
+    "nickname": null,
+    "created_at": "2020-10-14 16:18:52",
+    "updated_at": "2020-10-14 16:18:52",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 368,
+    "name": "Kiznaiver",
+    "nickname": null,
+    "created_at": "2020-10-14 16:19:21",
+    "updated_at": "2020-10-14 16:19:21",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 369,
+    "name": "Kuromukuro",
+    "nickname": null,
+    "created_at": "2020-10-14 16:19:28",
+    "updated_at": "2020-10-14 16:19:28",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 370,
+    "name": "Tejina-Senpai",
+    "nickname": null,
+    "created_at": "2020-10-14 16:19:40",
+    "updated_at": "2020-10-14 16:19:40",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 371,
+    "name": "Ginga Kikoutai Majestic Prince",
+    "nickname": null,
+    "created_at": "2020-10-14 16:19:57",
+    "updated_at": "2020-10-14 16:19:57",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 372,
+    "name": "Monster Musume no Iru Nichijou",
+    "nickname": null,
+    "created_at": "2020-10-14 16:20:14",
+    "updated_at": "2020-10-14 16:20:14",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 373,
+    "name": "Nazo no Kanojo X",
+    "nickname": null,
+    "created_at": "2020-10-14 16:20:45",
+    "updated_at": "2020-10-14 16:20:45",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 374,
+    "name": "Matantei Loki",
+    "nickname": null,
+    "created_at": "2020-10-14 16:20:54",
+    "updated_at": "2020-10-14 16:21:22",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 375,
+    "name": "No-Rin",
+    "nickname": null,
+    "created_at": "2020-10-14 16:21:26",
+    "updated_at": "2020-10-14 16:21:26",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 376,
+    "name": "Occultic;Nine",
+    "nickname": null,
+    "created_at": "2020-10-14 16:21:35",
+    "updated_at": "2020-10-14 16:21:35",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 377,
+    "name": "Qualidea Code",
+    "nickname": null,
+    "created_at": "2020-10-14 16:21:58",
+    "updated_at": "2020-10-14 16:21:58",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 378,
+    "name": "Radiant",
+    "nickname": null,
+    "created_at": "2020-10-14 16:22:07",
+    "updated_at": "2020-10-14 16:22:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 379,
+    "name": "Akuma no Riddle",
+    "nickname": null,
+    "created_at": "2020-10-14 16:22:16",
+    "updated_at": "2020-10-14 16:22:16",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 380,
+    "name": "Rurouni Kenshin",
+    "nickname": null,
+    "created_at": "2020-10-14 16:22:26",
+    "updated_at": "2020-10-14 16:22:26",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 381,
+    "name": "Saber Marionette J",
+    "nickname": null,
+    "created_at": "2020-10-14 16:22:47",
+    "updated_at": "2020-10-14 16:22:47",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 382,
+    "name": "Samurai 7",
+    "nickname": null,
+    "created_at": "2020-10-14 16:23:22",
+    "updated_at": "2020-10-14 16:23:22",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 383,
+    "name": "Rikei ga Koi ni Ochita no de Shoumei Shitemita",
+    "nickname": null,
+    "created_at": "2020-10-14 16:23:31",
+    "updated_at": "2020-10-14 16:23:31",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 384,
+    "name": "Kuzu no Honkai",
+    "nickname": null,
+    "created_at": "2020-10-14 16:23:47",
+    "updated_at": "2020-10-14 16:23:47",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 385,
+    "name": "Shaman King",
+    "nickname": null,
+    "created_at": "2020-10-14 16:23:57",
+    "updated_at": "2020-10-14 16:23:57",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 386,
+    "name": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
+    "nickname": "Shimoneta",
+    "created_at": "2020-10-14 16:24:31",
+    "updated_at": "2020-10-14 16:24:31",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 387,
+    "name": "Sket Dance",
+    "nickname": null,
+    "created_at": "2020-10-14 16:24:40",
+    "updated_at": "2020-10-14 16:24:40",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 388,
+    "name": "Kamisama no Inai Nichiyoubi",
+    "nickname": null,
+    "created_at": "2020-10-14 16:25:06",
+    "updated_at": "2020-10-14 16:25:06",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 389,
+    "name": "Mangaka-san to Assistant-san to",
+    "nickname": null,
+    "created_at": "2020-10-14 16:25:20",
+    "updated_at": "2020-10-14 16:25:20",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 390,
+    "name": "Egao no Daika",
+    "nickname": null,
+    "created_at": "2020-10-14 16:25:31",
+    "updated_at": "2020-10-14 16:25:31",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 391,
+    "name": "Soredemo Sekai wa Utsukushii",
+    "nickname": null,
+    "created_at": "2020-10-14 16:25:47",
+    "updated_at": "2020-10-14 16:25:47",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 392,
+    "name": "Katsute Kami Datta Kemono-tachi e",
+    "nickname": null,
+    "created_at": "2020-10-14 16:26:16",
+    "updated_at": "2020-10-14 16:26:16",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 393,
+    "name": "Trigun",
+    "nickname": null,
+    "created_at": "2020-10-14 16:26:54",
+    "updated_at": "2020-10-14 16:26:54",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 394,
+    "name": "Sousei no Onmyouji",
+    "nickname": null,
+    "created_at": "2020-10-14 16:27:06",
+    "updated_at": "2020-10-14 16:27:06",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 395,
+    "name": "Mujin Wakusei Survive",
+    "nickname": null,
+    "created_at": "2020-10-14 16:27:19",
+    "updated_at": "2020-10-14 16:27:19",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 396,
+    "name": "Vinland Saga",
+    "nickname": null,
+    "created_at": "2020-10-14 16:27:29",
+    "updated_at": "2020-10-14 16:27:29",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 397,
+    "name": "Violet Evergarden",
+    "nickname": null,
+    "created_at": "2020-10-14 16:28:14",
+    "updated_at": "2020-10-14 16:28:14",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 398,
+    "name": "Bokutachi wa Benkyou ga Dekinai",
+    "nickname": "BokuBen",
+    "created_at": "2020-10-14 16:28:30",
+    "updated_at": "2020-10-14 16:28:54",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 399,
+    "name": "World Trigger",
+    "nickname": null,
+    "created_at": "2020-10-14 16:29:24",
+    "updated_at": "2020-10-14 16:29:24",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 400,
+    "name": "Yamada-kun to 7-nin no Majo",
+    "nickname": null,
+    "created_at": "2020-10-14 16:29:33",
+    "updated_at": "2020-10-14 16:29:33",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 401,
+    "name": "Yu Yu Hakusho",
+    "nickname": null,
+    "created_at": "2020-10-14 16:29:41",
+    "updated_at": "2020-10-14 16:29:41",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 402,
+    "name": "Konjiki no Gash Bell!!",
+    "nickname": "Zatch Bell!",
+    "created_at": "2020-10-14 16:29:57",
+    "updated_at": "2020-10-14 16:29:57",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 403,
+    "name": "Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru",
+    "nickname": null,
+    "created_at": "2020-10-14 16:30:31",
+    "updated_at": "2020-10-14 16:30:31",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 404,
+    "name": "100-man no Inochi no Ue ni Ore wa Tatte Iru",
+    "nickname": null,
+    "created_at": "2020-10-14 16:30:41",
+    "updated_at": "2020-10-14 16:30:41",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 405,
+    "name": "Jujutsu Kaisen",
+    "nickname": null,
+    "created_at": "2020-10-14 16:30:49",
+    "updated_at": "2020-10-14 16:30:49",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 406,
+    "name": "Plunderer",
+    "nickname": null,
+    "created_at": "2020-10-14 16:31:07",
+    "updated_at": "2020-10-14 16:31:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 407,
+    "name": "Fugou Keiji - Balance:Unlimited",
+    "nickname": null,
+    "created_at": "2020-10-14 16:31:17",
+    "updated_at": "2020-10-14 16:31:17",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 408,
+    "name": "School Days",
+    "nickname": null,
+    "created_at": "2020-10-14 16:31:40",
+    "updated_at": "2020-10-14 16:31:40",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 409,
+    "name": "Burn the Witch",
+    "nickname": null,
+    "created_at": "2020-10-14 16:32:39",
+    "updated_at": "2020-10-14 16:32:39",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 410,
+    "name": "Haikyuu!!",
+    "nickname": null,
+    "created_at": "2020-10-15 18:38:03",
+    "updated_at": "2020-10-15 18:38:03",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 411,
+    "name": "Kimi no Na wa.",
+    "nickname": null,
+    "created_at": "2020-10-15 18:38:20",
+    "updated_at": "2020-10-15 18:38:20",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 412,
+    "name": "Gintama",
+    "nickname": null,
+    "created_at": "2020-10-15 18:38:42",
+    "updated_at": "2020-10-15 18:38:42",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 413,
+    "name": "Mob Psycho 100",
+    "nickname": null,
+    "created_at": "2020-10-15 18:39:18",
+    "updated_at": "2020-10-15 18:39:18",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 414,
+    "name": "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen",
+    "nickname": null,
+    "created_at": "2020-10-15 18:41:42",
+    "updated_at": "2020-10-15 18:41:42",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 415,
+    "name": "3-gatsu no Lion",
+    "nickname": null,
+    "created_at": "2020-10-15 18:43:10",
+    "updated_at": "2020-10-15 18:43:10",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 416,
+    "name": "Clannad",
+    "nickname": null,
+    "created_at": "2020-10-15 18:43:28",
+    "updated_at": "2020-10-15 18:43:28",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 417,
+    "name": "Made in Abyss",
+    "nickname": null,
+    "created_at": "2020-10-15 18:43:55",
+    "updated_at": "2020-10-15 18:43:55",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 418,
+    "name": "Fruits Basket",
+    "nickname": null,
+    "created_at": "2020-10-15 18:45:36",
+    "updated_at": "2020-10-15 18:45:36",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 419,
+    "name": "Princess Mononoke",
+    "nickname": null,
+    "created_at": "2020-10-15 18:45:48",
+    "updated_at": "2020-10-15 18:45:48",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 420,
+    "name": "JoJo's Bizarre Adventure",
+    "nickname": null,
+    "created_at": "2020-10-15 18:45:59",
+    "updated_at": "2020-10-15 18:45:59",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 421,
+    "name": "Kimi no Suizou wo Tabetai",
+    "nickname": null,
+    "created_at": "2020-10-15 18:46:48",
+    "updated_at": "2020-10-15 18:46:48",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 422,
+    "name": "Kara no Kyoukai",
+    "nickname": null,
+    "created_at": "2020-10-15 18:47:05",
+    "updated_at": "2020-10-15 18:47:05",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 423,
+    "name": "Shingetsutan Tsukihime",
+    "nickname": null,
+    "created_at": "2020-10-15 18:48:04",
+    "updated_at": "2020-10-15 18:48:04",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 424,
+    "name": "Shigatsu wa Kimi no Uso",
+    "nickname": null,
+    "created_at": "2020-10-15 18:49:24",
+    "updated_at": "2020-10-15 18:49:24",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 425,
+    "name": "Tenki no Ko",
+    "nickname": null,
+    "created_at": "2020-10-15 18:49:42",
+    "updated_at": "2020-10-15 18:49:42",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 426,
+    "name": "Youjo Senki",
+    "nickname": null,
+    "created_at": "2020-10-15 18:50:53",
+    "updated_at": "2020-10-15 18:50:53",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 427,
+    "name": "Hi Score Girl",
+    "nickname": null,
+    "created_at": "2020-10-15 18:53:29",
+    "updated_at": "2020-10-15 18:53:29",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 428,
+    "name": "Etotama",
+    "nickname": null,
+    "created_at": "2020-10-15 18:54:08",
+    "updated_at": "2020-10-15 18:54:08",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 429,
+    "name": "Hachimitsu to Clover",
+    "nickname": null,
+    "created_at": "2020-10-15 18:54:21",
+    "updated_at": "2020-10-15 18:54:21",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 430,
+    "name": "Rekka no Honoo",
+    "nickname": null,
+    "created_at": "2020-10-15 18:54:39",
+    "updated_at": "2020-10-15 18:54:39",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 431,
+    "name": "D.N.Angel",
+    "nickname": null,
+    "created_at": "2020-10-15 18:54:52",
+    "updated_at": "2020-10-15 18:54:52",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 432,
+    "name": "Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!",
+    "nickname": null,
+    "created_at": "2020-10-15 18:55:16",
+    "updated_at": "2020-10-15 18:55:16",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 433,
+    "name": "Kuma Kuma Kuma Bear",
+    "nickname": null,
+    "created_at": "2020-10-15 18:55:47",
+    "updated_at": "2020-10-15 18:55:47",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 434,
+    "name": "Akudama Drive",
+    "nickname": null,
+    "created_at": "2020-10-15 18:56:32",
+    "updated_at": "2020-10-15 18:56:32",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 435,
+    "name": "Assault Lily BOUQUET",
+    "nickname": null,
+    "created_at": "2020-10-15 18:56:44",
+    "updated_at": "2020-10-15 18:56:44",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 436,
+    "name": "Dogeza de Tanondemita",
+    "nickname": null,
+    "created_at": "2020-10-15 18:57:00",
+    "updated_at": "2020-10-15 18:57:00",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 437,
+    "name": "Kami-tachi ni Hirowareta Otoko",
+    "nickname": null,
+    "created_at": "2020-10-15 18:57:20",
+    "updated_at": "2020-10-15 18:57:20",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 438,
+    "name": "Dragon Quest",
+    "nickname": null,
+    "created_at": "2020-10-15 18:58:22",
+    "updated_at": "2020-10-15 18:58:22",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 439,
+    "name": "Higurashi no Naku Koro ni",
+    "nickname": null,
+    "created_at": "2020-10-15 18:58:43",
+    "updated_at": "2020-10-15 18:58:43",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 440,
+    "name": "Gochuumon wa Usagi desu ka?",
+    "nickname": null,
+    "created_at": "2020-10-15 18:59:16",
+    "updated_at": "2020-10-15 18:59:16",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 441,
+    "name": "Iwakakeru! Sport Climbing Girls",
+    "nickname": null,
+    "created_at": "2020-10-15 18:59:36",
+    "updated_at": "2020-10-15 18:59:36",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 442,
+    "name": "Love Live! Series",
+    "nickname": null,
+    "created_at": "2020-10-15 19:00:20",
+    "updated_at": "2020-10-15 19:00:20",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 443,
+    "name": "One Room",
+    "nickname": null,
+    "created_at": "2020-10-15 19:02:07",
+    "updated_at": "2020-10-15 19:02:07",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 444,
+    "name": "Noblesse",
+    "nickname": null,
+    "created_at": "2020-10-15 19:02:17",
+    "updated_at": "2020-10-15 19:02:17",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 445,
+    "name": "Kimi to Boku no Saigo no Senjou, Arui wa Sekai ga Hajimaru Seisen",
+    "nickname": "KimiSen",
+    "created_at": "2020-10-15 19:02:32",
+    "updated_at": "2020-10-16 14:03:08",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 446,
+    "name": "Strike Witches",
+    "nickname": null,
+    "created_at": "2020-10-15 19:03:11",
+    "updated_at": "2020-10-15 19:03:11",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 447,
+    "name": "Maou-jou de Oyasumi",
+    "nickname": null,
+    "created_at": "2020-10-15 19:03:21",
+    "updated_at": "2020-10-15 19:03:21",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 448,
+    "name": "Munou na Nana",
+    "nickname": null,
+    "created_at": "2020-10-15 19:03:57",
+    "updated_at": "2020-10-15 19:03:57",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 449,
+    "name": "Kamisama ni Natta hi",
+    "nickname": null,
+    "created_at": "2020-10-15 19:04:13",
+    "updated_at": "2020-10-15 19:04:13",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 450,
+    "name": "Tonikaku Kawaii",
+    "nickname": "Tonikawa",
+    "created_at": "2020-10-15 19:05:00",
+    "updated_at": "2020-10-15 19:05:00",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 451,
+    "name": "Majo no Tabitabi",
+    "nickname": null,
+    "created_at": "2020-10-15 19:05:28",
+    "updated_at": "2020-10-15 19:05:28",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 452,
+    "name": "Senyoku no Sigrdrifa",
+    "nickname": null,
+    "created_at": "2020-10-15 19:05:37",
+    "updated_at": "2020-10-15 19:05:37",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 453,
+    "name": "Youkai Ningen Bem",
+    "nickname": "BEM",
+    "created_at": "2020-10-15 20:45:04",
+    "updated_at": "2020-10-15 20:45:17",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 454,
+    "name": "Akatsuki no Youna",
+    "nickname": null,
+    "created_at": "2020-10-23 15:41:27",
+    "updated_at": "2020-10-23 15:44:54",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 455,
+    "name": "K-On!",
+    "nickname": null,
+    "created_at": "2020-10-31 01:48:02",
+    "updated_at": "2020-10-31 01:48:02",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 456,
+    "name": "Ookami to Koushinryou",
+    "nickname": null,
+    "created_at": "2020-10-31 01:49:36",
+    "updated_at": "2020-10-31 01:49:36",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 457,
+    "name": "Tengen Toppa Gurren Lagann",
+    "nickname": null,
+    "created_at": "2020-10-31 01:50:06",
+    "updated_at": "2020-10-31 01:50:06",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 458,
+    "name": "Black Lagoon",
+    "nickname": null,
+    "created_at": "2020-10-31 01:50:21",
+    "updated_at": "2020-10-31 01:50:21",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 459,
+    "name": "Soul Eater",
+    "nickname": null,
+    "created_at": "2020-10-31 01:51:17",
+    "updated_at": "2020-10-31 01:51:17",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 460,
+    "name": "Mahou Shoujo Madoka Magica",
+    "nickname": null,
+    "created_at": "2020-10-31 01:52:20",
+    "updated_at": "2020-10-31 01:52:20",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 461,
+    "name": "Rosario to Vampire",
+    "nickname": "Rosario + Vampire",
+    "created_at": "2020-10-31 01:52:51",
+    "updated_at": "2020-10-31 01:52:51",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 462,
+    "name": "Chobits",
+    "nickname": null,
+    "created_at": "2020-10-31 01:53:40",
+    "updated_at": "2020-10-31 01:53:40",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 463,
+    "name": "Darker than Black",
+    "nickname": null,
+    "created_at": "2020-10-31 01:58:04",
+    "updated_at": "2020-10-31 01:58:04",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 464,
+    "name": "Shakugan no Shana",
+    "nickname": null,
+    "created_at": "2020-10-31 01:58:25",
+    "updated_at": "2020-10-31 01:58:25",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 465,
+    "name": "Shinseiki Evangelion",
+    "nickname": null,
+    "created_at": "2020-10-31 01:59:21",
+    "updated_at": "2020-10-31 01:59:21",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 466,
+    "name": "Elfen Lied",
+    "nickname": null,
+    "created_at": "2020-10-31 02:00:47",
+    "updated_at": "2020-10-31 02:00:47",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 467,
+    "name": "Claymore",
+    "nickname": null,
+    "created_at": "2020-10-31 02:01:32",
+    "updated_at": "2020-10-31 02:01:32",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 468,
+    "name": "Lucky Star",
+    "nickname": null,
+    "created_at": "2020-10-31 02:01:57",
+    "updated_at": "2020-10-31 02:01:57",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 469,
+    "name": "Kannagi",
+    "nickname": null,
+    "created_at": "2020-10-31 02:02:27",
+    "updated_at": "2020-10-31 02:02:27",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 470,
+    "name": "Diabolik Lovers",
+    "nickname": null,
+    "created_at": "2020-10-31 02:08:15",
+    "updated_at": "2020-10-31 02:08:15",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 471,
+    "name": "Great Pretender",
+    "nickname": null,
+    "created_at": "2020-10-31 02:08:48",
+    "updated_at": "2020-10-31 02:08:48",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 472,
+    "name": "91 Days",
+    "nickname": null,
+    "created_at": "2020-10-31 02:09:39",
+    "updated_at": "2020-10-31 02:09:39",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 473,
+    "name": "Lupin III",
+    "nickname": null,
+    "created_at": "2020-10-31 02:11:28",
+    "updated_at": "2020-10-31 02:11:28",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 474,
+    "name": "7 Seeds",
+    "nickname": null,
+    "created_at": "2020-10-31 02:12:28",
+    "updated_at": "2020-10-31 02:12:28",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 475,
+    "name": "A.I.C.O. Incarnation",
+    "nickname": null,
+    "created_at": "2020-10-31 02:13:32",
+    "updated_at": "2020-10-31 02:13:32",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 476,
+    "name": "Kanata no Astra",
+    "nickname": null,
+    "created_at": "2020-10-31 02:13:47",
+    "updated_at": "2020-10-31 02:13:47",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 477,
+    "name": "Ajin",
+    "nickname": null,
+    "created_at": "2020-10-31 02:14:47",
+    "updated_at": "2020-10-31 02:14:47",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 478,
+    "name": "Sora yori mo Tooi Basho",
+    "nickname": null,
+    "created_at": "2020-10-31 02:15:19",
+    "updated_at": "2020-10-31 02:15:19",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 479,
+    "name": "Asobi Asobase",
+    "nickname": null,
+    "created_at": "2020-10-31 02:16:17",
+    "updated_at": "2020-10-31 02:16:17",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 480,
+    "name": "Berserk",
+    "nickname": null,
+    "created_at": "2020-10-31 02:17:18",
+    "updated_at": "2020-10-31 02:17:18",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 481,
+    "name": "BLAME!",
+    "nickname": null,
+    "created_at": "2020-10-31 02:17:52",
+    "updated_at": "2020-10-31 02:17:52",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 482,
+    "name": "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.",
+    "nickname": null,
+    "created_at": "2020-10-31 02:20:00",
+    "updated_at": "2020-10-31 02:20:00",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 483,
+    "name": "Brand New Animal",
+    "nickname": null,
+    "created_at": "2020-10-31 02:20:22",
+    "updated_at": "2020-10-31 02:20:22",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 484,
+    "name": "Mushikago no Cagaster",
+    "nickname": null,
+    "created_at": "2020-10-31 02:21:50",
+    "updated_at": "2020-10-31 02:21:50",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 485,
+    "name": "Cannon Busters",
+    "nickname": null,
+    "created_at": "2020-10-31 02:22:29",
+    "updated_at": "2020-10-31 02:22:29",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 486,
+    "name": "Carole & Tuesday",
+    "nickname": null,
+    "created_at": "2020-10-31 02:22:58",
+    "updated_at": "2020-10-31 02:22:58",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 487,
+    "name": "Kujira no Kora wa Sajou ni Utau",
+    "nickname": null,
+    "created_at": "2020-10-31 02:24:10",
+    "updated_at": "2020-10-31 02:24:10",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 488,
+    "name": "Citrus",
+    "nickname": null,
+    "created_at": "2020-10-31 02:24:39",
+    "updated_at": "2020-10-31 02:24:39",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 489,
+    "name": "Ouran Koukou Host-bu",
+    "nickname": null,
+    "created_at": "2020-10-31 18:35:51",
+    "updated_at": "2020-10-31 18:35:51",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 490,
+    "name": "RWBY",
+    "nickname": null,
+    "created_at": "2020-11-01 23:23:09",
+    "updated_at": "2020-11-01 23:23:09",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 491,
+    "name": "Komi-san wa Komyushou desu",
+    "nickname": null,
+    "created_at": "2020-11-11 03:42:15",
+    "updated_at": "2020-11-11 03:42:15",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 492,
+    "name": "Fuufu Ijou, Koibito Miman.",
+    "nickname": null,
+    "created_at": "2020-11-20 00:31:03",
+    "updated_at": "2020-11-20 00:31:03",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 493,
+    "name": "Street Fighter Series",
+    "nickname": null,
+    "created_at": "2020-11-20 19:03:06",
+    "updated_at": "2020-11-20 19:03:06",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 494,
+    "name": "unOrdinary",
+    "nickname": null,
+    "created_at": "2020-12-01 20:32:37",
+    "updated_at": "2020-12-01 20:32:37",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 495,
+    "name": "Neo Genesis Evangelion",
+    "nickname": null,
+    "created_at": "2020-12-25 02:58:09",
+    "updated_at": "2020-12-25 03:07:09",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 496,
+    "name": "Ghost in the Shell",
+    "nickname": null,
+    "created_at": "2020-12-30 15:18:44",
+    "updated_at": "2020-12-30 15:27:42",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 497,
+    "name": "Sailor Moon Series",
+    "nickname": null,
+    "created_at": "2021-01-10 12:51:22",
+    "updated_at": "2021-01-10 12:51:22",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 498,
+    "name": "Kubo-san wa Boku (Mobu) wo Yurusanai",
+    "nickname": null,
+    "created_at": "2021-01-26 01:19:16",
+    "updated_at": "2021-01-26 01:19:16",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 499,
+    "name": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+    "nickname": null,
+    "created_at": "2021-04-08 00:18:59",
+    "updated_at": "2021-04-08 00:18:59",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  },
+  {
+    "id": 500,
+    "name": "Gal Gohan",
+    "nickname": null,
+    "created_at": "2021-04-18 20:24:00",
+    "updated_at": "2021-04-18 20:24:00",
+    "image": null,
+    "web_page": null,
+    "user_id": null
+  }
+]

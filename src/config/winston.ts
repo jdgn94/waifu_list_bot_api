@@ -17,15 +17,31 @@ const options: LoggerOptions = {
   silent: false,
   transports: [
     new transports.File({
-      level: "debug",
-      filename: path.join(__dirname, "../../logs/combined.log"),
+      level: "info",
+      filename: path.join(__dirname, "../../logs/info.log"),
       maxsize: 5120000,
       maxFiles: 5,
     }),
-  ],
-  exceptionHandlers: [
     new transports.File({
+      level: "warning",
+      filename: path.join(__dirname, "../../logs/warning.log"),
+      maxsize: 5120000,
+      maxFiles: 5,
+    }),
+    new transports.File({
+      level: "debug",
+      filename: path.join(__dirname, "../../logs/debug.log"),
+      maxsize: 5120000,
+      maxFiles: 5,
+    }),
+    new transports.File({
+      level: "error",
       filename: path.join(__dirname, "../../logs/error.log"),
+      maxsize: 5120000,
+      maxFiles: 5,
+    }),
+    new transports.File({
+      filename: path.join(__dirname, "../../logs/combined.log"),
       maxsize: 5120000,
       maxFiles: 5,
     }),
