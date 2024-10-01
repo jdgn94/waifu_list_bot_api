@@ -12,9 +12,6 @@ import { WaifuImage } from "./entity/waifu_image";
 import { SpecialImage } from "./entity/special_image";
 import { SpecialImageFranchise } from "./entity/special_image_franchise";
 import { SpecialImageWaifu } from "./entity/special_image_waifu";
-// import { WaifuSpecialImage } from "./entity/waifu_special_image";
-// import { WaifuSpecialFranchise } from "./entity/waifus_special_franchise";
-// import { WaifuSpecialWaifu } from "./entity/waifu_special_waifu";
 import { Active } from "./entity/active";
 
 export {
@@ -31,9 +28,6 @@ export {
   SpecialImage,
   SpecialImageFranchise,
   SpecialImageWaifu,
-  // WaifuSpecialImage,
-  // WaifuSpecialFranchise,
-  // WaifuSpecialWaifu,
   Active,
 };
 
@@ -59,11 +53,7 @@ export default new DataSource({
     SpecialImage,
     SpecialImageFranchise,
     SpecialImageWaifu,
-    // WaifuSpecialImage,
-    // WaifuSpecialFranchise,
-    // WaifuSpecialWaifu,
     Active,
   ],
   synchronize: true,
-  // migrations: [],
 });

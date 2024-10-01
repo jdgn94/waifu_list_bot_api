@@ -12,12 +12,12 @@ interface IRole {
 const _formatter = (roles: IRole[]) => {
   const rolesFormatted: Role[] = [];
 
-  roles.map((role) => {
-    const newRole = new Role();
-    newRole.id = role.id;
-    newRole.name = role.name;
+  roles.map((i) => {
+    const role = new Role();
+    role.id = i.id;
+    role.name = i.name;
 
-    rolesFormatted.push(newRole);
+    rolesFormatted.push(role);
   });
 
   return rolesFormatted;

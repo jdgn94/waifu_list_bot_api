@@ -24,7 +24,7 @@ export class SpecialImage {
   publicId: String;
 
   @Column({ type: "varchar", length: 255, name: "public_url", nullable: false })
-  publicUrñ: String;
+  publicUrl: String;
 
   @Column({ type: "int", name: "user_id", nullable: true, default: null })
   userId: Number | null;

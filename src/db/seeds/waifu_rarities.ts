@@ -16,18 +16,14 @@ interface IWaifuRarity {
 const _formatter = (waifuRarities: IWaifuRarity[]) => {
   const waifuRaritiesFormatted: WaifuRarity[] = [];
 
-  waifuRarities.map((role) => {
+  waifuRarities.map((i) => {
     const waifuRarity = new WaifuRarity();
-    waifuRarity.id = role.id;
-    waifuRarity.name = role.name;
-    waifuRarity.icon = role.icon;
-    waifuRarity.cost = role.points;
-    waifuRarity.createdAt = role.created_at
-      ? new Date(role.created_at)
-      : new Date();
-    waifuRarity.updatedAt = role.updated_at
-      ? new Date(role.updated_at)
-      : new Date();
+    waifuRarity.id = i.id;
+    waifuRarity.name = i.name;
+    waifuRarity.icon = i.icon;
+    waifuRarity.cost = i.points;
+    waifuRarity.createdAt = i.created_at ? new Date(i.created_at) : new Date();
+    waifuRarity.updatedAt = i.updated_at ? new Date(i.updated_at) : new Date();
 
     waifuRaritiesFormatted.push(waifuRarity);
   });

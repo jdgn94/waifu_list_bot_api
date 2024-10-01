@@ -6,7 +6,7 @@ import {
   JoinColumn,
 } from "typeorm";
 import { SpecialImage } from "./special_image";
-import { WaifuRarity } from "./waifu_rarity";
+import { WaifuImage } from "./waifu_image";
 
 @Entity({
   name: "special_image_waifus",
@@ -22,8 +22,8 @@ export class SpecialImageWaifu {
   @Column({ type: "int", name: "special_image_id", nullable: false })
   specialImageId: Number;
 
-  @Column({ type: "int", name: "waifu_rarity_id", nullable: false })
-  waifuRarityId: Number;
+  @Column({ type: "int", name: "waifu_image_id", nullable: false })
+  waifuImageId: Number;
 
   @Column({ type: "int", name: "user_id", nullable: true, default: null })
   userId: Number | null;
@@ -51,11 +51,11 @@ export class SpecialImageWaifu {
   })
   specialImage: SpecialImage;
 
-  @ManyToOne(() => WaifuRarity, (waifuRarity) => waifuRarity.id)
+  @ManyToOne(() => WaifuImage, (waifuImage) => waifuImage.id)
   @JoinColumn({
-    name: "waifu_rarity",
+    name: "waifu_image",
     referencedColumnName: "id",
     foreignKeyConstraintName: "fk_special_image_waifu_waifu_rarity",
   })
-  waifuRarity: WaifuRarity;
+  waifuImage: WaifuImage;
 }

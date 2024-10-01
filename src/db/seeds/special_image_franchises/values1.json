@@ -1,0 +1,906 @@
+[
+  {
+    "id": 1,
+    "special_image_id": 1,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-23 14:26:56",
+    "updated_at": "2020-12-23 14:26:56"
+  },
+  {
+    "id": 2,
+    "special_image_id": 2,
+    "franchise_id": 18,
+    "user_id": null,
+    "created_at": "2020-12-23 16:43:14",
+    "updated_at": "2020-12-23 16:43:14"
+  },
+  {
+    "id": 3,
+    "special_image_id": 3,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-23 16:44:27",
+    "updated_at": "2020-12-23 16:44:27"
+  },
+  {
+    "id": 4,
+    "special_image_id": 4,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-23 16:45:11",
+    "updated_at": "2020-12-23 16:45:11"
+  },
+  {
+    "id": 5,
+    "special_image_id": 5,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-23 16:45:46",
+    "updated_at": "2020-12-23 16:45:46"
+  },
+  {
+    "id": 6,
+    "special_image_id": 6,
+    "franchise_id": 95,
+    "user_id": null,
+    "created_at": "2020-12-23 16:49:29",
+    "updated_at": "2020-12-23 16:49:29"
+  },
+  {
+    "id": 7,
+    "special_image_id": 7,
+    "franchise_id": 20,
+    "user_id": null,
+    "created_at": "2020-12-23 17:08:11",
+    "updated_at": "2020-12-23 17:08:11"
+  },
+  {
+    "id": 8,
+    "special_image_id": 8,
+    "franchise_id": 25,
+    "user_id": null,
+    "created_at": "2020-12-23 17:21:06",
+    "updated_at": "2020-12-23 17:21:06"
+  },
+  {
+    "id": 9,
+    "special_image_id": 9,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-23 18:49:15",
+    "updated_at": "2020-12-23 18:49:15"
+  },
+  {
+    "id": 10,
+    "special_image_id": 10,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-23 18:57:03",
+    "updated_at": "2020-12-23 18:57:03"
+  },
+  {
+    "id": 11,
+    "special_image_id": 11,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-23 19:18:11",
+    "updated_at": "2020-12-23 19:18:11"
+  },
+  {
+    "id": 12,
+    "special_image_id": 12,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-23 19:36:06",
+    "updated_at": "2020-12-23 19:36:06"
+  },
+  {
+    "id": 13,
+    "special_image_id": 13,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-23 19:41:09",
+    "updated_at": "2020-12-23 19:41:09"
+  },
+  {
+    "id": 14,
+    "special_image_id": 14,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-23 19:45:59",
+    "updated_at": "2020-12-23 19:45:59"
+  },
+  {
+    "id": 15,
+    "special_image_id": 15,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-23 19:46:55",
+    "updated_at": "2020-12-23 19:46:55"
+  },
+  {
+    "id": 16,
+    "special_image_id": 16,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-23 19:52:43",
+    "updated_at": "2020-12-23 19:52:43"
+  },
+  {
+    "id": 17,
+    "special_image_id": 17,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-23 20:00:35",
+    "updated_at": "2020-12-23 20:00:35"
+  },
+  {
+    "id": 18,
+    "special_image_id": 18,
+    "franchise_id": 137,
+    "user_id": null,
+    "created_at": "2020-12-23 20:06:59",
+    "updated_at": "2020-12-23 20:06:59"
+  },
+  {
+    "id": 19,
+    "special_image_id": 19,
+    "franchise_id": 137,
+    "user_id": null,
+    "created_at": "2020-12-23 20:14:17",
+    "updated_at": "2020-12-23 20:14:17"
+  },
+  {
+    "id": 20,
+    "special_image_id": 20,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-23 20:18:00",
+    "updated_at": "2020-12-23 20:18:00"
+  },
+  {
+    "id": 21,
+    "special_image_id": 21,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-23 20:31:26",
+    "updated_at": "2020-12-23 20:31:26"
+  },
+  {
+    "id": 22,
+    "special_image_id": 22,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-23 21:30:33",
+    "updated_at": "2020-12-23 21:30:33"
+  },
+  {
+    "id": 23,
+    "special_image_id": 23,
+    "franchise_id": 18,
+    "user_id": null,
+    "created_at": "2020-12-24 16:03:10",
+    "updated_at": "2020-12-24 16:03:10"
+  },
+  {
+    "id": 24,
+    "special_image_id": 24,
+    "franchise_id": 137,
+    "user_id": null,
+    "created_at": "2020-12-24 17:03:27",
+    "updated_at": "2020-12-24 17:03:27"
+  },
+  {
+    "id": 25,
+    "special_image_id": 25,
+    "franchise_id": 227,
+    "user_id": null,
+    "created_at": "2020-12-24 17:39:43",
+    "updated_at": "2020-12-24 17:39:43"
+  },
+  {
+    "id": 26,
+    "special_image_id": 26,
+    "franchise_id": 14,
+    "user_id": null,
+    "created_at": "2020-12-25 01:19:58",
+    "updated_at": "2020-12-25 01:19:58"
+  },
+  {
+    "id": 27,
+    "special_image_id": 27,
+    "franchise_id": 285,
+    "user_id": null,
+    "created_at": "2020-12-26 02:25:04",
+    "updated_at": "2020-12-26 02:25:04"
+  },
+  {
+    "id": 28,
+    "special_image_id": 28,
+    "franchise_id": 285,
+    "user_id": null,
+    "created_at": "2020-12-26 03:18:33",
+    "updated_at": "2020-12-26 03:18:33"
+  },
+  {
+    "id": 29,
+    "special_image_id": 29,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-26 03:31:35",
+    "updated_at": "2020-12-26 03:31:35"
+  },
+  {
+    "id": 30,
+    "special_image_id": 30,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-26 04:20:27",
+    "updated_at": "2020-12-26 04:20:27"
+  },
+  {
+    "id": 31,
+    "special_image_id": 31,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-26 04:20:59",
+    "updated_at": "2020-12-26 04:20:59"
+  },
+  {
+    "id": 32,
+    "special_image_id": 32,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-26 04:28:50",
+    "updated_at": "2020-12-26 04:28:50"
+  },
+  {
+    "id": 33,
+    "special_image_id": 33,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-28 22:27:27",
+    "updated_at": "2020-12-28 22:27:27"
+  },
+  {
+    "id": 34,
+    "special_image_id": 34,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-28 22:35:42",
+    "updated_at": "2020-12-28 22:35:42"
+  },
+  {
+    "id": 35,
+    "special_image_id": 35,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-28 23:01:30",
+    "updated_at": "2020-12-28 23:01:30"
+  },
+  {
+    "id": 36,
+    "special_image_id": 36,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-29 01:47:13",
+    "updated_at": "2020-12-29 01:47:13"
+  },
+  {
+    "id": 37,
+    "special_image_id": 37,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-29 01:58:37",
+    "updated_at": "2020-12-29 01:58:37"
+  },
+  {
+    "id": 38,
+    "special_image_id": 38,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-29 02:02:58",
+    "updated_at": "2020-12-29 02:02:58"
+  },
+  {
+    "id": 39,
+    "special_image_id": 39,
+    "franchise_id": 137,
+    "user_id": null,
+    "created_at": "2020-12-29 14:48:02",
+    "updated_at": "2020-12-29 14:48:02"
+  },
+  {
+    "id": 40,
+    "special_image_id": 40,
+    "franchise_id": 137,
+    "user_id": null,
+    "created_at": "2020-12-29 15:19:42",
+    "updated_at": "2020-12-29 15:19:42"
+  },
+  {
+    "id": 41,
+    "special_image_id": 41,
+    "franchise_id": 137,
+    "user_id": null,
+    "created_at": "2020-12-29 15:25:20",
+    "updated_at": "2020-12-29 15:25:20"
+  },
+  {
+    "id": 42,
+    "special_image_id": 42,
+    "franchise_id": 137,
+    "user_id": null,
+    "created_at": "2020-12-29 15:45:39",
+    "updated_at": "2020-12-29 15:45:39"
+  },
+  {
+    "id": 43,
+    "special_image_id": 43,
+    "franchise_id": 137,
+    "user_id": null,
+    "created_at": "2020-12-29 16:53:40",
+    "updated_at": "2020-12-29 16:53:40"
+  },
+  {
+    "id": 44,
+    "special_image_id": 44,
+    "franchise_id": 491,
+    "user_id": null,
+    "created_at": "2020-12-30 12:36:35",
+    "updated_at": "2020-12-30 12:36:35"
+  },
+  {
+    "id": 45,
+    "special_image_id": 45,
+    "franchise_id": 491,
+    "user_id": null,
+    "created_at": "2020-12-30 12:49:15",
+    "updated_at": "2020-12-30 12:49:15"
+  },
+  {
+    "id": 46,
+    "special_image_id": 46,
+    "franchise_id": 491,
+    "user_id": null,
+    "created_at": "2020-12-30 13:10:17",
+    "updated_at": "2020-12-30 13:10:17"
+  },
+  {
+    "id": 47,
+    "special_image_id": 47,
+    "franchise_id": 491,
+    "user_id": null,
+    "created_at": "2020-12-30 13:11:11",
+    "updated_at": "2020-12-30 13:11:11"
+  },
+  {
+    "id": 48,
+    "special_image_id": 48,
+    "franchise_id": 491,
+    "user_id": null,
+    "created_at": "2020-12-30 13:26:03",
+    "updated_at": "2020-12-30 13:26:03"
+  },
+  {
+    "id": 49,
+    "special_image_id": 49,
+    "franchise_id": 491,
+    "user_id": null,
+    "created_at": "2020-12-30 13:34:26",
+    "updated_at": "2020-12-30 13:34:26"
+  },
+  {
+    "id": 50,
+    "special_image_id": 50,
+    "franchise_id": 491,
+    "user_id": null,
+    "created_at": "2020-12-30 13:35:19",
+    "updated_at": "2020-12-30 13:35:19"
+  },
+  {
+    "id": 51,
+    "special_image_id": 51,
+    "franchise_id": 18,
+    "user_id": null,
+    "created_at": "2020-12-30 13:37:09",
+    "updated_at": "2020-12-30 13:37:09"
+  },
+  {
+    "id": 52,
+    "special_image_id": 52,
+    "franchise_id": 18,
+    "user_id": null,
+    "created_at": "2020-12-30 13:44:23",
+    "updated_at": "2020-12-30 13:44:23"
+  },
+  {
+    "id": 53,
+    "special_image_id": 53,
+    "franchise_id": 264,
+    "user_id": null,
+    "created_at": "2020-12-30 13:48:12",
+    "updated_at": "2020-12-30 13:48:12"
+  },
+  {
+    "id": 54,
+    "special_image_id": 54,
+    "franchise_id": 494,
+    "user_id": null,
+    "created_at": "2020-12-30 13:53:04",
+    "updated_at": "2020-12-30 13:53:04"
+  },
+  {
+    "id": 55,
+    "special_image_id": 55,
+    "franchise_id": 495,
+    "user_id": null,
+    "created_at": "2020-12-30 14:00:55",
+    "updated_at": "2020-12-30 14:00:55"
+  },
+  {
+    "id": 56,
+    "special_image_id": 56,
+    "franchise_id": 495,
+    "user_id": null,
+    "created_at": "2020-12-30 14:17:25",
+    "updated_at": "2020-12-30 14:17:25"
+  },
+  {
+    "id": 57,
+    "special_image_id": 57,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-30 14:44:32",
+    "updated_at": "2020-12-30 14:44:32"
+  },
+  {
+    "id": 58,
+    "special_image_id": 58,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-30 14:52:26",
+    "updated_at": "2020-12-30 14:52:26"
+  },
+  {
+    "id": 59,
+    "special_image_id": 59,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-30 14:57:07",
+    "updated_at": "2020-12-30 14:57:07"
+  },
+  {
+    "id": 60,
+    "special_image_id": 60,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-30 15:15:50",
+    "updated_at": "2020-12-30 15:15:50"
+  },
+  {
+    "id": 61,
+    "special_image_id": 61,
+    "franchise_id": 272,
+    "user_id": null,
+    "created_at": "2020-12-30 15:35:48",
+    "updated_at": "2020-12-30 15:35:48"
+  },
+  {
+    "id": 62,
+    "special_image_id": 62,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-30 15:39:48",
+    "updated_at": "2020-12-30 15:39:48"
+  },
+  {
+    "id": 63,
+    "special_image_id": 63,
+    "franchise_id": 29,
+    "user_id": null,
+    "created_at": "2020-12-30 16:26:45",
+    "updated_at": "2020-12-30 16:26:45"
+  },
+  {
+    "id": 64,
+    "special_image_id": 64,
+    "franchise_id": 29,
+    "user_id": null,
+    "created_at": "2020-12-30 16:28:16",
+    "updated_at": "2020-12-30 16:28:16"
+  },
+  {
+    "id": 65,
+    "special_image_id": 65,
+    "franchise_id": 29,
+    "user_id": null,
+    "created_at": "2020-12-30 16:29:56",
+    "updated_at": "2020-12-30 16:29:56"
+  },
+  {
+    "id": 66,
+    "special_image_id": 66,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2020-12-30 16:37:54",
+    "updated_at": "2020-12-30 16:37:54"
+  },
+  {
+    "id": 67,
+    "special_image_id": 67,
+    "franchise_id": 231,
+    "user_id": null,
+    "created_at": "2020-12-30 17:20:39",
+    "updated_at": "2020-12-30 17:20:39"
+  },
+  {
+    "id": 68,
+    "special_image_id": 68,
+    "franchise_id": 137,
+    "user_id": null,
+    "created_at": "2020-12-30 19:09:39",
+    "updated_at": "2020-12-30 19:09:39"
+  },
+  {
+    "id": 69,
+    "special_image_id": 69,
+    "franchise_id": 137,
+    "user_id": null,
+    "created_at": "2020-12-30 19:57:50",
+    "updated_at": "2020-12-30 19:57:50"
+  },
+  {
+    "id": 70,
+    "special_image_id": 70,
+    "franchise_id": 323,
+    "user_id": null,
+    "created_at": "2020-12-30 20:45:03",
+    "updated_at": "2020-12-30 20:45:03"
+  },
+  {
+    "id": 71,
+    "special_image_id": 71,
+    "franchise_id": 66,
+    "user_id": null,
+    "created_at": "2021-01-07 22:30:39",
+    "updated_at": "2021-01-07 22:30:39"
+  },
+  {
+    "id": 72,
+    "special_image_id": 72,
+    "franchise_id": 497,
+    "user_id": null,
+    "created_at": "2021-01-10 16:07:34",
+    "updated_at": "2021-01-10 16:07:34"
+  },
+  {
+    "id": 73,
+    "special_image_id": 73,
+    "franchise_id": 201,
+    "user_id": null,
+    "created_at": "2021-02-03 23:55:29",
+    "updated_at": "2021-02-03 23:55:29"
+  },
+  {
+    "id": 74,
+    "special_image_id": 74,
+    "franchise_id": 201,
+    "user_id": null,
+    "created_at": "2021-02-04 00:20:11",
+    "updated_at": "2021-02-04 00:20:11"
+  },
+  {
+    "id": 75,
+    "special_image_id": 75,
+    "franchise_id": 414,
+    "user_id": null,
+    "created_at": "2021-02-13 12:29:48",
+    "updated_at": "2021-02-13 12:29:48"
+  },
+  {
+    "id": 76,
+    "special_image_id": 76,
+    "franchise_id": 414,
+    "user_id": null,
+    "created_at": "2021-02-13 12:30:21",
+    "updated_at": "2021-02-13 12:30:21"
+  },
+  {
+    "id": 77,
+    "special_image_id": 77,
+    "franchise_id": 414,
+    "user_id": null,
+    "created_at": "2021-02-13 12:32:44",
+    "updated_at": "2021-02-13 12:32:44"
+  },
+  {
+    "id": 78,
+    "special_image_id": 78,
+    "franchise_id": 414,
+    "user_id": null,
+    "created_at": "2021-02-13 12:35:43",
+    "updated_at": "2021-02-13 12:35:43"
+  },
+  {
+    "id": 79,
+    "special_image_id": 79,
+    "franchise_id": 13,
+    "user_id": null,
+    "created_at": "2021-03-07 00:19:59",
+    "updated_at": "2021-12-20 18:58:47"
+  },
+  {
+    "id": 80,
+    "special_image_id": 80,
+    "franchise_id": 13,
+    "user_id": null,
+    "created_at": "2021-03-07 12:34:02",
+    "updated_at": "2021-03-07 12:34:02"
+  },
+  {
+    "id": 81,
+    "special_image_id": 81,
+    "franchise_id": 13,
+    "user_id": null,
+    "created_at": "2021-03-07 12:43:07",
+    "updated_at": "2021-03-07 12:43:07"
+  },
+  {
+    "id": 82,
+    "special_image_id": 82,
+    "franchise_id": 13,
+    "user_id": null,
+    "created_at": "2021-03-07 12:43:29",
+    "updated_at": "2021-03-07 12:43:29"
+  },
+  {
+    "id": 83,
+    "special_image_id": 83,
+    "franchise_id": 13,
+    "user_id": null,
+    "created_at": "2021-03-07 12:52:15",
+    "updated_at": "2021-03-07 12:52:15"
+  },
+  {
+    "id": 84,
+    "special_image_id": 84,
+    "franchise_id": 13,
+    "user_id": null,
+    "created_at": "2021-03-07 13:01:16",
+    "updated_at": "2021-03-07 13:01:16"
+  },
+  {
+    "id": 85,
+    "special_image_id": 85,
+    "franchise_id": 13,
+    "user_id": null,
+    "created_at": "2021-03-07 13:05:51",
+    "updated_at": "2021-03-07 13:05:51"
+  },
+  {
+    "id": 86,
+    "special_image_id": 86,
+    "franchise_id": 13,
+    "user_id": null,
+    "created_at": "2021-03-07 13:16:03",
+    "updated_at": "2021-03-07 13:16:03"
+  },
+  {
+    "id": 87,
+    "special_image_id": 87,
+    "franchise_id": 13,
+    "user_id": null,
+    "created_at": "2021-03-07 13:25:45",
+    "updated_at": "2021-03-07 13:25:45"
+  },
+  {
+    "id": 88,
+    "special_image_id": 88,
+    "franchise_id": 13,
+    "user_id": null,
+    "created_at": "2021-03-07 13:45:20",
+    "updated_at": "2021-03-07 13:45:20"
+  },
+  {
+    "id": 89,
+    "special_image_id": 89,
+    "franchise_id": 13,
+    "user_id": null,
+    "created_at": "2021-03-07 14:26:23",
+    "updated_at": "2021-03-07 14:26:23"
+  },
+  {
+    "id": 90,
+    "special_image_id": 90,
+    "franchise_id": 9,
+    "user_id": null,
+    "created_at": "2021-04-05 23:07:13",
+    "updated_at": "2021-04-05 23:07:13"
+  },
+  {
+    "id": 91,
+    "special_image_id": 91,
+    "franchise_id": 499,
+    "user_id": null,
+    "created_at": "2021-04-08 01:18:52",
+    "updated_at": "2021-04-08 01:18:52"
+  },
+  {
+    "id": 92,
+    "special_image_id": 92,
+    "franchise_id": 490,
+    "user_id": null,
+    "created_at": "2021-04-21 01:52:40",
+    "updated_at": "2021-04-21 01:52:40"
+  },
+  {
+    "id": 93,
+    "special_image_id": 93,
+    "franchise_id": 490,
+    "user_id": null,
+    "created_at": "2021-07-26 18:51:38",
+    "updated_at": "2021-07-26 18:51:38"
+  },
+  {
+    "id": 94,
+    "special_image_id": 94,
+    "franchise_id": 17,
+    "user_id": null,
+    "created_at": "2021-08-06 23:10:44",
+    "updated_at": "2021-08-06 23:10:44"
+  },
+  {
+    "id": 95,
+    "special_image_id": 95,
+    "franchise_id": 17,
+    "user_id": null,
+    "created_at": "2021-08-06 23:11:23",
+    "updated_at": "2021-08-06 23:11:23"
+  },
+  {
+    "id": 96,
+    "special_image_id": 96,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2021-08-06 23:28:57",
+    "updated_at": "2021-08-06 23:28:57"
+  },
+  {
+    "id": 97,
+    "special_image_id": 97,
+    "franchise_id": 231,
+    "user_id": null,
+    "created_at": "2021-08-06 23:40:35",
+    "updated_at": "2021-08-06 23:40:35"
+  },
+  {
+    "id": 98,
+    "special_image_id": 98,
+    "franchise_id": 232,
+    "user_id": null,
+    "created_at": "2021-08-07 00:02:30",
+    "updated_at": "2021-08-07 00:02:30"
+  },
+  {
+    "id": 99,
+    "special_image_id": 99,
+    "franchise_id": 232,
+    "user_id": null,
+    "created_at": "2021-08-07 00:03:46",
+    "updated_at": "2021-08-07 00:03:46"
+  },
+  {
+    "id": 100,
+    "special_image_id": 100,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2021-09-16 22:29:04",
+    "updated_at": "2021-09-16 22:29:04"
+  },
+  {
+    "id": 101,
+    "special_image_id": 101,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2021-11-10 01:06:26",
+    "updated_at": "2021-11-10 01:06:26"
+  },
+  {
+    "id": 102,
+    "special_image_id": 102,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2021-11-10 01:09:25",
+    "updated_at": "2021-11-10 01:09:25"
+  },
+  {
+    "id": 103,
+    "special_image_id": 103,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2021-11-10 01:11:24",
+    "updated_at": "2021-11-10 01:11:24"
+  },
+  {
+    "id": 104,
+    "special_image_id": 104,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2021-11-10 01:14:40",
+    "updated_at": "2021-11-10 01:14:40"
+  },
+  {
+    "id": 105,
+    "special_image_id": 105,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2021-11-10 02:00:20",
+    "updated_at": "2021-11-10 02:00:20"
+  },
+  {
+    "id": 106,
+    "special_image_id": 106,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2021-11-10 02:58:15",
+    "updated_at": "2021-11-10 02:58:15"
+  },
+  {
+    "id": 107,
+    "special_image_id": 107,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2021-11-10 03:02:44",
+    "updated_at": "2021-11-10 03:02:44"
+  },
+  {
+    "id": 108,
+    "special_image_id": 108,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2021-11-10 03:06:20",
+    "updated_at": "2021-11-10 03:06:20"
+  },
+  {
+    "id": 109,
+    "special_image_id": 109,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2021-11-13 20:56:39",
+    "updated_at": "2021-11-13 20:56:39"
+  },
+  {
+    "id": 110,
+    "special_image_id": 110,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2021-11-13 20:59:55",
+    "updated_at": "2021-11-13 20:59:55"
+  },
+  {
+    "id": 111,
+    "special_image_id": 111,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2021-11-13 21:11:14",
+    "updated_at": "2021-11-13 21:11:14"
+  },
+  {
+    "id": 112,
+    "special_image_id": 112,
+    "franchise_id": 1,
+    "user_id": null,
+    "created_at": "2021-11-13 21:18:01",
+    "updated_at": "2021-11-13 21:18:01"
+  },
+  {
+    "id": 113,
+    "special_image_id": 113,
+    "franchise_id": 507,
+    "user_id": null,
+    "created_at": "2022-01-03 02:10:15",
+    "updated_at": "2022-01-03 02:10:15"
+  }
+]

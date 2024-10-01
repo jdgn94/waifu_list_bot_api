@@ -15,19 +15,19 @@ interface IImageType {
 const _formatter = (imageTypes: IImageType[]) => {
   const imageTypesFormatted: ImageType[] = [];
 
-  imageTypes.map((role) => {
-    const newImageType = new ImageType();
-    newImageType.id = role.id;
-    newImageType.name = role.name;
-    newImageType.icon = role.icon ?? null;
-    newImageType.initialDate = role.initial_date
-      ? new Date(role.initial_date.toString())
+  imageTypes.map((i) => {
+    const imageType = new ImageType();
+    imageType.id = i.id;
+    imageType.name = i.name;
+    imageType.icon = i.icon ?? null;
+    imageType.initialDate = i.initial_date
+      ? new Date(i.initial_date.toString())
       : null;
-    newImageType.finalDate = role.final_date
-      ? new Date(role.final_date.toString())
+    imageType.finalDate = i.final_date
+      ? new Date(i.final_date.toString())
       : null;
 
-    imageTypesFormatted.push(newImageType);
+    imageTypesFormatted.push(imageType);
   });
 
   return imageTypesFormatted;
