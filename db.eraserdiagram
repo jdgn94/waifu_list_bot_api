@@ -1,46 +1,180 @@
 entity-relationship-diagram
 
-users [icon: user] {
-  id string pk
-  displayName string
-  team_role string
-  teams string
+roles [icon: key] {
+  id number pk
+  name string unique
+  created_at timestamp
+  updated_at timestamp
 }
 
-teams [icon: users] {
-  id string pk
-  name string
+users [icon: users] {
+  id number pk
+  tg_id number not null
+  username string
+  nickname string
+  role_id number default 3
+  info_id number
+  created_at timestamp
+  updated_at timestamp
 }
 
-workspaces [icon: home] {
-  id string
-  createdAt timestamp
-  folderId string
-  teamId string
+user_info [icon: info] {
+  id number pk
+  user_id number not null
+  level number default 1
+  exp number default 0
+  limit_exp number default 100
+  coins number default 0
+  diamonds number default 0
+  golden_tickets number default 0
+  favorite_pages number default 1
+  favorite_page_purchases number defaul 0
+  login_daily boolean default false
+  created_at timestamp
+  updated_at timestamp
 }
 
-folders [icon: folder] {
-  id string
-  name string
+chats [icon: chat] {
+  id number pk
+  id_tg number not null
+  type string not null
+  limit_message number default 100
+  character_active boolean default false
+  limit_message_to_delete number default 20
+  message_count number default 0
+  language string default en
+  created_at timestamp
+  updated_at timestamp
 }
 
-chat [icon: message-circle] {
-  duration number
-  startedAt timestamp
-  endedAt timestamp
-  workspaceId string
+franchises [icon: folder] {
+  id number pk
+  name string not null
+  nickname string
+  image string
+  web_page string
+  user_id number
+  created_at timestamp
+  updated_at timestamp
 }
 
-invite [icon: mail] {
-  inviteId string
-  type string
-  workspaceId string
-  inviterId string
+waifu_rarities [icon: folder] {
+  id number pk
+  name string unique not null
+  icon string
+  cost number
+  created_at timestamp
+  updated_at timestamp
 }
 
-users.teams <> teams.id
-workspaces.folderId > folders.id
-workspaces.teamId > teams.id
-chat.workspaceId > workspaces.id
-invite.workspaceId > workspaces.id
-invite.inviterId > users.id
+waifu_types [icon: folder] {
+  id number pk
+  name string unique not null
+  created_at timestamp
+  updated_at timestamp
+}
+
+waifus [icon: users] {
+  id nunmber pk
+  franchise_id number not null
+  type_id number not null
+  user_id number
+  name string not null
+  nickname string
+  age number default 0
+  created_at timestamp
+  updated_at timestamp
+}
+
+image_types [icon: folder] {
+  id number pk
+  name string not null
+  icon string string
+  initial_date timestamp
+  final_date timestamp
+  created_at timestamp
+  updated_at timestamp
+}
+
+waifu_images [icon: image] {
+  id number pk
+  waifu_id number not null
+  rarity_id number not null
+  user_id number
+  image_type_id number not null
+  points number
+  public_id string not null
+  public_url string not null
+  created_at timestamp
+  updated_at timestamp
+}
+
+actives [icon: user] {
+  id number pk
+  chat_id number not null
+  waifu_image_id number not null
+  limit_message number not null
+  message_count number default 0
+  active boolean default true
+  obtained boolean default false
+  user_id number
+  created_at timestamp
+  updated_at timestamp
+}
+
+waifu_lists [icon: list] {
+  id number pk
+  user_id number not null
+  waifu_image_id number not null
+  quantity number default 1
+  created_at timestamp
+  updated_at timestamp
+}
+
+special_images [icon: image] {
+  id number pk
+  image_type_id number not null
+  user_id number
+  public_id string not null
+  public_url string not null
+  created_at timestamp
+  updated_at timestamp
+}
+
+special_image_franchises [icon: folder] {
+  id number pk
+  franchise_id number not null
+  special_image_id number not null
+  created_at timestamp
+  updated_at timestamp
+}
+
+special_image_waifus [icon: users] {
+  id number pk
+  waifu_image_id number not null
+  special_image_id number not null
+  created_at timestamp
+  updated_at timestamp
+}
+
+users.role_id < roles.id
+users.id - user_info.user_id
+franchises.user_id > users.id
+waifus.franchise_id < franchises.id
+waifus.user_id < users.id
+waifus.type_id < waifu_types.id
+waifu_images.waifu_id < waifus.id
+waifu_images.rarity_id < waifu_rarities.id
+waifu_images.user_id < users.id
+waifu_images.image_type_id < image_types.id
+chats.id < actives.chat_id
+actives.waifu_image_id > waifu_images.id
+actives.user_id > users.id
+waifu_lists.user_id > users.id
+waifu_lists.waifu_image_id > waifu_images.id
+special_images.image_type_id > image_types.id
+special_images.user_id > users.id
+special_image_franchises.franchise_id > franchises.id
+special_image_franchises.special_image_id > special_images.id
+special_image_waifus.waifu_image_id > waifu_images.id
+special_image_waifus.special_image_id > special_images.id
