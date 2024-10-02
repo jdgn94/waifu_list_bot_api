@@ -13,6 +13,7 @@ import { SpecialImage } from "./entity/special_image";
 import { SpecialImageFranchise } from "./entity/special_image_franchise";
 import { SpecialImageWaifu } from "./entity/special_image_waifu";
 import { Active } from "./entity/active";
+import { WaifuList } from "./entity/waifu_list";
 
 export {
   Role,
@@ -29,6 +30,7 @@ export {
   SpecialImageFranchise,
   SpecialImageWaifu,
   Active,
+  WaifuList,
 };
 
 export default new DataSource({
@@ -38,6 +40,8 @@ export default new DataSource({
   username: process.env.DATABASE_USER ?? "root",
   password: process.env.DATABASE_PASS ?? "",
   database: process.env.DATABASE_NAME ?? "test",
+  logging: ["error", "warn"],
+  logger: "file",
   // debug: process.env.NODE_ENV !== "production" ? true : false,
   entities: [
     Role,
@@ -54,6 +58,7 @@ export default new DataSource({
     SpecialImageFranchise,
     SpecialImageWaifu,
     Active,
+    WaifuList,
   ],
   synchronize: true,
 });

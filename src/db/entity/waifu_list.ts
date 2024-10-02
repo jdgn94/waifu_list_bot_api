@@ -1,6 +1,16 @@
-import { Entity, PrimaryGeneratedColumn, Column } from "typeorm";
+import {
+  Entity,
+  PrimaryGeneratedColumn,
+  Column,
+  Unique,
+  ManyToOne,
+  JoinColumn,
+} from "typeorm";
+import { User } from "./user";
+import { WaifuImage } from "./waifu_image";
 
 @Entity({ name: "waifu_lists", comment: "Waifu List from users" })
+@Unique("waifu_list_unique", ["userId", "waifuImageId"])
 export class WaifuList {
   @PrimaryGeneratedColumn({
     type: "int",
@@ -16,14 +26,16 @@ export class WaifuList {
 
   @Column({
     type: "int",
-    length: 2,
+    width: 2,
     name: "quantity",
     unsigned: true,
     nullable: false,
     default: 1,
-    enum: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
   })
   quantity: Number;
+
+  @Column({ type: "int", name: "position", nullable: true })
+  position: Number;
 
   @Column({
     type: "datetime",
@@ -39,4 +51,20 @@ export class WaifuList {
     onUpdate: "CURRENT_TIMESTAMP",
   })
   updatedAt: Date;
+
+  @ManyToOne(() => User, (user) => user.id)
+  @JoinColumn({
+    name: "user_id",
+    referencedColumnName: "id",
+    foreignKeyConstraintName: "fk_waifu_lists_user_id",
+  })
+  user: User;
+
+  @ManyToOne(() => WaifuImage, (waifuImage) => waifuImage.id)
+  @JoinColumn({
+    name: "waifu_image_id",
+    referencedColumnName: "id",
+    foreignKeyConstraintName: "fk_waifu_lists_waifu_image_id",
+  })
+  waifuImage: WaifuImage;
 }

@@ -11,3 +11,5 @@ logs/
 
 .env
 *lock.yaml
+*.log
+*.logs
