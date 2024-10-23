@@ -50,6 +50,8 @@ const incorporate = async (ctx: Context) => {
   const chatId = ctx.chat!.id;
   const chat = await queries.chat.getOne(chatId);
   if (!chat || !chat.characterActive) return;
+  const queryRunner = db.createQueryRunner();
+  await queryRunner.startTransaction();
 
   try {
     let textMessage: string[] = [];
@@ -89,15 +91,6 @@ const incorporate = async (ctx: Context) => {
       });
     });
 
-    if (!nameCorrect) {
-      ctx.reply(i18n.__("noWaifuMatch"), {
-        reply_parameters: {
-          message_id: ctx.message!.message_id,
-        },
-      });
-      return;
-    }
-
     const waifuName =
       active.waifuImage.waifu.name +
       (active.waifuImage.waifu.nickname
@@ -108,20 +101,73 @@ const incorporate = async (ctx: Context) => {
       (active.waifuImage.waifu.franchise.nickname
         ? " - " + active.waifuImage.waifu.franchise.nickname
         : "");
-    const exp = expRandom(active.waifuImage.waifuRarity.id).toString();
+
+    if (!nameCorrect) {
+      if (
+        (active.messageCount as number) + 1 >=
+        (active?.limitMessage as number)
+      ) {
+        await queryRunner.manager.update(
+          "Chat",
+          { id: chatId },
+          { characterActive: false }
+        );
+        await queryRunner.manager.delete("Active", { chatId: chatId });
+
+        await queryRunner.commitTransaction();
+        ctx.reply(
+          i18n.__("waifuScape", {
+            waifuName,
+            franchiseName,
+          }),
+          {
+            parse_mode: "MarkdownV2",
+            reply_parameters: {
+              message_id: ctx.message!.message_id,
+            },
+          }
+        );
+        return;
+      }
+
+      await queryRunner.manager.update(
+        "Active",
+        { id: active.id },
+        { messageCount: (active.messageCount as number) + 1 }
+      );
+
+      await queryRunner.commitTransaction();
+      ctx.reply(i18n.__("noWaifuMatch"), {
+        reply_parameters: {
+          message_id: ctx.message!.message_id,
+        },
+      });
+      return;
+    }
+    const exp = expRandom(active.waifuImage.waifuRarity.id);
 
     const result = await uUser.addWaifuOnList(
+      queryRunner,
       ctx.from!.id as Number,
       active.waifuImage.id,
-      Number(exp)
+      exp
     );
+
+    await queryRunner.manager.update(
+      "Chat",
+      { id: chatId },
+      { characterActive: false }
+    );
+    await queryRunner.manager.delete("Active", { chatId: chatId });
+
+    await queryRunner.commitTransaction();
 
     ctx.reply(
       i18n.__("waifuIncorporate", {
         username: ctx.from!.first_name.replace("(", "\\(").replace(")", "\\)"),
         waifuName,
         franchiseName,
-        exp,
+        exp: result.exp.toString(),
       }),
       {
         parse_mode: "MarkdownV2",
@@ -152,6 +198,7 @@ const incorporate = async (ctx: Context) => {
       });
     }
   } catch (error) {
+    await queryRunner.rollbackTransaction();
     global.logger.error(error);
     console.error(error);
     ctx.reply(i18n.__("initGroupError"));

@@ -3,6 +3,7 @@ import user from "./user";
 import imageType from "./image_type";
 import waifu from "./waifu";
 import waifuImage from "./waifu_image";
+import waifuList from "./waifu_list";
 
 export default {
   chat,
@@ -10,4 +11,5 @@ export default {
   imageType,
   waifu,
   waifuImage,
+  waifuList,
 };

@@ -1,5 +1,20 @@
-import db from "../../db";
+import { QueryRunner } from "typeorm";
+
 import queries from "../queries";
+
+const _extraCoins = (waifuInMaxLevel: Boolean, levelUp: Boolean) => {
+  if (waifuInMaxLevel && levelUp) return 2.5;
+  if (waifuInMaxLevel) return 2;
+  if (levelUp) return 1.5;
+  return 1;
+};
+
+const _extraDiamonds = (waifuInMaxLevel: Boolean, levelUp: Boolean) => {
+  if (waifuInMaxLevel && levelUp) return 3;
+  if (waifuInMaxLevel) return 2;
+  if (levelUp) return 1;
+  return 0;
+};
 
 const incorporate = async (
   tgId: Number,
@@ -22,12 +37,11 @@ const incorporate = async (
 };
 
 const addWaifuOnList = async (
+  queryRunner: QueryRunner,
   userTgId: Number,
   waifuImageId: Number,
   exp: Number
 ) => {
-  const queryRunner = db.createQueryRunner();
-  await queryRunner.startTransaction();
   try {
     const user = await queries.user.getOne(userTgId);
     const waifuImage = await queries.waifuImage.getOne(waifuImageId);
@@ -38,8 +52,26 @@ const addWaifuOnList = async (
 
     if (!user) throw new Error("User not found");
     if (!waifuImage) throw new Error("Waifu image not found");
+    let waifuInMaxLevel = false;
 
-    let newExp = (user.userInfo.exp as number) + (exp as number);
+    let waifuList = await queries.waifuList.getOne({
+      userId: user.id,
+      waifuImageId: waifuImage.id,
+    });
+    if (!waifuList)
+      waifuList = await queries.waifuList.create(
+        queryRunner,
+        user.id,
+        waifuImage.id
+      );
+    else if ((waifuList.quantity as number) + 1 <= 10)
+      await queries.waifuList.update(queryRunner, waifuList.id, {
+        quantity: (waifuList.quantity as number) + 1,
+      });
+    else waifuInMaxLevel = true;
+
+    const newAddExp = (exp as number) * (waifuInMaxLevel ? 2 : 1);
+    let newExp = (user.userInfo.exp as number) + newAddExp;
     const levelUp = (newExp as Number) >= user.userInfo.limitExp;
     const newLevel = (user.userInfo.level as number) + (levelUp ? 1 : 0);
     const newLimitExp =
@@ -49,8 +81,11 @@ const addWaifuOnList = async (
       (levelUp && newLevel % 4 === 0 ? 1 : 0);
     const newCoins =
       (user.userInfo.coins as number) +
-      (waifuImage.waifuRarity.cost as number) * (levelUp ? 1.5 : 1);
-    const newDiamonds = (user.userInfo.diamonds as number) + (levelUp ? 1 : 0);
+      (waifuImage.waifuRarity.cost as number) *
+        _extraCoins(waifuInMaxLevel, levelUp);
+    const newDiamonds =
+      (user.userInfo.diamonds as number) +
+      _extraDiamonds(waifuInMaxLevel, levelUp);
     if (levelUp) newExp -= user.userInfo.limitExp as number;
 
     await queries.user.updateInfo(queryRunner, user.id, {
@@ -62,17 +97,15 @@ const addWaifuOnList = async (
       diamonds: newDiamonds,
     });
 
-    await queryRunner.commitTransaction();
-
     return {
       levelUp,
       level: newLevel,
       addFavoritePage:
         (newFavoritePages as Number) > user.userInfo.favoritePages,
       favoritePages: newFavoritePages,
+      exp: newAddExp,
     };
   } catch (error) {
-    await queryRunner.rollbackTransaction();
     global.logger.error(error);
     console.error(error);
     throw error;
