@@ -7,16 +7,16 @@ export class WaifuRarity {
     type: "int",
     primaryKeyConstraintName: "pk_waifu_rarities_id",
   })
-  id: Number;
+  id: number;
 
   @Column({ type: "varchar", name: "name", nullable: false, unique: true })
-  name: String;
+  name: string;
 
   @Column({ type: "varchar", name: "icon", nullable: false })
-  icon: String;
+  icon: string;
 
   @Column({ type: "int", name: "cost", nullable: false })
-  cost: Number;
+  cost: number;
 
   @Column({
     type: "datetime",

@@ -13,37 +13,37 @@ export class UserInfo {
     type: "int",
     primaryKeyConstraintName: "pk_user_info_id",
   })
-  id: Number;
+  id: number;
 
   @Column({ type: "int", name: "user_id", nullable: false, unique: true })
-  userId: Number;
+  userId: number;
 
   @Column({ type: "int", name: "level", default: 1 })
-  level: Number;
+  level: number;
 
   @Column({ type: "int", name: "exp", default: 0 })
-  exp: Number;
+  exp: number;
 
   @Column({ type: "int", name: "limit_exp", default: 100 })
-  limitExp: Number;
+  limitExp: number;
 
   @Column({ type: "int", name: "coins", default: 0 })
-  coins: Number;
+  coins: number;
 
   @Column({ type: "int", name: "diamonds", default: 0 })
-  diamonds: Number;
+  diamonds: number;
 
   @Column({ type: "int", name: "golden_tickets", default: 0 })
-  goldenTickets: Number;
+  goldenTickets: number;
 
   @Column({ type: "int", name: "favorite_pages", default: 1 })
-  favoritePages: Number;
+  favoritePages: number;
 
   @Column({ type: "int", name: "favorite_page_purchases", default: 0 })
-  favoritePagePurchases: Number;
+  favoritePagePurchases: number;
 
   @Column({ type: "boolean", name: "login_daily", default: 0 })
-  loginDaily: Boolean;
+  loginDaily: boolean;
 
   @Column({
     type: "datetime",

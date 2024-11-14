@@ -2,7 +2,7 @@ import { Context } from "telegraf";
 
 import i18n from "../../config/i18n";
 import queries from "../../utils/queries";
-import db, { Active } from "../../db";
+import db, { Active, Chat } from "../../db";
 import { expRandom } from "../utils";
 import uUser from "../../utils/functions/user.util";
 
@@ -33,7 +33,7 @@ const sendWaifu = async (ctx: Context) => {
     const waifu = await queries.chat.sendWaifu(chatId);
     console.log(waifu);
 
-    ctx.sendPhoto(waifu.publicUrl as string, {
+    ctx.sendPhoto(waifu.publicUrl, {
       caption: i18n.__("waifuSended"),
       parse_mode: "MarkdownV2",
     });
@@ -56,7 +56,7 @@ const incorporate = async (ctx: Context) => {
   try {
     let textMessage: string[] = [];
     if (ctx.message && "text" in ctx.message)
-      textMessage = ctx.message.text.split(" ").slice(1) as string[];
+      textMessage = ctx.message.text.split(" ").slice(1);
 
     const active = await db.getRepository(Active).findOne({
       where: {
@@ -90,6 +90,7 @@ const incorporate = async (ctx: Context) => {
         if (nameCorrect === true) return;
       });
     });
+    global.logger.info(`waifu name correct? ${nameCorrect}`);
 
     const waifuName =
       active.waifuImage.waifu.name +
@@ -103,16 +104,14 @@ const incorporate = async (ctx: Context) => {
         : "");
 
     if (!nameCorrect) {
-      if (
-        (active.messageCount as number) + 1 >=
-        (active?.limitMessage as number)
-      ) {
-        await queryRunner.manager.update(
-          "Chat",
-          { id: chatId },
-          { characterActive: false }
-        );
-        await queryRunner.manager.delete("Active", { chatId: chatId });
+      if (active.messageCount + 1 >= active?.limitMessage) {
+        await queryRunner.manager
+          .getRepository(Chat)
+          .update({ id: chatId }, { characterActive: false });
+
+        await queryRunner.manager
+          .getRepository(Active)
+          .delete({ id: active.id });
 
         await queryRunner.commitTransaction();
         ctx.reply(
@@ -130,11 +129,9 @@ const incorporate = async (ctx: Context) => {
         return;
       }
 
-      await queryRunner.manager.update(
-        "Active",
-        { id: active.id },
-        { messageCount: (active.messageCount as number) + 1 }
-      );
+      await queryRunner.manager
+        .getRepository(Active)
+        .increment({ id: active.id }, "messageCount", 1);
 
       await queryRunner.commitTransaction();
       ctx.reply(i18n.__("noWaifuMatch"), {
@@ -148,17 +145,16 @@ const incorporate = async (ctx: Context) => {
 
     const result = await uUser.addWaifuOnList(
       queryRunner,
-      ctx.from!.id as Number,
+      ctx,
       active.waifuImage.id,
       exp
     );
 
-    await queryRunner.manager.update(
-      "Chat",
-      { id: chatId },
-      { characterActive: false }
-    );
-    await queryRunner.manager.delete("Active", { chatId: chatId });
+    await queryRunner.manager
+      .getRepository(Chat)
+      .update({ id: chat.id }, { characterActive: false });
+
+    await queryRunner.manager.getRepository(Active).delete({ id: active.id });
 
     await queryRunner.commitTransaction();
 

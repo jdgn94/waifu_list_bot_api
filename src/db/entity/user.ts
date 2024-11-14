@@ -18,7 +18,7 @@ export class User {
     type: "int",
     primaryKeyConstraintName: "pk_user_id",
   })
-  id: Number;
+  id: number;
 
   @Column({
     type: "int",
@@ -26,19 +26,19 @@ export class User {
     name: "tg_id",
     nullable: false,
   })
-  tgId: Number;
+  tgId: number;
 
   @Column({ type: "varchar", length: 64, name: "username" })
-  username: String;
+  username: string;
 
   @Column({ type: "varchar", length: 64, name: "nickname" })
-  nickname: String;
+  nickname: string;
 
   @Column({ type: "int", name: "role_id", nullable: false, default: 3 })
-  roleId: Number;
+  roleId: number;
 
   @Column({ type: "int", name: "info_id", nullable: true })
-  infoId: Number;
+  infoId: number;
 
   @Column({
     type: "datetime",
@@ -72,8 +72,8 @@ export class User {
 
   @VirtualColumn({
     type: "int",
-    query: (alias: String) =>
+    query: (alias: string) =>
       `SELECT COUNT(*) AS count FROM franchises WHERE user_id = ${alias}.id`,
   })
-  franchiseCount: Number;
+  franchiseCount: number;
 }

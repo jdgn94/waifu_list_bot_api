@@ -5,7 +5,7 @@ import { SpecialImageFranchise } from "..";
 import specialImageFranchises from "./special_image_franchises/";
 
 interface ISpecialImageFranchise {
-  id: Number;
+  id: number;
   special_image_id: number;
   franchise_id: number;
   user_id?: number | null;

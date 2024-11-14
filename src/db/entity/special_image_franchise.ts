@@ -9,16 +9,16 @@ export class SpecialImageFranchise {
     type: "int",
     primaryKeyConstraintName: "pk_special_image_franchises_id",
   })
-  id: Number;
+  id: number;
 
   @Column({ type: "int", name: "special_image_id", nullable: false })
-  specialImageId: Number;
+  specialImageId: number;
 
   @Column({ type: "int", name: "franchise_id", nullable: false })
-  franchiseId: Number;
+  franchiseId: number;
 
   @Column({ type: "int", name: "user_id", nullable: true, default: null })
-  userId: Number | null;
+  userId: number | null;
 
   @Column({
     type: "datetime",

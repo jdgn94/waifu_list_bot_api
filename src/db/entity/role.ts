@@ -6,10 +6,10 @@ export class Role {
     type: "int",
     primaryKeyConstraintName: "pk_role_id",
   })
-  id: Number;
+  id: number;
 
   @Column({ type: "varchar", length: 64, unique: true, nullable: false })
-  name: String;
+  name: string;
 
   @Column({
     type: "datetime",

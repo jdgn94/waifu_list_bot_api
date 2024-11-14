@@ -18,28 +18,28 @@ export class WaifuImage {
     type: "int",
     primaryKeyConstraintName: "pk_waifu_images_id",
   })
-  id: Number;
+  id: number;
 
   @Column({ type: "int", name: "waifu_id", nullable: false })
-  waifuId: Number;
+  waifuId: number;
 
   @Column({ type: "int", name: "rarity_id", nullable: false })
-  rarityId: Number;
+  rarityId: number;
 
   @Column({ type: "int", name: "user_id", nullable: true, default: null })
-  userId: Number | null;
+  userId: number | null;
 
   @Column({ type: "int", name: "image_type_id", nullable: false })
-  ImageTypeId: Number;
+  ImageTypeId: number;
 
   @Column({ type: "int", name: "points", nullable: false })
-  points: Number;
+  points: number;
 
   @Column({ type: "varchar", name: "public_id", nullable: false })
-  publicId: String;
+  publicId: string;
 
   @Column({ type: "varchar", name: "public_url", nullable: false })
-  publicUrl: String;
+  publicUrl: string;
 
   @Column({
     type: "datetime",

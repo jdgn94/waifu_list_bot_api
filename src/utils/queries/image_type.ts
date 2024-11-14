@@ -16,7 +16,7 @@ const getRandom = async () => {
     });
     console.log(imageTypeActives);
 
-    const actives: Number[] = [1];
+    const actives: number[] = [1];
     imageTypeActives.map((imageTypeActive) => actives.push(imageTypeActive.id));
     console.log(actives);
 

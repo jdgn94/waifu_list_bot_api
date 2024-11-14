@@ -15,25 +15,25 @@ export class Waifu {
     type: "int",
     primaryKeyConstraintName: "pk_waifus_id",
   })
-  id: Number;
+  id: number;
 
   @Column({ type: "int", name: "franchise_id", nullable: false })
-  franchiseId: Number;
+  franchiseId: number;
 
   @Column({ type: "int", name: "type_id", nullable: false })
-  typeId: Number;
+  typeId: number;
 
-  @Column({ type: "number", name: "user_id", nullable: true })
-  userId: Number | null;
+  @Column({ type: "int", name: "user_id", nullable: true })
+  userId: number | null;
 
   @Column({ type: "varchar", length: 255, name: "name", nullable: false })
-  name: String;
+  name: string;
 
   @Column({ type: "varchar", length: 255, name: "nickname", nullable: true })
-  nickname: String | null;
+  nickname: string | null;
 
   @Column({ type: "int", name: "age", nullable: false, default: 0 })
-  age: Number;
+  age: number;
 
   @Column({
     type: "datetime",

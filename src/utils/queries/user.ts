@@ -13,7 +13,7 @@ interface InfoData {
   loginDaily?: boolean;
 }
 
-const getOne = async (tgId: Number) => {
+const getOne = async (tgId: number) => {
   try {
     const user = await db.getRepository(User).findOne({
       where: { tgId },
@@ -28,9 +28,9 @@ const getOne = async (tgId: Number) => {
 };
 
 const create = async (
-  tgId: Number,
-  username: String,
-  nickname: String,
+  tgId: number,
+  username: string,
+  nickname: string,
   { roleId = 3 }
 ) => {
   const queryRunner = db.createQueryRunner();
@@ -66,7 +66,7 @@ const create = async (
   }
 };
 
-const info = async (tgId: Number) => {
+const info = async (tgId: number) => {
   try {
     const userInfo = await db.getRepository(User).findOne({
       where: { tgId },

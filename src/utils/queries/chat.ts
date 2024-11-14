@@ -1,7 +1,7 @@
 import db, { Active, Chat } from "../../db";
 import queries from "../queries";
 
-const getOne = async (tgId: Number) => {
+const getOne = async (tgId: number) => {
   try {
     const chat = await db
       .getRepository(Chat)
@@ -16,7 +16,7 @@ const getOne = async (tgId: Number) => {
   }
 };
 
-const create = async (tgId: Number, type: String, { language = "en" } = {}) => {
+const create = async (tgId: number, type: string, { language = "en" } = {}) => {
   try {
     if (type == "channel") throw new Error("Can't create channel chat");
 
@@ -33,7 +33,7 @@ const create = async (tgId: Number, type: String, { language = "en" } = {}) => {
   }
 };
 
-const sendWaifu = async (tgId: Number) => {
+const sendWaifu = async (tgId: number) => {
   const queryRunner = db.createQueryRunner();
   try {
     await queryRunner.startTransaction();
@@ -51,7 +51,7 @@ const sendWaifu = async (tgId: Number) => {
     const active = new Active();
     active.chatId = chat.id;
     active.waifuImageId = waifuImage.id;
-    active.limitMessage = chat.limitMessage;
+    active.limitMessage = chat.limitMessageToDelete;
     active.messageCount = 0;
     queryRunner.manager.save(active);
 

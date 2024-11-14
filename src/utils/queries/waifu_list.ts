@@ -2,22 +2,22 @@ import { QueryRunner } from "typeorm";
 import db, { WaifuList } from "../../db";
 
 interface IGetOne {
-  id?: Number;
-  waifuImageId?: Number;
-  userId?: Number;
+  id?: number;
+  waifuImageId?: number;
+  userId?: number;
 }
 
 interface IUpdate {
-  userId?: Number;
-  waifuImageId?: Number;
-  quantity?: Number;
-  position?: Number;
+  userId?: number;
+  waifuImageId?: number;
+  quantity?: number;
+  position?: number;
 }
 
 const getOne = async ({ id, waifuImageId, userId }: IGetOne) => {
-  if (!id || !(waifuImageId && userId))
-    throw new Error("parameter needed id or waifu image id and user id");
-
+  if (!(waifuImageId && userId))
+    if (!id)
+      throw new Error("parameter needed id or waifu image id and user id");
   try {
     const whereQuery = id ? { id: id! } : {};
     const waifuList = await db.getRepository(WaifuList).findOne({
@@ -34,8 +34,8 @@ const getOne = async ({ id, waifuImageId, userId }: IGetOne) => {
 
 const create = async (
   queryRunner: QueryRunner,
-  userId: Number,
-  waifuImageId: Number
+  userId: number,
+  waifuImageId: number
 ) => {
   try {
     const waifuImagePosition = await db.getRepository(WaifuList).count({
@@ -43,6 +43,7 @@ const create = async (
         userId,
       },
     });
+    console.log("add waifu on list");
 
     const waifuList = new WaifuList();
     waifuList.userId = userId;

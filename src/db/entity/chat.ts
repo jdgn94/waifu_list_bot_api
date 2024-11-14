@@ -6,7 +6,7 @@ export class Chat {
     type: "int",
     primaryKeyConstraintName: "pk_chat_id",
   })
-  id: Number;
+  id: number;
 
   @Column({
     type: "int",
@@ -14,28 +14,28 @@ export class Chat {
     unique: true,
     nullable: false,
   })
-  tgId: Number;
+  tgId: number;
 
   @Column({ type: "varchar", length: 20, name: "type", nullable: false })
-  type: String;
+  type: string;
 
   @Column({ type: "int", name: "limit_message", default: 100 })
-  limitMessage: Number;
+  limitMessage: number;
 
   @Column({ type: "boolean", name: "character_active", default: false })
-  characterActive: Boolean;
+  characterActive: boolean;
 
   @Column({ type: "int", name: "limit_message_to_delete", default: 10 })
-  limitMessageToDelete: Number;
+  limitMessageToDelete: number;
 
   @Column({ type: "int", name: "message_count", default: 0 })
-  messageCount: Number;
+  messageCount: number;
 
   @Column({ type: "int", name: "limit_message_count", default: 0 })
-  limitMessageCount: Number;
+  limitMessageCount: number;
 
   @Column({ type: "varchar", length: 4, name: "language", default: "en" })
-  language: String;
+  language: string;
 
   @Column({
     type: "datetime",

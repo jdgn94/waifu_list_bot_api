@@ -7,10 +7,10 @@ export class WaifuType {
     type: "int",
     primaryKeyConstraintName: "pk_waifu_types_id",
   })
-  id: Number;
+  id: number;
 
   @Column({ type: "varchar", name: "name", nullable: false })
-  name: String;
+  name: string;
 
   @Column({
     type: "datetime",

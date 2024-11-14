@@ -15,19 +15,19 @@ export class Active {
     type: "int",
     primaryKeyConstraintName: "pk_actives_id",
   })
-  id: Number;
+  id: number;
 
   @Column({ type: "int", name: "chat_id", nullable: false, unique: true })
-  chatId: Number;
+  chatId: number;
 
   @Column({ type: "int", name: "waifu_image_id", nullable: false })
-  waifuImageId: Number;
+  waifuImageId: number;
 
   @Column({ type: "int", name: "limit_message", nullable: false })
-  limitMessage: Number;
+  limitMessage: number;
 
   @Column({ type: "int", name: "message_count", default: 0 })
-  messageCount: Number;
+  messageCount: number;
 
   @Column({
     type: "datetime",

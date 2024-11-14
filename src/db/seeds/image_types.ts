@@ -5,11 +5,11 @@ import { ImageType } from "..";
 import imageTypes from "./image_types/index";
 
 interface IImageType {
-  id: Number;
-  name: String;
-  icon?: String | null;
-  initial_date?: String | null;
-  final_date?: String | null;
+  id: number;
+  name: string;
+  icon?: string | null;
+  initial_date?: string | null;
+  final_date?: string | null;
 }
 
 const _formatter = (imageTypes: IImageType[]) => {

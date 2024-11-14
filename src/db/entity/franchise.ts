@@ -15,7 +15,7 @@ export class Franchise {
     type: "int",
     primaryKeyConstraintName: "pk_franchise_id",
   })
-  id: Number;
+  id: number;
 
   @Column({
     type: "varchar",
@@ -23,7 +23,7 @@ export class Franchise {
     nullable: false,
     name: "name",
   })
-  name: String;
+  name: string;
 
   @Column({
     type: "varchar",
@@ -32,7 +32,7 @@ export class Franchise {
     nullable: true,
     default: null,
   })
-  nickname: String | null;
+  nickname: string | null;
 
   @Column({
     type: "varchar",
@@ -41,7 +41,7 @@ export class Franchise {
     nullable: true,
     default: null,
   })
-  image: String | null;
+  image: string | null;
 
   @Column({
     type: "varchar",
@@ -50,10 +50,10 @@ export class Franchise {
     nullable: true,
     default: null,
   })
-  webPage: String | null;
+  webPage: string | null;
 
   @Column({ type: "int", name: "user_id", nullable: true, default: null })
-  userId: Number | null;
+  userId: number | null;
 
   @Column({
     type: "datetime",

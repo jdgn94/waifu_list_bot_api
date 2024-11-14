@@ -15,19 +15,19 @@ export class SpecialImage {
     type: "int",
     primaryKeyConstraintName: "pk_special_images_id",
   })
-  id: Number;
+  id: number;
 
   @Column({ type: "int", name: "image_type_id", nullable: false })
-  imageTypeId: Number;
+  imageTypeId: number;
 
   @Column({ type: "varchar", length: 255, name: "public_id", nullable: false })
-  publicId: String;
+  publicId: string;
 
   @Column({ type: "varchar", length: 255, name: "public_url", nullable: false })
-  publicUrl: String;
+  publicUrl: string;
 
   @Column({ type: "int", name: "user_id", nullable: true, default: null })
-  userId: Number | null;
+  userId: number | null;
 
   @Column({
     type: "datetime",

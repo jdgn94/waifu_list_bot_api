@@ -6,13 +6,13 @@ export class ImageType {
     type: "int",
     primaryKeyConstraintName: "pk_image_types_id",
   })
-  id: Number;
+  id: number;
 
   @Column({ type: "varchar", name: "name", nullable: false })
-  name: String;
+  name: string;
 
   @Column({ type: "varchar", name: "icon", nullable: true, default: true })
-  icon: String | null;
+  icon: string | null;
 
   @Column({ type: "date", name: "initial_date", nullable: true })
   initialDate: Date | null;

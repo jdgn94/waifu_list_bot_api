@@ -16,13 +16,13 @@ export class WaifuList {
     type: "int",
     primaryKeyConstraintName: "pk_waifu_lists_id",
   })
-  id: Number;
+  id: number;
 
   @Column({ type: "int", name: "user_id", nullable: false })
-  userId: Number;
+  userId: number;
 
   @Column({ type: "int", name: "waifu_image_id", nullable: false })
-  waifuImageId: Number;
+  waifuImageId: number;
 
   @Column({
     type: "int",
@@ -32,10 +32,10 @@ export class WaifuList {
     nullable: false,
     default: 1,
   })
-  quantity: Number;
+  quantity: number;
 
   @Column({ type: "int", name: "position", nullable: true })
-  position: Number;
+  position: number;
 
   @Column({
     type: "datetime",

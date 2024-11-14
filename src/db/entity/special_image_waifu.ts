@@ -17,16 +17,16 @@ export class SpecialImageWaifu {
     type: "int",
     primaryKeyConstraintName: "pk_special_image_waifus_id",
   })
-  id: Number;
+  id: number;
 
   @Column({ type: "int", name: "special_image_id", nullable: false })
-  specialImageId: Number;
+  specialImageId: number;
 
   @Column({ type: "int", name: "waifu_image_id", nullable: false })
-  waifuImageId: Number;
+  waifuImageId: number;
 
   @Column({ type: "int", name: "user_id", nullable: true, default: null })
-  userId: Number | null;
+  userId: number | null;
 
   @Column({
     type: "datetime",
