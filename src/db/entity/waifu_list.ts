@@ -15,6 +15,7 @@ export class WaifuList {
   @PrimaryGeneratedColumn({
     type: "int",
     primaryKeyConstraintName: "pk_waifu_lists_id",
+    name: "id",
   })
   id: number;
 
@@ -34,8 +35,8 @@ export class WaifuList {
   })
   quantity: number;
 
-  @Column({ type: "int", name: "position", nullable: true })
-  position: number;
+  @Column({ type: "int", name: "position", nullable: true, default: null })
+  position: number | null;
 
   @Column({
     type: "datetime",

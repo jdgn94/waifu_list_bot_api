@@ -19,7 +19,9 @@ const getOne = async ({ id, waifuImageId, userId }: IGetOne) => {
     if (!id)
       throw new Error("parameter needed id or waifu image id and user id");
   try {
-    const whereQuery = id ? { id: id! } : {};
+    const whereQuery = id
+      ? { id: id! }
+      : { waifuImageId: waifuImageId!, userId: userId! };
     const waifuList = await db.getRepository(WaifuList).findOne({
       where: whereQuery,
     });
@@ -38,17 +40,10 @@ const create = async (
   waifuImageId: number
 ) => {
   try {
-    const waifuImagePosition = await db.getRepository(WaifuList).count({
-      where: {
-        userId,
-      },
-    });
-    console.log("add waifu on list");
-
     const waifuList = new WaifuList();
     waifuList.userId = userId;
     waifuList.waifuImageId = waifuImageId;
-    waifuList.position = waifuImagePosition + 1;
+    waifuList.position = null;
     await queryRunner.manager.save(waifuList);
 
     return waifuList;

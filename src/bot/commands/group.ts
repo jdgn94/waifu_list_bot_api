@@ -95,12 +95,12 @@ const incorporate = async (ctx: Context) => {
     const waifuName =
       active.waifuImage.waifu.name +
       (active.waifuImage.waifu.nickname
-        ? " - " + active.waifuImage.waifu.nickname
+        ? " \\- " + active.waifuImage.waifu.nickname
         : "");
     const franchiseName =
       active.waifuImage.waifu.franchise.name +
       (active.waifuImage.waifu.franchise.nickname
-        ? " - " + active.waifuImage.waifu.franchise.nickname
+        ? " \\- " + active.waifuImage.waifu.franchise.nickname
         : "");
 
     if (!nameCorrect) {
