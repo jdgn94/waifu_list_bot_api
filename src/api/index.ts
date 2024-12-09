@@ -6,8 +6,13 @@ import path from "path";
 import { v4 as uuid } from "uuid";
 
 import { logger, stream } from "../config/winston";
+import waifus from "./routes/waifus.routes";
+import franchises from "./routes/franchises.routes";
+import waifuTypes from "./routes/waifu_type.routes";
+import waifuRarities from "./routes/waifu_rarity.routes";
+import imageTypes from "./routes/image_type.routes";
 
-// const baseURL = "/api";
+const baseURL = "/api";
 
 // initialization
 const app = express();
@@ -66,5 +71,10 @@ app.use(
 );
 
 // routes
+app.use(baseURL + "/waifus", waifus);
+app.use(baseURL + "/franchises", franchises);
+app.use(baseURL + "/waifu_types", waifuTypes);
+app.use(baseURL + "/waifu_rarities", waifuRarities);
+app.use(baseURL + "/image_types", imageTypes);
 
 export default app;

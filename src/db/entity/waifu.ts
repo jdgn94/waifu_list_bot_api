@@ -4,10 +4,12 @@ import {
   Column,
   ManyToOne,
   JoinColumn,
+  OneToMany,
 } from "typeorm";
 import { Franchise } from "./franchise";
 import { WaifuType } from "./waifu_type";
 import { User } from "./user";
+import { WaifuImage } from "./waifu_image";
 
 @Entity({ name: "waifus", comment: "Waifus table" })
 export class Waifu {
@@ -73,4 +75,7 @@ export class Waifu {
     foreignKeyConstraintName: "fk_waifus_users",
   })
   user: User;
+
+  @OneToMany(() => WaifuImage, (waifuImage) => waifuImage.waifu)
+  waifuImages: WaifuImage[];
 }

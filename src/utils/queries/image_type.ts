@@ -3,6 +3,30 @@ import db, { ImageType } from "../../db";
 import uNumber from "../functions/number.utils";
 import uArray from "../functions/array.utils";
 
+interface QueryExtras {
+  specials?: string;
+}
+
+const index = async (name: string | null, query?: QueryExtras | null) => {
+  try {
+    const imageTypes = await db.getRepository(ImageType).find({
+      where: {
+        name: name
+          ? Like(name)
+          : query?.specials
+          ? query.specials == "true"
+            ? Like("%Special")
+            : Not(Like("% Special"))
+          : undefined,
+      },
+    });
+
+    return imageTypes;
+  } catch (error) {
+    throw error;
+  }
+};
+
 const getRandom = async () => {
   try {
     const today = new Date();
@@ -55,4 +79,4 @@ const getRandom = async () => {
   }
 };
 
-export default { getRandom };
+export default { index, getRandom };
