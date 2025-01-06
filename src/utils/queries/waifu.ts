@@ -4,15 +4,31 @@ import imageType from "./image_type";
 import uNumber from "../functions/number.utils";
 import uArray from "../functions/array.utils";
 
-const index = async (page: number | null, name: string | null) => {
+const index = async (
+  page: number | null,
+  name: string | null,
+  franchiseId: number | null
+) => {
   try {
+    console.log("search waifus");
+    console.log("params: ", page, name, franchiseId);
     const waifus = await db.getRepository(WaifuImage).findAndCount({
-      where: {
-        waifu: {
-          name: name ? Like(name) : undefined,
+      where: [
+        {
+          waifu: {
+            name: name ? Like(`%${name}%`) : undefined,
+            franchiseId: franchiseId ? franchiseId : undefined,
+          },
+          ImageTypeId: 1,
         },
-        ImageTypeId: 1,
-      },
+        {
+          waifu: {
+            nickname: name ? Like(`%${name}%`) : undefined,
+            franchiseId: franchiseId ? franchiseId : undefined,
+          },
+          ImageTypeId: 1,
+        },
+      ],
       order: {
         waifu: {
           franchise: {

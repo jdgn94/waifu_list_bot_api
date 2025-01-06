@@ -6,11 +6,13 @@ const router = Router();
 
 router.get("/", async (req: Request, res: Response) => {
   try {
-    const { page, name } = req.query;
+    const { page = 1, name, franchise } = req.query;
+    console.log(req.query);
 
     const response = await queries.waifu.index(
       page ? Number(page!) : null,
-      name ? String(name) : null
+      name ? String(name) : null,
+      franchise ? Number(franchise) : null
     );
 
     return res.status(200).json({

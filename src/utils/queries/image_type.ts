@@ -15,8 +15,8 @@ const index = async (name: string | null, query?: QueryExtras | null) => {
           ? Like(name)
           : query?.specials
           ? query.specials == "true"
-            ? Like("%Special")
-            : Not(Like("% Special"))
+            ? Like("%special")
+            : Not(Like("% special"))
           : undefined,
       },
     });
