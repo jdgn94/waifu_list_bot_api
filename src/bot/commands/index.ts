@@ -12,6 +12,7 @@ const info = async (ctx: Context) => {
       return;
     }
 
+    if (!chatIsGroup(ctx)) text += `Telegram ID: \*${ctx.from!.id}\*\n`;
     text += `${i18n.__("infoFrom")}: \*${user.username
       .replace("(", "\\(")
       .replace(")", "\\)")}\*\n\n`;

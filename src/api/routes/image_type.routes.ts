@@ -11,10 +11,9 @@ router.get("/", async (req: Request, res: Response) => {
     const imageTypes = await queries.imageType.index(name.toString(), {
       specials: specials.toString(),
     });
-    return res.status(200).json({
-      data: imageTypes,
-      message: "Image types data",
-    });
+
+    res.statusMessage = "Image types data";
+    return res.status(200).json(imageTypes);
   } catch (error) {
     throw res.status(500).json({ message: error });
   }

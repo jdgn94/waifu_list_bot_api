@@ -12,7 +12,7 @@ import { User } from "./user";
 import { WaifuRarity } from "./waifu_rarity";
 
 @Entity({ name: "waifu_images", comment: "Waifu images from waifus" })
-@Unique("waifu_image_unique", ["waifuId", "ImageTypeId"])
+@Unique("waifu_image_unique", ["waifuId", "imageTypeId"])
 export class WaifuImage {
   @PrimaryGeneratedColumn({
     type: "int",
@@ -30,7 +30,7 @@ export class WaifuImage {
   userId: number | null;
 
   @Column({ type: "int", name: "image_type_id", nullable: false })
-  ImageTypeId: number;
+  imageTypeId: number;
 
   @Column({ type: "int", name: "points", nullable: false })
   points: number;

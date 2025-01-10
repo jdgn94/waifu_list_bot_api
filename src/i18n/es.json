@@ -47,5 +47,18 @@
   "coins": "Monedas",
   "diamonds": "Diamantes",
   "favoritePages": "Paginas Favoritas",
-  "goldenTickets": "Tickets Dorados"
+  "goldenTickets": "Tickets Dorados",
+  "eventFinish": "Evento de {{name}} finalizado.",
+  "eventStart": "Evento de {{name}} inicia.",
+  "Winter": "Invierno",
+  "Spring": "Primavera",
+  "Summer": "Verano",
+  "Fall": "Otoño",
+  "Halloween": "Halloween",
+  "New Year": "Año nuevo",
+  "Christmas": "Navidad",
+  "San Valentin": "San Valentin",
+  "Maid": "Sirvientas",
+  "Easter": "Conejas",
+  "Bot Birthday": "Cumpleaños del bot"
 }

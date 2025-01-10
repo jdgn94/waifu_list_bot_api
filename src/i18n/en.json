@@ -47,5 +47,18 @@
   "coins": "Coins",
   "diamonds": "Diamonds",
   "favoritePages": "Favorite Pages",
-  "goldenTickets": "Golden Tickets"
+  "goldenTickets": "Golden Tickets",
+  "eventFinish": "Event {{name}} finished.",
+  "eventStart": "Event {{name}} start.",
+  "Winter": "Winter",
+  "Spring": "Spring",
+  "Summer": "Summer",
+  "Fall": "Fall",
+  "Halloween": "Halloween",
+  "New Year": "New Year",
+  "Christmas": "Christmas",
+  "San Valentin": "San Valentin",
+  "Maid": "Maid",
+  "Easter": "Easter",
+  "Bot Birthday": "Bot Birthday"
 }

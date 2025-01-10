@@ -5,6 +5,7 @@ import api from "./api/";
 import bot from "./bot";
 import db from "./db";
 // import { format } from "@formkit/tempo";
+import tasks from "./utils/functions/automatic.utils";
 
 const main = async () => {
   try {
@@ -15,6 +16,9 @@ const main = async () => {
     global.logger.info("Telegram bot init");
     await db.initialize();
     global.logger.info("Database init");
+    global.logger.warn("Initializing automatic process...");
+    await tasks();
+    global.logger.info("Automatic process initialized");
     return;
   } catch (err) {
     console.error(err);

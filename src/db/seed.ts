@@ -14,6 +14,7 @@ import insertWaifuImages from "./seeds/waifu_images";
 import insertSpecialImages from "./seeds/special_images";
 import insertSpecialImageFranchises from "./seeds/special_image_franchises";
 import insertSpecialImageWaifus from "./seeds/special_image_waifus";
+import insertTasks from "./seeds/tasks";
 
 const main = async () => {
   try {
@@ -41,6 +42,7 @@ const runSeeds = async () => {
     await insertSpecialImages(queryRunner);
     await insertSpecialImageFranchises(queryRunner);
     await insertSpecialImageWaifus(queryRunner);
+    await insertTasks(queryRunner);
 
     await queryRunner.commitTransaction();
     console.log("all seeds inserted");

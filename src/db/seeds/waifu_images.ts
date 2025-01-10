@@ -23,7 +23,7 @@ const _formatter = (waifuRarities: IWaifuImages[]) => {
   waifuRarities.map((i) => {
     const waifuImage = new WaifuImage();
     waifuImage.id = i.id;
-    waifuImage.ImageTypeId = i.image_type_id;
+    waifuImage.imageTypeId = i.image_type_id;
     waifuImage.publicId = i.public_id;
     waifuImage.publicUrl = i.public_url;
     waifuImage.waifuId = i.waifu_id;

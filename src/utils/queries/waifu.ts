@@ -1,4 +1,4 @@
-import { Like } from "typeorm";
+import { Like, QueryRunner } from "typeorm";
 import db, { WaifuImage, Waifu } from "../../db";
 import imageType from "./image_type";
 import uNumber from "../functions/number.utils";
@@ -19,14 +19,14 @@ const index = async (
             name: name ? Like(`%${name}%`) : undefined,
             franchiseId: franchiseId ? franchiseId : undefined,
           },
-          ImageTypeId: 1,
+          imageTypeId: 1,
         },
         {
           waifu: {
             nickname: name ? Like(`%${name}%`) : undefined,
             franchiseId: franchiseId ? franchiseId : undefined,
           },
-          ImageTypeId: 1,
+          imageTypeId: 1,
         },
       ],
       order: {
@@ -79,7 +79,7 @@ const getRandom = async () => {
 
   const waifuImages = await db.getRepository(WaifuImage).find({
     where: {
-      ImageTypeId: category.id,
+      imageTypeId: category.id,
     },
   });
 
@@ -106,4 +106,69 @@ const getRandom = async () => {
   return waifu;
 };
 
-export default { index, getOne, getRandom };
+const create = async (
+  name: string,
+  nickname: string | null,
+  age: number,
+  franchiseId: number,
+  typeId: number,
+  userId: number,
+  queryRunner?: QueryRunner
+) => {
+  const queryRunnerInternal = queryRunner ?? db.createQueryRunner();
+  if (!queryRunner) await queryRunnerInternal.startTransaction();
+  try {
+    const waifu = new Waifu();
+    waifu.name = name;
+    waifu.nickname = nickname;
+    waifu.age = age;
+    waifu.franchiseId = franchiseId;
+    waifu.typeId = typeId;
+    waifu.userId = userId;
+    await queryRunnerInternal.manager.save(waifu);
+
+    if (!queryRunner) await queryRunnerInternal.commitTransaction();
+    return waifu;
+  } catch (error) {
+    if (!queryRunner) await queryRunnerInternal.rollbackTransaction();
+    throw error;
+  }
+};
+
+const update = async (
+  id: number,
+  name: string,
+  nickname: string | null,
+  age: number,
+  franchiseId: number,
+  typeId: number,
+  userId: number,
+  queryRunner?: QueryRunner
+) => {
+  const queryRunnerInternal = queryRunner ?? db.createQueryRunner();
+  if (!queryRunner) await queryRunnerInternal.startTransaction();
+  try {
+    const waifu = await queryRunnerInternal.manager
+      .getRepository(Waifu)
+      .findOne({ where: { id } });
+    console.log(waifu);
+    if (!waifu) throw new Error("Waifu not found");
+
+    waifu.name = name;
+    waifu.nickname = nickname;
+    waifu.age = age;
+    waifu.franchiseId = franchiseId;
+    waifu.typeId = typeId;
+    waifu.userId = userId;
+    await queryRunnerInternal.manager.save(waifu);
+
+    if (!queryRunner) await queryRunnerInternal.commitTransaction();
+    console.log(waifu);
+    return waifu;
+  } catch (error) {
+    if (!queryRunner) await queryRunnerInternal.rollbackTransaction();
+    throw error;
+  }
+};
+
+export default { index, getOne, getRandom, create, update };

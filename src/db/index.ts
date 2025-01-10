@@ -1,4 +1,6 @@
 import { DataSource } from "typeorm";
+
+import { Task } from "./entity/task";
 import { Role } from "./entity/role";
 import { User } from "./entity/user";
 import { UserInfo } from "./entity/user_info";
@@ -16,6 +18,7 @@ import { Active } from "./entity/active";
 import { WaifuList } from "./entity/waifu_list";
 
 export {
+  Task,
   Role,
   User,
   UserInfo,
@@ -44,6 +47,7 @@ export default new DataSource({
   logger: "file",
   // debug: process.env.NODE_ENV !== "production" ? true : false,
   entities: [
+    Task,
     Role,
     User,
     UserInfo,
