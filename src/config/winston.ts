@@ -3,7 +3,11 @@ import { createLogger, format, LoggerOptions, transports } from "winston";
 import { format as dateFormat } from "@formkit/tempo";
 
 const logFormat = format.printf((log) => {
-  const date = dateFormat(new Date(), "YYYY/MM/DD HH:mm:ss, Z");
+  const date = dateFormat({
+    date: new Date(),
+    format: "YYYY/MM/DD HH:mm:ss, Z",
+    tz: "America/Caracas",
+  });
   return `${date} | ${log.level} | ${
     typeof log.message === "object" ? format.json(log.message) : log.message
   }`;

@@ -37,11 +37,20 @@ export class Franchise {
   @Column({
     type: "varchar",
     length: 255,
-    name: "image",
+    name: "public_id",
     nullable: true,
     default: null,
   })
-  image: string | null;
+  publicId: string | null;
+
+  @Column({
+    type: "varchar",
+    length: 255,
+    name: "public_url",
+    nullable: true,
+    default: null,
+  })
+  publicUrl: string | null;
 
   @Column({
     type: "varchar",

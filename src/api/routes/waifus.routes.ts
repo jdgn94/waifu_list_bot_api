@@ -43,9 +43,13 @@ router.get("/:id", async (req: Request, res: Response) => {
 });
 
 router.post("/", tokenData, async (req: Request, res: Response) => {
+  const user = req.user;
+  if (!user || user.roleId === 3)
+    return res.status(401).json({ message: "User Unauthorized." });
+
   const { name, nickname, age, franchise_id, type_id } = req.body;
   const images = req.body.images! as ImageTypeFetch[];
-  const files = req.files as Express.Multer.File[];
+  const files = req.files as { [fieldname: string]: Express.Multer.File[] };
   const queryRunner = db.createQueryRunner();
   await queryRunner.startTransaction();
   try {
@@ -65,9 +69,7 @@ router.post("/", tokenData, async (req: Request, res: Response) => {
 
     await Promise.all(
       images.map(async (image) => {
-        const file = files.find(
-          (file) => file.fieldname === image.imageType_id.toString()
-        );
+        const file = files[image.imageType_id.toString()][0];
         if (file) {
           await queries.waifuImage.create(
             waifu.id,
@@ -83,21 +85,30 @@ router.post("/", tokenData, async (req: Request, res: Response) => {
       })
     );
 
-    files.map((file) => fs.unlinkSync(file.path));
+    for (const file of Object.values(files)) {
+      if (file[0]) fs.unlinkSync(file[0].path);
+    }
+    await queryRunner.commitTransaction();
     res.statusMessage = "Waifu created";
     return res.status(200).json(null);
   } catch (error) {
-    files.map((file) => fs.unlinkSync(file.path));
+    for (const file of Object.values(files)) {
+      if (file[0]) fs.unlinkSync(file[0].path);
+    }
     await queryRunner.rollbackTransaction();
     throw res.status(500).json({ message: error });
   }
 });
 
 router.put("/:id", tokenData, async (req: Request, res: Response) => {
+  const user = req.user;
+  if (!user || user.roleId === 3)
+    return res.status(401).json({ message: "User Unauthorized." });
+
   const { id } = req.params;
   const { name, nickname, age, franchise_id, type_id } = req.body;
   const images = req.body.images! as ImageTypeFetch[];
-  const files = req.files as Express.Multer.File[];
+  const files = req.files as { [fieldname: string]: Express.Multer.File[] };
   const queryRunner = db.createQueryRunner();
   await queryRunner.startTransaction();
   try {
@@ -114,9 +125,7 @@ router.put("/:id", tokenData, async (req: Request, res: Response) => {
 
     await Promise.all(
       images.map(async (image) => {
-        const file = files.find(
-          (file) => file.fieldname === image.imageType_id.toString()
-        );
+        const file = files[image.imageType_id.toString()][0];
         if (file) {
           await queries.waifuImage.create(
             parseInt(id),
@@ -132,12 +141,17 @@ router.put("/:id", tokenData, async (req: Request, res: Response) => {
       })
     );
 
+    for (const file of Object.values(files)) {
+      if (file[0]) fs.unlinkSync(file[0].path);
+    }
     await queryRunner.commitTransaction();
     res.statusMessage = "Waifu updated";
     return res.status(200);
   } catch (error) {
     console.log(error);
-    files.map((file) => fs.unlinkSync(file.path));
+    for (const file of Object.values(files)) {
+      if (file[0]) fs.unlinkSync(file[0].path);
+    }
     await queryRunner.rollbackTransaction();
     throw res.status(500).json({ message: error });
   }

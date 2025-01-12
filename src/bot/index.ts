@@ -10,7 +10,6 @@ import i18n from "../config/i18n";
 
 // import { getLanguage, addMessageCount } from "./utils";
 
-console.log(process.env.TOKEN_TG);
 const bot = new Telegraf(process.env.TOKEN_TG!);
 
 // middleware
