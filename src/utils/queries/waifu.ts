@@ -4,11 +4,7 @@ import imageType from "./image_type";
 import uNumber from "../functions/number.utils";
 import uArray from "../functions/array.utils";
 
-const index = async (
-  page: number | null,
-  name: string | null,
-  franchiseId: number | null
-) => {
+const index = async (page = 1, name?: string, franchiseId?: number) => {
   try {
     console.log("search waifus");
     console.log("params: ", page, name, franchiseId);
@@ -45,7 +41,7 @@ const index = async (
         "waifu.waifuType",
       ],
       take: 20,
-      skip: page ? (page - 1) * 20 : 0,
+      skip: (page - 1) * 20,
     });
 
     return waifus;

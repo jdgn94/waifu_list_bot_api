@@ -14,9 +14,9 @@ router.get("/", async (req: Request, res: Response) => {
     console.log(req.query);
 
     const response = await queries.waifu.index(
-      page ? Number(page!) : null,
-      name ? String(name) : null,
-      franchise ? Number(franchise) : null
+      Number(page!),
+      name ? String(name) : undefined,
+      franchise ? Number(franchise) : undefined
     );
 
     res.statusMessage = "Waifus data";
