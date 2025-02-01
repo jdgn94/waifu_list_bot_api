@@ -16,4 +16,35 @@ router.get("/", async (req: Request, res: Response) => {
   }
 });
 
+router.post("/", async (req: Request, res: Response) => {
+  try {
+    const { name } = req.body;
+    if (!name)
+      return res.status(400).json({ message: "Waifu type name is required" });
+
+    const waifuType = await queries.waifuType.create(name);
+
+    res.statusMessage = "Waifu type data";
+    return res.status(200).json(waifuType);
+  } catch (error) {
+    throw res.status(500).json({ message: error });
+  }
+});
+
+router.put("/:id", async (req: Request, res: Response) => {
+  try {
+    const { id } = req.params;
+    const { name } = req.body;
+    if (!name)
+      return res.status(400).json({ message: "Waifu type name is required" });
+
+    const waifuType = await queries.waifuType.update(parseInt(id), name);
+
+    res.statusMessage = "Waifu type data";
+    return res.status(200).json(waifuType);
+  } catch (error) {
+    throw res.status(500).json({ message: error });
+  }
+});
+
 export default router;

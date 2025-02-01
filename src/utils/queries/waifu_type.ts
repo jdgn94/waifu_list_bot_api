@@ -15,4 +15,27 @@ const index = async (name: string | null) => {
   }
 };
 
-export default { index };
+const create = async (name: string) => {
+  try {
+    const waifuType = new WaifuType();
+    waifuType.name = name;
+    await db.getRepository(WaifuType).save(waifuType);
+    return waifuType;
+  } catch (error) {
+    throw error;
+  }
+};
+
+const update = async (id: number, name: string) => {
+  try {
+    const waifuType = await db.getRepository(WaifuType).findOneBy({ id });
+    if (!waifuType) throw new Error("Waifu type not found");
+    waifuType.name = name;
+    await db.getRepository(WaifuType).save(waifuType);
+    return waifuType;
+  } catch (error) {
+    throw error;
+  }
+};
+
+export default { index, create, update };
