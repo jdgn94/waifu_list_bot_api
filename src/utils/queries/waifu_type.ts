@@ -7,6 +7,9 @@ const index = async (name: string | null) => {
       where: {
         name: name ? Like(name) : undefined,
       },
+      order: {
+        name: "ASC",
+      },
     });
 
     return waifuTypes;
@@ -17,6 +20,8 @@ const index = async (name: string | null) => {
 
 const create = async (name: string) => {
   try {
+    if (name.length < 4)
+      throw new Error("Waifu rarity name must be at least 4 characters");
     const waifuType = new WaifuType();
     waifuType.name = name;
     await db.getRepository(WaifuType).save(waifuType);
@@ -28,6 +33,8 @@ const create = async (name: string) => {
 
 const update = async (id: number, name: string) => {
   try {
+    if (name.length < 4)
+      throw new Error("Waifu rarity name must be at least 4 characters");
     const waifuType = await db.getRepository(WaifuType).findOneBy({ id });
     if (!waifuType) throw new Error("Waifu type not found");
     waifuType.name = name;

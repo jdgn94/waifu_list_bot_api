@@ -22,6 +22,11 @@ router.post("/", async (req: Request, res: Response) => {
     if (!name)
       return res.status(400).json({ message: "Waifu type name is required" });
 
+    if (name.length < 4)
+      return res
+        .status(400)
+        .json({ message: "Waifu type name must be at least 4 characters" });
+
     const waifuType = await queries.waifuType.create(name);
 
     res.statusMessage = "Waifu type data";
@@ -35,8 +40,15 @@ router.put("/:id", async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
     const { name } = req.body;
+
+    if (typeof parseInt(id) !== "number")
+      return res.status(400).json({ message: "Waifu type id is not valid" });
     if (!name)
       return res.status(400).json({ message: "Waifu type name is required" });
+    if (name.length < 4)
+      return res
+        .status(400)
+        .json({ message: "Waifu type name must be at least 4 characters" });
 
     const waifuType = await queries.waifuType.update(parseInt(id), name);
 
